@@ -1,8 +1,8 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-18 21:22",
- "launcherVersion": 6,
+ "packVersion": "2026-11-18 21:39",
+ "launcherVersion": 7,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
  "forge": "47.4.28",
@@ -14,6 +14,11 @@
   "ip": ""
  },
  "news": [
+  {
+   "date": "18 novembre 2026",
+   "title": "La carte est incluse",
+   "text": "Maahkay Revamped, une île envahie de zombies créée par qouilian, s'installe toute seule au premier lancement."
+  },
   {
    "date": "18 novembre 2026",
    "title": "Le launcher est là",
@@ -28,6 +33,18 @@
    "date": "Bientôt",
    "title": "Serveur",
    "text": "Le serveur ouvre bientôt. Son adresse apparaîtra ici."
+  }
+ ],
+ "maps": [
+  {
+   "name": "Maahkay Revamped",
+   "credit": "qouilian (Planet Minecraft)",
+   "source": "https://www.planetminecraft.com/project/maahkay-vacation-island---crafting-dead-wip-zombie-outbreak-island/",
+   "page": "https://www.mediafire.com/file/fs8fosa3md9g4ch/Maahkay_%281.7_%2B_1.12_versions%29.zip/file",
+   "sha1": "e2a073c57d336d5d56bca07b689ff80278dcffd1",
+   "size": 79789982,
+   "inner": "Maahkay (1.7 + 1.12 versions)/Maahkay Revampled 1.12.zip",
+   "folder": "Maahkay Revamped"
   }
  ],
  "overrides": {
