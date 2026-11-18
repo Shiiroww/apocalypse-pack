@@ -1,0 +1,622 @@
+{
+ "format": 1,
+ "name": "Apocalypse",
+ "packVersion": "2026-11-18 20:04",
+ "launcherVersion": 1,
+ "launcherUrl": "Apocalypse.exe",
+ "minecraft": "1.20.1",
+ "forge": "47.4.28",
+ "forgeInstaller": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.28/forge-1.20.1-47.4.28-installer.jar",
+ "java": "https://api.adoptium.net/v3/binary/latest/17/ga/windows/x64/jre/hotspot/normal/eclipse",
+ "maxMemoryMb": 8192,
+ "server": {
+  "name": "",
+  "ip": ""
+ },
+ "overrides": {
+  "url": "overrides.zip",
+  "sha1": "d533c18c931caeda87898533b6bb8e840183381a"
+ },
+ "files": [
+  {
+   "path": "mods/150kb_superbcarfare_1.20.1_1.0.0.jar",
+   "url": "https://edge.forgecdn.net/files/9042/156/150kb_superbcarfare_1.20.1_1.0.0.jar",
+   "sha1": "35f06955edb05c7d75911be695919da0c39a069c",
+   "size": 158496
+  },
+  {
+   "path": "mods/aiguardian-1.0.0.jar",
+   "url": "mods/aiguardian-1.0.0.jar",
+   "sha1": "69eb576a2d3067a2ff107e69437c5b8d98369db5",
+   "size": 7802431
+  },
+  {
+   "path": "mods/alexsdelight-1.5.jar",
+   "url": "https://edge.forgecdn.net/files/5028/450/alexsdelight-1.5.jar",
+   "sha1": "ef7049ba6f16df22c8d98dd4dad2d9dc2aa6b6ba",
+   "size": 55398
+  },
+  {
+   "path": "mods/alexsmobs-1.22.9.jar",
+   "url": "https://edge.forgecdn.net/files/5698/791/alexsmobs-1.22.9.jar",
+   "sha1": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f",
+   "size": 26350793
+  },
+  {
+   "path": "mods/alexsmobsdelight-1.1.0.jar",
+   "url": "https://edge.forgecdn.net/files/8847/896/alexsmobsdelight-1.1.0.jar",
+   "sha1": "750d7cc98fc072d00bb75414d6fe7d71cbdc816b",
+   "size": 1052076
+  },
+  {
+   "path": "mods/AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/9254/806/AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar",
+   "sha1": "61f0bcbfd404de4aeb0627b5b83a72d069fb1825",
+   "size": 53432741
+  },
+  {
+   "path": "mods/amendments-1.20-2.2.6.jar",
+   "url": "https://edge.forgecdn.net/files/8657/397/amendments-1.20-2.2.6.jar",
+   "sha1": "dc79f8c5326b059c8f136765b4bca826147cf2d7",
+   "size": 1315525
+  },
+  {
+   "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+   "url": "https://edge.forgecdn.net/files/4770/828/appleskin-forge-mc1.20.1-2.5.1.jar",
+   "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
+   "size": 47428
+  },
+  {
+   "path": "mods/architectury-9.2.14-forge.jar",
+   "url": "https://edge.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar",
+   "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+   "size": 580602
+  },
+  {
+   "path": "mods/Atlas Lib-1.20.1-1.1.12.jar",
+   "url": "https://edge.forgecdn.net/files/5254/550/Atlas%20Lib-1.20.1-1.1.12.jar",
+   "sha1": "17534bfd6878afc2da5d990fe6fc348b2606530c",
+   "size": 124436
+  },
+  {
+   "path": "mods/awcapi-neoforge-1.20.1-1.0.3.jar",
+   "url": "https://edge.forgecdn.net/files/9013/802/awcapi-neoforge-1.20.1-1.0.3.jar",
+   "sha1": "fd56887079bb7813c25001e7159865c50139a9df",
+   "size": 95444
+  },
+  {
+   "path": "mods/backpacked-forge-1.20.1-3.0.9.jar",
+   "url": "https://edge.forgecdn.net/files/7866/682/backpacked-forge-1.20.1-3.0.9.jar",
+   "sha1": "8f5e3d11e3d93e0a25c6ecf32a6f7e0f6cf96591",
+   "size": 1183307
+  },
+  {
+   "path": "mods/BadMobs-1.20.1-19.0.4.jar",
+   "url": "https://edge.forgecdn.net/files/5086/469/BadMobs-1.20.1-19.0.4.jar",
+   "sha1": "100f29f6c425688bcbd77d1a3b99b12e18f019cd",
+   "size": 10425
+  },
+  {
+   "path": "mods/bettercombat-forge-1.9.0+1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/7287/334/bettercombat-forge-1.9.0%2b1.20.1.jar",
+   "sha1": "ea7e7247132cb3acacadd96b2b6b635c4cc63a74",
+   "size": 1054339
+  },
+  {
+   "path": "mods/bettermobcombat-forge-1.20.1-1.3.0-all.jar",
+   "url": "https://edge.forgecdn.net/files/6125/563/bettermobcombat-forge-1.20.1-1.3.0-all.jar",
+   "sha1": "fee499a8c76c5dfced84b01bfbd6323d7c0e8159",
+   "size": 280262
+  },
+  {
+   "path": "mods/bettermobvisualcombat-forge-1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/7857/399/bettermobvisualcombat-forge-1.20.1.jar",
+   "sha1": "eddd202867431ebf46a5fead5270d0d7ef20f432",
+   "size": 118745
+  },
+  {
+   "path": "mods/bmcfix-forge-1.0.0.jar",
+   "url": "https://edge.forgecdn.net/files/7731/244/bmcfix-forge-1.0.0.jar",
+   "sha1": "32dc186a9f5d8a485da9cfdf9164807e0564f650",
+   "size": 6949
+  },
+  {
+   "path": "mods/butchery-5.3.1-forge-1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/9112/343/butchery-5.3.1-forge-1.20.1.jar",
+   "sha1": "6d13f93b8ca637c8c7c1132b95836f4fedea6b4f",
+   "size": 18734666
+  },
+  {
+   "path": "mods/CameraOverhaul-v2.1.2-forge+mc[1.20-1.20.5].jar",
+   "url": "https://edge.forgecdn.net/files/8979/484/CameraOverhaul-v2.1.2-forge%2bmc%5b1.20-1.20.5%5d.jar",
+   "sha1": "2b9e4499b00449e670a9dd399dddbb9cd7c0e531",
+   "size": 139791
+  },
+  {
+   "path": "mods/car-forge-1.20.1-1.0.42.jar",
+   "url": "https://edge.forgecdn.net/files/7076/409/car-forge-1.20.1-1.0.42.jar",
+   "sha1": "2960e0657ecf97de552b8d3bb8cf7f1b9b9b4826",
+   "size": 2666112
+  },
+  {
+   "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
+   "url": "https://edge.forgecdn.net/files/4882/500/carryon-forge-1.20.1-2.1.2.7.jar",
+   "sha1": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f",
+   "size": 439457
+  },
+  {
+   "path": "mods/citadel-2.6.3-1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/7476/570/citadel-2.6.3-1.20.1.jar",
+   "sha1": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316",
+   "size": 3185275
+  },
+  {
+   "path": "mods/cloth-config-11.1.136-forge.jar",
+   "url": "https://edge.forgecdn.net/files/5729/105/cloth-config-11.1.136-forge.jar",
+   "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+   "size": 1181413
+  },
+  {
+   "path": "mods/collective-1.20.1-8.86.jar",
+   "url": "https://edge.forgecdn.net/files/9548/429/collective-1.20.1-8.86.jar",
+   "sha1": "86de515018d3bb853cf0a91c026acde748c3e29c",
+   "size": 1131568
+  },
+  {
+   "path": "mods/comforts-forge-6.4.0+1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/5503/516/comforts-forge-6.4.0%2b1.20.1.jar",
+   "sha1": "e7b9fe89566bb1ee013e33745f22f309f679536e",
+   "size": 382083
+  },
+  {
+   "path": "mods/Controlling-forge-1.20.1-12.0.2.jar",
+   "url": "https://edge.forgecdn.net/files/4646/682/Controlling-forge-1.20.1-12.0.2.jar",
+   "sha1": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd",
+   "size": 115280
+  },
+  {
+   "path": "mods/coroutil-forge-1.20.1-1.3.7.jar",
+   "url": "https://edge.forgecdn.net/files/5096/38/coroutil-forge-1.20.1-1.3.7.jar",
+   "sha1": "7f5f0b62a638b6053c95919cbe8c2bea2e0c93d0",
+   "size": 64187
+  },
+  {
+   "path": "mods/create-1.20.1-6.0.8.jar",
+   "url": "https://edge.forgecdn.net/files/7178/761/create-1.20.1-6.0.8.jar",
+   "sha1": "b13d912b9247a38d66d11598c121442585a1c1e9",
+   "size": 19170905
+  },
+  {
+   "path": "mods/CreativeCore_FORGE_v2.12.42_mc1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/9542/632/CreativeCore_FORGE_v2.12.42_mc1.20.1.jar",
+   "sha1": "1df289c0ac3ffb4b924eb73dc3d673af961479a8",
+   "size": 1144767
+  },
+  {
+   "path": "mods/curios-forge-5.14.1+1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/6418/456/curios-forge-5.14.1%2b1.20.1.jar",
+   "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+   "size": 398066
+  },
+  {
+   "path": "mods/doomsday_decoration-forge-1.20.1-1.2.2.jar",
+   "url": "https://edge.forgecdn.net/files/9603/286/doomsday_decoration-forge-1.20.1-1.2.2.jar",
+   "sha1": "a04c43a7e0b78e6cf732e73f7310e857086dd45c",
+   "size": 6528702
+  },
+  {
+   "path": "mods/doubledoors-1.20.1-7.5.jar",
+   "url": "https://edge.forgecdn.net/files/9255/517/doubledoors-1.20.1-7.5.jar",
+   "sha1": "22f8460831cc245abdd3ae32004c266f14410e64",
+   "size": 51871
+  },
+  {
+   "path": "mods/dynamiclights-1.20.1.3.jar",
+   "url": "https://edge.forgecdn.net/files/9007/871/dynamiclights-1.20.1.3.jar",
+   "sha1": "560cdade6e0d2a2df372e7f2ed3262a9bdb26c53",
+   "size": 49779
+  },
+  {
+   "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/5681/725/embeddium-0.3.31%2bmc1.20.1.jar",
+   "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+   "size": 1320675
+  },
+  {
+   "path": "mods/EnhancedVisuals_FORGE_v1.8.34_mc1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/9080/707/EnhancedVisuals_FORGE_v1.8.34_mc1.20.1.jar",
+   "sha1": "52cb835dd736e28407b9da0c1f3d66c24422385c",
+   "size": 4728483
+  },
+  {
+   "path": "mods/entity_model_features-3.3.12-1.20.1-forge.jar",
+   "url": "https://edge.forgecdn.net/files/9188/522/entity_model_features-3.3.12-1.20.1-forge.jar",
+   "sha1": "adcec598039ec59a805a974de9d23ff5eede8299",
+   "size": 840669
+  },
+  {
+   "path": "mods/entity_texture_features-7.2.7-1.20.1-forge.jar",
+   "url": "https://edge.forgecdn.net/files/9420/328/entity_texture_features-7.2.7-1.20.1-forge.jar",
+   "sha1": "5a331e97045010b4851e7fc0fb8ac5184c6adcf7",
+   "size": 1004366
+  },
+  {
+   "path": "mods/Essential_1-5-2_forge_1-20-1.jar",
+   "url": "https://edge.forgecdn.net/files/9408/319/Essential_1-5-2_forge_1-20-1.jar",
+   "sha1": "3ee77bfdc284c58a35ef6c9405d718ae4b73f94b",
+   "size": 51510241
+  },
+  {
+   "path": "mods/FarmersDelight-1.20.1-1.3.4.jar",
+   "url": "https://edge.forgecdn.net/files/8765/179/FarmersDelight-1.20.1-1.3.4.jar",
+   "sha1": "26f615fd35f652021f5b0f1cba68afa7d578fe15",
+   "size": 3311051
+  },
+  {
+   "path": "mods/fcp-1.2.0.jar",
+   "url": "https://edge.forgecdn.net/files/8617/897/fcp-1.2.0.jar",
+   "sha1": "36785ed2fabc6fcd0fdb2033e7afc329f81d6420",
+   "size": 56059595
+  },
+  {
+   "path": "mods/ferritecore-6.0.1-forge.jar",
+   "url": "https://edge.forgecdn.net/files/4810/975/ferritecore-6.0.1-forge.jar",
+   "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+   "size": 123034
+  },
+  {
+   "path": "mods/Flashier Flashlights 1.2.0.jar",
+   "url": "https://edge.forgecdn.net/files/8453/760/Flashier%20Flashlights%201.2.0.jar",
+   "sha1": "d85e7e8f89e674eb029a1ba2f113a99a8430530b",
+   "size": 3574595
+  },
+  {
+   "path": "mods/framework-forge-1.20.1-0.8.0.jar",
+   "url": "https://edge.forgecdn.net/files/7573/740/framework-forge-1.20.1-0.8.0.jar",
+   "sha1": "27347879f8760a7bc0b4bd71977abc50e498811c",
+   "size": 383868
+  },
+  {
+   "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+   "url": "https://edge.forgecdn.net/files/8285/794/geckolib-forge-1.20.1-4.8.4.jar",
+   "sha1": "81982cc287f80ffabb2fd36d22cc95e4255c739d",
+   "size": 1038209
+  },
+  {
+   "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+   "url": "https://edge.forgecdn.net/files/5787/839/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+   "sha1": "1a0aaf7c33b9acb26bf75899a43e8941cac1f6e7",
+   "size": 87550
+  },
+  {
+   "path": "mods/hardcore_true_darkness-6.jar",
+   "url": "https://edge.forgecdn.net/files/8794/861/hardcore_true_darkness-6.jar",
+   "sha1": "6253be579e2c423ea7f13270183b75e4d330c80a",
+   "size": 55910
+  },
+  {
+   "path": "mods/horror_element_mod-1.6.3-forge-1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/7484/210/horror_element_mod-1.6.3-forge-1.20.1.jar",
+   "sha1": "00e2cd3bf7508695b151d963afe2e14906f83f54",
+   "size": 21165237
+  },
+  {
+   "path": "mods/immersive_weathering-1.20.1-2.0.5-forge.jar",
+   "url": "https://edge.forgecdn.net/files/6116/941/immersive_weathering-1.20.1-2.0.5-forge.jar",
+   "sha1": "d89ad3793ffb97df27f415ac6cc07c61460dd9f3",
+   "size": 2269048
+  },
+  {
+   "path": "mods/immersivethunder-forge-1.20.1-1.3.0.jar",
+   "url": "https://edge.forgecdn.net/files/7924/912/immersivethunder-forge-1.20.1-1.3.0.jar",
+   "sha1": "02e13c1be74391c65c0a7e198721342a73391195",
+   "size": 3306443
+  },
+  {
+   "path": "mods/incontrol-1.20-9.5.1.jar",
+   "url": "https://edge.forgecdn.net/files/9321/498/incontrol-1.20-9.5.1.jar",
+   "sha1": "57db24e561a4aa373ca6832816e010ed03bd6a1a",
+   "size": 372764
+  },
+  {
+   "path": "mods/jei-1.20.1-forge-15.56.0.205.jar",
+   "url": "https://edge.forgecdn.net/files/8778/11/jei-1.20.1-forge-15.56.0.205.jar",
+   "sha1": "7f64b7f8fde7f001ef054dabe3618a8780ba2650",
+   "size": 1778129
+  },
+  {
+   "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/5028/413/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+   "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+   "size": 625185
+  },
+  {
+   "path": "mods/kotlinforforge-4.12.0-all.jar",
+   "url": "https://edge.forgecdn.net/files/7291/67/kotlinforforge-4.12.0-all.jar",
+   "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+   "size": 7442998
+  },
+  {
+   "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7.jar",
+   "url": "https://edge.forgecdn.net/files/8591/693/legendarysurvivaloverhaul-1.20.1-2.4.7.jar",
+   "sha1": "f92ec8698f4aa48807b01ccfddf4b379cbc9d1e6",
+   "size": 3751172
+  },
+  {
+   "path": "mods/lexiconfig-forge-1.4.22-epic.jar",
+   "url": "https://edge.forgecdn.net/files/9336/176/lexiconfig-forge-1.4.22-epic.jar",
+   "sha1": "d4f37b22af12aaaf8f9ca857e545b6b5058816da",
+   "size": 67141
+  },
+  {
+   "path": "mods/lradd-1.20.1-0.3.0.jar",
+   "url": "https://edge.forgecdn.net/files/6597/881/lradd-1.20.1-0.3.0.jar",
+   "sha1": "3a3bd40a41cbabe8ae2b124ba6d53f54e42e330e",
+   "size": 42492650
+  },
+  {
+   "path": "mods/MCSP-1.20.1-V1.0.10.jar",
+   "url": "https://edge.forgecdn.net/files/8556/484/MCSP-1.20.1-V1.0.10.jar",
+   "sha1": "eaafa84f188153f64fe8171c0a4c1878da899d71",
+   "size": 5791908
+  },
+  {
+   "path": "mods/mobplayeranimator-forge-1.20.1-1.3.3-all.jar",
+   "url": "https://edge.forgecdn.net/files/6125/584/mobplayeranimator-forge-1.20.1-1.3.3-all.jar",
+   "sha1": "5767ecee24e34efb138403a45de1589e38ddc624",
+   "size": 223397
+  },
+  {
+   "path": "mods/modernfix-forge-5.27.93-mc1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/9597/914/modernfix-forge-5.27.93-mc1.20.1.jar",
+   "sha1": "a88e749a40778753fd2f6c649339dc1b6c572e5b",
+   "size": 1012808
+  },
+  {
+   "path": "mods/moonlight-1.20-2.16.39-forge.jar",
+   "url": "https://edge.forgecdn.net/files/9493/250/moonlight-1.20-2.16.39-forge.jar",
+   "sha1": "12405de298c0d6c8ba53effdc5c8f28edee3aadc",
+   "size": 1423451
+  },
+  {
+   "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+   "url": "https://edge.forgecdn.net/files/5338/457/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+   "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c",
+   "size": 76237
+  },
+  {
+   "path": "mods/notenoughanimations-forge-1.12.7-mc1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/9396/176/notenoughanimations-forge-1.12.7-mc1.20.1.jar",
+   "sha1": "94b051bda7fd0e7f8e8b119db779d3a9c8730f80",
+   "size": 1872910
+  },
+  {
+   "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+   "url": "https://edge.forgecdn.net/files/6020/952/oculus-mc1.20.1-1.8.0.jar",
+   "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
+   "size": 2851119
+  },
+  {
+   "path": "mods/particlerain-4.0.3-1.20.1-forge.jar",
+   "url": "https://edge.forgecdn.net/files/9430/175/particlerain-4.0.3-1.20.1-forge.jar",
+   "sha1": "b6fe43c83f4618b753c2d760cab09369b51860f6",
+   "size": 1258400
+  },
+  {
+   "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+   "url": "https://edge.forgecdn.net/files/4587/214/player-animation-lib-forge-1.0.2-rc1%2b1.20.jar",
+   "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
+   "size": 181437
+  },
+  {
+   "path": "mods/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/6048/921/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+   "sha1": "84c039f20b8f048c835c429c2c4a9fd82a5e65f6",
+   "size": 5298162
+  },
+  {
+   "path": "mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+   "url": "https://edge.forgecdn.net/files/5015/286/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+   "sha1": "6ccb76043763f929a11f1857a57b41bb70ab7512",
+   "size": 7080698
+  },
+  {
+   "path": "mods/ragdollified-forge-1.20.1-1.2.2.jar",
+   "url": "https://edge.forgecdn.net/files/9437/444/ragdollified-forge-1.20.1-1.2.2.jar",
+   "sha1": "55801075412bbe120fcb664d6c790e276db40879",
+   "size": 1452348
+  },
+  {
+   "path": "mods/ragdollifiedpc-forge-1.20.1-0.2.3-BETA.jar",
+   "url": "https://edge.forgecdn.net/files/9603/713/ragdollifiedpc-forge-1.20.1-0.2.3-BETA.jar",
+   "sha1": "d44224fe5644240b7e2f5ed0770acd42e4330267",
+   "size": 150731
+  },
+  {
+   "path": "mods/ragdollifiedpr-forge-1.20.1-0.1.7-BETA.jar",
+   "url": "https://edge.forgecdn.net/files/9603/613/ragdollifiedpr-forge-1.20.1-0.1.7-BETA.jar",
+   "sha1": "ee0183089b55137a741c44703298897cb0b1c2b3",
+   "size": 165743
+  },
+  {
+   "path": "mods/Searchables-forge-1.20.1-1.0.3.jar",
+   "url": "https://edge.forgecdn.net/files/5284/15/Searchables-forge-1.20.1-1.0.3.jar",
+   "sha1": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee",
+   "size": 77732
+  },
+  {
+   "path": "mods/SereneSeasons-forge-1.20.1-9.1.0.3.jar",
+   "url": "https://edge.forgecdn.net/files/8246/702/SereneSeasons-forge-1.20.1-9.1.0.3.jar",
+   "sha1": "e553c2a50dc08d7b8b2aee6da1db0dc156fe961a",
+   "size": 160885
+  },
+  {
+   "path": "mods/ShoulderSurfing-Forge-1.20.1-5.3.1.jar",
+   "url": "https://edge.forgecdn.net/files/9547/189/ShoulderSurfing-Forge-1.20.1-5.3.1.jar",
+   "sha1": "5fe11417cc720235a1206f57a883722743b352a5",
+   "size": 436450
+  },
+  {
+   "path": "mods/signalradar-1.0.0-1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/9047/857/signalradar-1.0.0-1.20.1.jar",
+   "sha1": "e6c11831ea84a8eb1756b1b5805f2265a1349c96",
+   "size": 496760
+  },
+  {
+   "path": "mods/simpleradio-forge-1.20.1-4.6.7.10.jar",
+   "url": "https://edge.forgecdn.net/files/9340/883/simpleradio-forge-1.20.1-4.6.7.10.jar",
+   "sha1": "7dcf6ab62e5a824141024d044b05a8062b71b70a",
+   "size": 1245575
+  },
+  {
+   "path": "mods/simply_traps-1.9-forge-1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/9595/814/simply_traps-1.9-forge-1.20.1.jar",
+   "sha1": "d2b93639efaac2a060901cf0d8fd1f935dddb93e",
+   "size": 155812
+  },
+  {
+   "path": "mods/snassets_particles-1.0.3.jar",
+   "url": "https://edge.forgecdn.net/files/9265/781/snassets_particles-1.0.3.jar",
+   "sha1": "7772b84cecb4d8dac838738d0de9a7b3b1fc2677",
+   "size": 576732
+  },
+  {
+   "path": "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+   "url": "https://edge.forgecdn.net/files/7032/235/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+   "sha1": "aef2c02392624f0a12475ada809366b12ac9ec52",
+   "size": 206984
+  },
+  {
+   "path": "mods/soundofrain-0.6.0.jar",
+   "url": "https://edge.forgecdn.net/files/7869/389/soundofrain-0.6.0.jar",
+   "sha1": "5388588e5210ccbf3d42a372542e09e22545b6ee",
+   "size": 7546612
+  },
+  {
+   "path": "mods/superbwarfare-0.8.9-final-mc1.20.1-6effe4385-all.jar",
+   "url": "https://edge.forgecdn.net/files/8104/849/superbwarfare-0.8.9-final-mc1.20.1-6effe4385-all.jar",
+   "sha1": "3869bd1b156a8eb4db3e1b655ca4705f77be2558",
+   "size": 31691008
+  },
+  {
+   "path": "mods/supplementaries-1.20-3.1.44-forge.jar",
+   "url": "https://edge.forgecdn.net/files/9140/345/supplementaries-1.20-3.1.44-forge.jar",
+   "sha1": "01e9bd4c264c6e04c7613095438bf0eee657b16f",
+   "size": 13686603
+  },
+  {
+   "path": "mods/survival_instinct-1.0.2-forge-1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/7357/198/survival_instinct-1.0.2-forge-1.20.1.jar",
+   "sha1": "a2dbab6aded299d7304ee93634ec38dd08df059b",
+   "size": 2136620
+  },
+  {
+   "path": "mods/tacz-forge-1.20.1-1.2.0.jar",
+   "url": "https://edge.forgecdn.net/files/9454/481/tacz-forge-1.20.1-1.2.0.jar",
+   "sha1": "0b91b2d09f724cdf412da93370cd57d311e78e67",
+   "size": 69001578
+  },
+  {
+   "path": "mods/The-Hordes-1.20.1-1.6.3i-all.jar",
+   "url": "https://edge.forgecdn.net/files/8843/34/The-Hordes-1.20.1-1.6.3i-all.jar",
+   "sha1": "cb28f5be21577618c05cef203b1eb06ecddb3cb1",
+   "size": 619598
+  },
+  {
+   "path": "mods/voicechat-forge-1.20.1-2.6.22.jar",
+   "url": "https://edge.forgecdn.net/files/8601/186/voicechat-forge-1.20.1-2.6.22.jar",
+   "sha1": "cc94c3eecc325ea3066ee3cd8bf57142d1b11762",
+   "size": 4923439
+  },
+  {
+   "path": "mods/Voiceless Survival-forge-1.20.1-2.2.0.jar",
+   "url": "https://edge.forgecdn.net/files/9046/380/Voiceless%20Survival-forge-1.20.1-2.2.0.jar",
+   "sha1": "64950a9f750f615866fc84b99836e778e546fcca",
+   "size": 191243
+  },
+  {
+   "path": "mods/WaT-0.4.1.jar",
+   "url": "https://edge.forgecdn.net/files/9473/803/WaT-0.4.1.jar",
+   "sha1": "1bb658aa981efdbfc9fb9e001b39cbffa84186da",
+   "size": 14289428
+  },
+  {
+   "path": "mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
+   "url": "https://edge.forgecdn.net/files/5022/313/weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
+   "sha1": "9fe819dc110461f55909dabbed73e4fe3bdde158",
+   "size": 283977
+  },
+  {
+   "path": "mods/zarith-forge-1.20.1-0.2.0.jar",
+   "url": "https://edge.forgecdn.net/files/9284/417/zarith-forge-1.20.1-0.2.0.jar",
+   "sha1": "ded3d90bee4534fe48999410eb433843d432ff44",
+   "size": 9159157
+  },
+  {
+   "path": "mods/Zeta-1.0-31.jar",
+   "url": "https://edge.forgecdn.net/files/7335/229/Zeta-1.0-31.jar",
+   "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
+   "size": 1006518
+  },
+  {
+   "path": "mods/zombie_extincion-0.1.1-beta-forge-1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/8943/106/zombie_extincion-0.1.1-beta-forge-1.20.1.jar",
+   "sha1": "43a8a0f603a131e673c1cb7d4b2c96f737435e4f",
+   "size": 932952
+  },
+  {
+   "path": "mods/zombieawareness-1.20.1-1.13.1.jar",
+   "url": "https://edge.forgecdn.net/files/5096/285/zombieawareness-1.20.1-1.13.1.jar",
+   "sha1": "173c30c8918da57be9398b3687ea19a81455c2c1",
+   "size": 291139
+  },
+  {
+   "path": "resourcepacks/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+   "url": "https://edge.forgecdn.net/files/6105/672/-1.21.2%20Fresh%20Moves%20v3.1%20(With%20Animated%20Eyes).zip",
+   "sha1": "7049cc12935ff4be20173c908ad946f530861a4c",
+   "size": 321871
+  },
+  {
+   "path": "resourcepacks/FA-All_Extensions-v1.10.1.zip",
+   "url": "https://edge.forgecdn.net/files/9389/506/FA-All_Extensions-v1.10.1.zip",
+   "sha1": "33c6cc4d621ba7f27e2d5c45269ac28f2287deae",
+   "size": 548952
+  },
+  {
+   "path": "resourcepacks/FreshAnimations_v1.11.2_1.20.zip",
+   "url": "https://edge.forgecdn.net/files/9394/23/FreshAnimations_v1.11.2_1.20.zip",
+   "sha1": "c0f564f3b9c12762923015eefad53edbdbbd3d96",
+   "size": 742790
+  },
+  {
+   "path": "resourcepacks/TZP_1.20.1_2.7.zip",
+   "url": "https://edge.forgecdn.net/files/4750/306/TZP_1.20.1_2.7.zip",
+   "sha1": "0f24fbc99e9a6f4d1b9ceb628f9389a901137ec1",
+   "size": 14177090
+  },
+  {
+   "path": "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
+   "url": "https://edge.forgecdn.net/files/8884/656/ComplementaryUnbound_r5.9.3.zip",
+   "sha1": "2ee08300e1d6f039e63eae8484dddf57b3aaaf67",
+   "size": 553400
+  },
+  {
+   "path": "shaderpacks/Hysteria-Shaders-Universal-v1.2.2.zip",
+   "url": "https://edge.forgecdn.net/files/8162/208/Hysteria-Shaders-Universal-v1.2.2.zip",
+   "sha1": "8f91a94d031d9a62e40c2ce1d149b25a47e9526b",
+   "size": 1584874
+  },
+  {
+   "path": "shaderpacks/Insanity-Shader-Universal-v1.650.zip",
+   "url": "https://edge.forgecdn.net/files/5424/730/Insanity-Shader-Universal-v1.650.zip",
+   "sha1": "10f06492bd7cdab8b71de10033e7f199c94e5717",
+   "size": 1037373
+  },
+  {
+   "path": "shaderpacks/Solas-Shader-V3.9.zip",
+   "url": "https://edge.forgecdn.net/files/9404/497/Solas-Shader-V3.9.zip",
+   "sha1": "7130b2ef691aa90f117231ba9ab01e7f6fca6fab",
+   "size": 1243081
+  }
+ ]
+}
