@@ -1,8 +1,8 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-18 20:04",
- "launcherVersion": 1,
+ "packVersion": "2026-11-18 20:29",
+ "launcherVersion": 2,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
  "forge": "47.4.28",
@@ -13,9 +13,26 @@
   "name": "",
   "ip": ""
  },
+ "news": [
+  {
+   "date": "18 nov. 2026",
+   "title": "Le launcher est là",
+   "text": "Un clic sur Jouer : le jeu, Forge et tous les mods s'installent et se mettent à jour tout seuls."
+  },
+  {
+   "date": "18 nov. 2026",
+   "title": "AI Guardian",
+   "text": "Société des colonies, guide par objet, champ de vision des PNJ, sièges et écran de l'IA."
+  },
+  {
+   "date": "Bientôt",
+   "title": "Serveur",
+   "text": "Le serveur ouvre bientôt. Son adresse apparaîtra ici."
+  }
+ ],
  "overrides": {
   "url": "overrides.zip",
-  "sha1": "d533c18c931caeda87898533b6bb8e840183381a"
+  "sha1": "bdfcb572da4b68c815c034d08df89da4f6f9671c"
  },
  "files": [
   {
