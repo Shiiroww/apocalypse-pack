@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-19 19:21",
+ "packVersion": "2026-11-19 19:22",
  "launcherVersion": 9,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -435,6 +435,12 @@
    "url": "https://edge.forgecdn.net/files/9430/175/particlerain-4.0.3-1.20.1-forge.jar",
    "sha1": "b6fe43c83f4618b753c2d760cab09369b51860f6",
    "size": 1258400
+  },
+  {
+   "path": "mods/Patchouli-1.20.1-85-FORGE.jar",
+   "url": "https://edge.forgecdn.net/files/7731/17/Patchouli-1.20.1-85-FORGE.jar",
+   "sha1": "d4614507d6e4c7cb464bba5eca891978272062ef",
+   "size": 642732
   },
   {
    "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
