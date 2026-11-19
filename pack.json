@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-19 16:34",
+ "packVersion": "2026-11-19 16:46",
  "launcherVersion": 9,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -287,10 +287,10 @@
    "size": 3311051
   },
   {
-   "path": "mods/fcp-1.2.0.jar",
-   "url": "https://edge.forgecdn.net/files/8617/897/fcp-1.2.0.jar",
-   "sha1": "36785ed2fabc6fcd0fdb2033e7afc329f81d6420",
-   "size": 56059595
+   "path": "mods/fcp-1.2.1.jar",
+   "url": "https://edge.forgecdn.net/files/8650/627/fcp-1.2.1.jar",
+   "sha1": "692cfd9b25cc8a371db7fe147b9611adb1d70ea3",
+   "size": 56127403
   },
   {
    "path": "mods/ferritecore-6.0.1-forge.jar",
