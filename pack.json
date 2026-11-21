@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-21 13:49",
+ "packVersion": "2026-11-21 15:04",
  "launcherVersion": 9,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -60,9 +60,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/9b4f147b04f2-aiguardian-1.0.0.jar",
-   "sha1": "9b4f147b04f213a1026ac9eb9be00208142e0877",
-   "size": 31716673
+   "url": "mods/6659a7f5710c-aiguardian-1.0.0.jar",
+   "sha1": "6659a7f5710c06dada17fc113fe33eb30126974f",
+   "size": 31722969
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
@@ -305,6 +305,12 @@
    "size": 3574595
   },
   {
+   "path": "mods/Forgematica-0.1.13-mc1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/6438/641/Forgematica-0.1.13-mc1.20.1.jar",
+   "sha1": "d235d2ac0ce0143425d4d1e3d9a32d32fc994a93",
+   "size": 997501
+  },
+  {
    "path": "mods/framework-forge-1.20.1-0.8.0.jar",
    "url": "https://edge.forgecdn.net/files/7573/740/framework-forge-1.20.1-0.8.0.jar",
    "sha1": "27347879f8760a7bc0b4bd71977abc50e498811c",
@@ -387,6 +393,12 @@
    "url": "https://edge.forgecdn.net/files/6597/881/lradd-1.20.1-0.3.0.jar",
    "sha1": "3a3bd40a41cbabe8ae2b124ba6d53f54e42e330e",
    "size": 42492650
+  },
+  {
+   "path": "mods/MaFgLib-0.1.14-mc1.20.1.jar",
+   "url": "https://edge.forgecdn.net/files/6763/273/MaFgLib-0.1.14-mc1.20.1.jar",
+   "sha1": "fd18a3d8a9a72ee27cbb709a88c061b2347d2244",
+   "size": 521709
   },
   {
    "path": "mods/MCSP-1.20.1-V1.0.10.jar",
