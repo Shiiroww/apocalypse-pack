@@ -68,9 +68,10 @@ powercfg /change standby-timeout-ac 0 >nul 2>&1
 powercfg /change hibernate-timeout-ac 0 >nul 2>&1
 
 echo.
+echo   Autorisation du telephone dans le pare-feu ^(clique "Oui" si Windows le demande^)...
+call "%~dp0windows\AUTORISER-TELEPHONE.bat"
+echo.
 echo   Termine ! Revente demarre...
-echo   Si Windows demande l'autorisation pour le pare-feu, coche "Reseaux prives" et clique Autoriser
-echo   ^(c'est ce qui permet au telephone de s'y connecter en Wi-Fi^).
 echo.
 wscript.exe "%~dp0windows\Revente.vbs"
 timeout /t 8

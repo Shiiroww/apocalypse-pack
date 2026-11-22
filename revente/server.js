@@ -205,17 +205,37 @@ on('POST', '/api/items/:id/photo', (b, [id]) => {
 on('POST', '/api/maintenance/purge', () => ({ archived: purgeOldSales() }));
 
 // Adresses pour ouvrir l'app depuis le téléphone (même Wi-Fi)
-function lanUrls() {
+// Adresse du PC sur le Wi-Fi. Windows a souvent des cartes réseau virtuelles
+// (VirtualBox, Hyper-V, VPN…) : on prend celle qui sert vraiment à aller sur internet.
+import('node:dgram').then(({ default: dgram }) => {
+  const sock = dgram.createSocket('udp4');
+  sock.on('error', () => sock.close());
+  // connect() ne transmet rien : il demande seulement au système quelle carte réseau il utiliserait.
+  sock.connect(53, '1.1.1.1', () => { try { mainIp = sock.address().address; } catch {} sock.close(); });
+}).catch(() => {});
+let mainIp = null;
+const VIRTUAL = /vethernet|virtual|vmware|vbox|hyper-v|wsl|docker|tailscale|zerotier|hamachi|vpn|loopback|bluetooth/i;
+function lanAddresses() {
   const out = [];
-  for (const list of Object.values(os.networkInterfaces())) {
-    for (const a of list || []) if (a.family === 'IPv4' && !a.internal) out.push(`http://${a.address}:${PORT}`);
+  for (const [name, list] of Object.entries(os.networkInterfaces())) {
+    for (const a of list || []) {
+      if (a.family !== 'IPv4' || a.internal || a.address.startsWith('169.254.')) continue;
+      let score = 0;
+      if (a.address === mainIp) score += 100;
+      if (VIRTUAL.test(name)) score -= 50;
+      if (/wi-?fi|wlan|wireless|ethernet|eth|en\d/i.test(name)) score += 10;
+      if (/^192\.168\.56\./.test(a.address)) score -= 40; // réseau VirtualBox
+      if (/^(192\.168|10\.|172\.(1[6-9]|2\d|3[01]))\./.test(a.address)) score += 5;
+      out.push({ name, url: `http://${a.address}:${PORT}`, score });
+    }
   }
-  return out.sort((a, b) => Number(/\/\/192\.168\./.test(b)) - Number(/\/\/192\.168\./.test(a)));
+  return out.sort((a, b) => b.score - a.score);
 }
+const lanUrls = () => lanAddresses().map((a) => a.url);
 on('GET', '/api/network', async () => {
-  const urls = lanUrls();
-  const qr = urls[0] ? await QRCode.toString(urls[0], { type: 'svg', margin: 1, color: { dark: '#000000', light: '#ffffff' } }) : null;
-  return { urls, qr };
+  const list = lanAddresses().slice(0, 4);
+  const qrs = await Promise.all(list.map((a) => QRCode.toString(a.url, { type: 'svg', margin: 1, errorCorrectionLevel: 'M' })));
+  return { addresses: list.map((a, i) => ({ name: a.name, url: a.url, qr: qrs[i] })), urls: list.map((a) => a.url) };
 });
 
 // ---------- Serveur ----------

@@ -396,18 +396,19 @@ async function settings() {
 
   <div class="section-title">Sur ton téléphone</div>
   <div class="list"><div class="phone-card">
-    ${net.qr ? `<div class="qr">${net.qr}</div>` : ''}
+    ${net.addresses.length ? `<div class="qr" id="qr">${net.addresses[0].qr}</div>` : ''}
     <div class="grow">
       <div class="title">Ouvre l'app sur ton iPhone</div>
       <ol class="steps">
-        <li>Connecte le téléphone au même Wi-Fi que ce PC.</li>
-        <li>Scanne le QR code avec l'appareil photo, ou tape <b class="sel">${esc(net.urls[0] || 'l\'adresse affichée au démarrage')}</b> dans Safari.</li>
+        <li>Connecte le téléphone au <b>même Wi-Fi</b> que ce PC (pas en 4G).</li>
+        <li>Scanne le QR code avec l'appareil photo, ou tape dans Safari : <b class="sel" id="qr-url">${esc(net.addresses[0]?.url || 'aucune adresse trouvée')}</b></li>
         <li>Dans Safari : Partager, puis « Sur l'écran d'accueil ».</li>
       </ol>
-      ${net.urls.length > 1 ? `<div class="small muted">Autres adresses : ${net.urls.slice(1).map(esc).join(' · ')}</div>` : ''}
+      ${net.addresses.length > 1 ? `<div class="small muted" style="margin-top:6px">Ça ne marche pas ? Essaie une autre adresse du PC :</div>
+        <div class="seg" id="qr-choice" style="margin-top:6px;flex-wrap:wrap">${net.addresses.map((a, i) => `<button type="button" data-i="${i}" class="${i ? '' : 'on'}" title="${esc(a.name)}">${esc(a.url.replace('http://', '').replace(/:\d+$/, ''))}</button>`).join('')}</div>` : ''}
     </div>
   </div></div>
-  <p class="hint">Depuis l'extérieur (4G), il faudra l'accès sécurisé qu'on installera avec toi.</p>
+  <p class="hint">Si la page ne s'ouvre pas sur le téléphone : sur le PC, lance <b>windows\AUTORISER-TELEPHONE.bat</b> (autorise le téléphone dans le pare-feu Windows), puis réessaie. En 4G, il faudra l'accès sécurisé qu'on installera ensemble.</p>
 
   <div class="section-title">Ménage automatique</div>
   <div class="list">
@@ -438,6 +439,11 @@ async function settings() {
       <div class="field"><label>Fournisseur</label><input name="supplier" placeholder="Grossiste"></div>
       <div class="field"><label>Prix payé (€)</label><input name="cost" type="number" step="0.01" required></div></div>`,
     onSubmit: async (f) => { await api('/api/lots', { method: 'POST', body: Object.fromEntries(f) }); toast('Lot ajouté'); settings(); },
+  });
+  $('#qr-choice')?.addEventListener('click', (e) => {
+    const i = e.target.closest('[data-i]')?.dataset.i; if (i == null) return;
+    $('#qr').innerHTML = net.addresses[i].qr; $('#qr-url').textContent = net.addresses[i].url;
+    $('#qr-choice').querySelectorAll('button').forEach((b) => b.classList.toggle('on', b.dataset.i === i));
   });
   $('#purge').onclick = async () => { const r = await api('/api/maintenance/purge', { method: 'POST' }); toast(r.archived ? `${r.archived} vente(s) archivée(s)` : 'Rien à nettoyer'); };
   $('#logout').onclick = async () => { await api('/api/logout', { method: 'POST' }); showLogin(); };
