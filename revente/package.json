@@ -1,0 +1,15 @@
+{
+  "name": "revente",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Gestion de revente multi-plateformes : stock, ventes, messages, réponses automatiques.",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "demo": "node --no-warnings server.js --demo"
+  },
+  "engines": { "node": ">=22.13" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.12.0"
+  }
+}
