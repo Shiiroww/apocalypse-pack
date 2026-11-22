@@ -16,10 +16,28 @@ const I = {
   bolt: 'M13 3 4 14h7l-1 7 9-11h-7z',
   tag: 'M3 12V3h9l9 9-9 9zM7.5 7.5h.01',
   alert: 'M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z',
+  camera: 'M4 8h3l2-3h6l2 3h3v11H4zM12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z',
   sparkle: 'M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6',
 };
 
 let PLATFORMS = [];
+
+// Réduit la photo avant l'envoi (plus rapide depuis le téléphone, moins de place sur le PC).
+function shrinkImage(file, max = 1280) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => {
+      const k = Math.min(1, max / Math.max(img.width, img.height));
+      const c = document.createElement('canvas');
+      c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+      c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+      URL.revokeObjectURL(img.src);
+      resolve(c.toDataURL('image/jpeg', 0.82));
+    };
+    img.onerror = reject;
+    img.src = URL.createObjectURL(file);
+  });
+}
 const P = (id) => PLATFORMS.find((p) => p.id === id) || { name: id, color: '#8e8e93' };
 
 async function api(url, opts = {}) {
@@ -246,9 +264,14 @@ async function itemSheet(item) {
   const v = item || { brand: 'Ralph Lauren', condition: 'Très bon état', listings: ['vinted', 'leboncoin', 'ebay', 'depop'].map((platform) => ({ platform })) };
   const on = new Set(v.listings.map((l) => l.platform));
   const sold = item?.status === 'vendu';
+  let newPhoto = null;
   sheet({
     title: item ? 'Article' : 'Nouvel article', action: 'Enregistrer',
     html: `
+    <div class="photo-pick">
+      <label class="photo-box" for="photo-input">${v.photo ? `<img id="photo-preview" src="${esc(v.photo)}" alt="">` : `<span id="photo-empty">${icon(I.camera)}<span>Ajouter une photo</span></span><img id="photo-preview" alt="" hidden>`}</label>
+      <input id="photo-input" type="file" accept="image/*" hidden>
+    </div>
     <div class="section-title">Annonce</div>
     <div class="list">
       <div class="field stack"><label>Titre (avec les mots que les acheteurs tapent)</label><input name="title" required value="${esc(v.title)}" placeholder="Polo Ralph Lauren homme M bleu marine custom fit"></div>
@@ -258,7 +281,6 @@ async function itemSheet(item) {
       <div class="field"><label>État</label><select name="condition">${['Neuf avec étiquette', 'Neuf sans étiquette', 'Très bon état', 'Bon état', 'Satisfaisant'].map((c) => `<option ${c === v.condition ? 'selected' : ''}>${c}</option>`).join('')}</select></div>
       <div class="field stack"><label>Mesures à plat (servent aux réponses automatiques)</label><input name="measurements" value="${esc(v.measurements)}" placeholder="Aisselle à aisselle 52 cm, longueur 72 cm"></div>
       <div class="field stack"><label>Description</label><textarea name="description">${esc(v.description)}</textarea></div>
-      <div class="field stack"><label>Photo (lien)</label><input name="photo" value="${esc(v.photo)}" placeholder="https://…"></div>
     </div>
     <div class="section-title">Prix</div>
     <div class="list">
@@ -274,11 +296,22 @@ async function itemSheet(item) {
       <button type="button" class="btn danger wide" id="del">Supprimer l'article</button></div>` : ''}`,
     onSubmit: async (f) => {
       const b = Object.fromEntries(f); b.platforms = f.getAll('platforms');
+      delete b.photo;
       if (b.min_price === '') delete b.min_price;
-      if (item) await api(`/api/items/${item.id}`, { method: 'PUT', body: b }); else await api('/api/items', { method: 'POST', body: b });
+      let itemId = item?.id;
+      if (item) await api(`/api/items/${item.id}`, { method: 'PUT', body: b }); else itemId = (await api('/api/items', { method: 'POST', body: b })).id;
+      if (newPhoto) await api(`/api/items/${itemId}/photo`, { method: 'POST', body: { data: newPhoto } });
       toast(item ? 'Enregistré' : 'Article ajouté'); route();
     },
     onOpen: (el) => {
+      $('#photo-input', el).onchange = async (e) => {
+        const file = e.target.files[0]; if (!file) return;
+        try {
+          newPhoto = await shrinkImage(file);
+          const img = $('#photo-preview', el); img.src = newPhoto; img.hidden = false;
+          $('#photo-empty', el)?.remove();
+        } catch { toast('Impossible de lire cette photo'); }
+      };
       $('#sell', el)?.addEventListener('click', () => sellSheet(item));
       $('#del', el)?.addEventListener('click', async () => {
         if (!confirm('Supprimer cet article ?')) return;
@@ -324,7 +357,7 @@ async function sales() {
 
 // ---------- Réglages ----------
 async function settings() {
-  const [s, d, lots] = await Promise.all([api('/api/settings'), api('/api/dashboard'), api('/api/lots')]);
+  const [s, d, lots, net] = await Promise.all([api('/api/settings'), api('/api/dashboard'), api('/api/lots'), api('/api/network')]);
   const sw = (name, label, sub) => `<div class="field"><div class="grow"><div>${label}</div>${sub ? `<div class="small muted">${sub}</div>` : ''}</div>
     <label class="switch"><input type="checkbox" data-k="${name}" ${s[name] === '1' ? 'checked' : ''}><i></i></label></div>`;
   const inp = (name, label, type = 'text', extra = '') => `<div class="field"><label>${label}</label><input data-k="${name}" type="${type}" value="${esc(s[name])}" ${extra}></div>`;
@@ -361,6 +394,28 @@ async function settings() {
     <div class="end"><div class="num">${eur(l.revenue)} <span class="muted">/ ${eur(l.cost)}</span></div><div class="small ${l.revenue - l.cost >= 0 ? 'pos' : 'muted'}">${l.revenue - l.cost >= 0 ? 'rentabilisé' : `reste ${eur(l.cost - l.revenue)} à rentrer`}</div></div></div>`).join('')}
     <button class="row tappable" id="add-lot" style="color:var(--blue)">${icon(I.plus)} Ajouter un lot</button></div>
 
+  <div class="section-title">Sur ton téléphone</div>
+  <div class="list"><div class="phone-card">
+    ${net.qr ? `<div class="qr">${net.qr}</div>` : ''}
+    <div class="grow">
+      <div class="title">Ouvre l'app sur ton iPhone</div>
+      <ol class="steps">
+        <li>Connecte le téléphone au même Wi-Fi que ce PC.</li>
+        <li>Scanne le QR code avec l'appareil photo, ou tape <b class="sel">${esc(net.urls[0] || 'l\'adresse affichée au démarrage')}</b> dans Safari.</li>
+        <li>Dans Safari : Partager, puis « Sur l'écran d'accueil ».</li>
+      </ol>
+      ${net.urls.length > 1 ? `<div class="small muted">Autres adresses : ${net.urls.slice(1).map(esc).join(' · ')}</div>` : ''}
+    </div>
+  </div></div>
+  <p class="hint">Depuis l'extérieur (4G), il faudra l'accès sécurisé qu'on installera avec toi.</p>
+
+  <div class="section-title">Ménage automatique</div>
+  <div class="list">
+    ${inp('purge_days', 'Après (jours)', 'number', 'min="0"')}
+    <button class="row tappable" id="purge" style="color:var(--blue)">Faire le ménage maintenant</button>
+  </div>
+  <p class="hint">Pour les ventes expédiées : conversations, photo et annonces supprimées. Le prix, la date et la plateforme restent pour tes chiffres. 0 = jamais. Une sauvegarde de la base est faite chaque jour (14 jours gardés).</p>
+
   <div class="section-title">Apparence</div>
   <div class="list"><div class="field"><label>Thème</label><div class="seg" id="theme">${[['auto', 'Auto'], ['light', 'Clair'], ['dark', 'Sombre']].map(([k, l]) => `<button type="button" data-k="${k}" class="${theme === k ? 'on' : ''}">${l}</button>`).join('')}</div></div></div>
 
@@ -384,6 +439,7 @@ async function settings() {
       <div class="field"><label>Prix payé (€)</label><input name="cost" type="number" step="0.01" required></div></div>`,
     onSubmit: async (f) => { await api('/api/lots', { method: 'POST', body: Object.fromEntries(f) }); toast('Lot ajouté'); settings(); },
   });
+  $('#purge').onclick = async () => { const r = await api('/api/maintenance/purge', { method: 'POST' }); toast(r.archived ? `${r.archived} vente(s) archivée(s)` : 'Rien à nettoyer'); };
   $('#logout').onclick = async () => { await api('/api/logout', { method: 'POST' }); showLogin(); };
 }
 

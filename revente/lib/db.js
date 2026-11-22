@@ -114,6 +114,8 @@ export const DEFAULT_SETTINGS = {
   shipping_delay: '24 à 48 h',
   stale_days: '7',
   signature: '',
+  purge_days: '15',         // ménage des ventes expédiées après N jours (0 = jamais)
+  last_maintenance: '',
 };
 
 const getStmt = db.prepare('SELECT value FROM settings WHERE key = ?');

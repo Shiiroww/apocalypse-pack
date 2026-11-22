@@ -239,3 +239,19 @@ input, select, textarea { min-width: 0; }
   .view.thread-open .head { display: none; }
   .view.thread-open .thread { height: calc(100dvh - 104px - env(safe-area-inset-bottom)); }
 }
+
+/* Photo d'article */
+.photo-pick { display: grid; place-items: center; padding-top: 18px; }
+.photo-box { width: 140px; height: 140px; border-radius: 18px; background: var(--card); box-shadow: var(--shadow); display: grid; place-items: center; overflow: hidden; cursor: pointer; color: var(--blue); }
+.photo-box img { width: 100%; height: 100%; object-fit: cover; }
+.photo-box #photo-empty { display: grid; justify-items: center; gap: 6px; font-size: 13px; font-weight: 600; }
+.photo-box svg { width: 30px; height: 30px; }
+
+/* Accès téléphone */
+.phone-card { display: flex; gap: 18px; padding: 16px; align-items: center; flex-wrap: wrap; }
+.qr { width: 132px; height: 132px; flex: none; background: #fff; border-radius: 12px; padding: 6px; }
+.qr svg { width: 100%; height: 100%; display: block; }
+.steps { margin: 6px 0 4px; padding-left: 20px; font-size: 15px; display: grid; gap: 4px; }
+.sel { user-select: all; -webkit-user-select: all; word-break: break-all; }
+.phone-card .grow { min-width: 220px; flex: 1; }
+.qr svg { stroke-width: 1; stroke-linecap: butt; stroke-linejoin: miter; }

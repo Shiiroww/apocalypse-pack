@@ -4,22 +4,36 @@ L'app qui gère la revente sur Vinted, Leboncoin, eBay, Depop et Shopify :
 stock, ventes, messages de toutes les plateformes, réponses automatiques,
 suivi de la marge. Toi, tu n'as plus qu'à expédier.
 
-## Lancer l'app
+## Installer sur le PC (Windows 10 ou 11)
 
-Il faut Node.js 22.13 ou plus récent (https://nodejs.org).
+1. Télécharge le code : sur GitHub, ouvre la branche
+   `claude/multi-account-app-dashboard-x6mcqd`, bouton **Code → Download ZIP**.
+2. Dézippe-le où tu veux (par exemple `C:\Revente`), puis ouvre le dossier `revente`.
+3. Double-clique sur **`INSTALLER.bat`**. Il installe ce qu'il faut, te demande un mot de passe,
+   crée l'icône **Revente** sur le Bureau et lance l'app au démarrage de Windows.
+4. Si Windows affiche « Windows a protégé votre ordinateur » : « Informations complémentaires »,
+   puis « Exécuter quand même ».
+5. Si le pare-feu demande l'autorisation : coche **Réseaux privés** et clique **Autoriser**
+   (c'est ce qui permet au téléphone de s'y connecter).
+
+Ensuite, l'icône **Revente** du Bureau ouvre l'app dans sa propre fenêtre.
+Pour l'arrêter : `windows\ARRETER.bat`.
+
+## Sur l'iPhone
+
+Dans l'app sur le PC : **Réglages → Sur ton téléphone**. Scanne le QR code avec l'appareil
+photo (téléphone sur le même Wi-Fi que le PC), connecte-toi, puis dans Safari :
+Partager → **Sur l'écran d'accueil**. L'app a alors son icône et s'ouvre en plein écran.
+Les photos des articles peuvent être prises directement avec le téléphone.
+
+## Pour les développeurs
 
 ```bash
 cd revente
 npm install
-npm run demo     # avec des données d'exemple, pour découvrir
-npm start        # pour de vrai
+npm run demo     # avec des données d'exemple
+npm start
 ```
-
-Ouvre ensuite http://localhost:3000. Le mot de passe s'affiche dans le
-terminal au démarrage (ou mets le tien dans `APP_PASSWORD`, voir `.env.example`).
-
-Sur le téléphone : ouvre l'adresse de l'app dans Safari, puis
-Partager → « Sur l'écran d'accueil ». Elle s'ouvre alors comme une vraie app.
 
 ## Ce qui marche déjà
 
@@ -37,6 +51,10 @@ Partager → « Sur l'écran d'accueil ». Elle s'ouvre alors comme une vraie ap
   sur toutes les autres, automatiquement.
 - **À expédier** : la liste des colis à préparer.
 - **Réglages** : pilote automatique, IA, objectif, remise lot, délai d'envoi, lots achetés, thème.
+- **Photos** : prises avec le téléphone ou choisies sur le PC, réduites automatiquement.
+- **Ménage automatique** : 15 jours après l'expédition, les conversations, la photo et les
+  annonces d'un article vendu sont supprimées ; la vente reste dans les chiffres.
+- **Sauvegarde** : copie de la base chaque jour dans `data/backups` (14 jours gardés).
 
 ## Économiser l'IA
 
@@ -60,5 +78,5 @@ qu'elle l'est.
   notifications e-mail.
 - Depop : notifications e-mail.
 
-Pour l'utiliser depuis n'importe où (pas seulement en Wi-Fi à la maison), il faudra
-héberger l'app en ligne ou passer par un accès sécurisé au PC.
+Pour l'utiliser en 4G (pas seulement en Wi-Fi à la maison), on installera un accès
+sécurisé au PC (Tailscale), sans rien ouvrir au public.

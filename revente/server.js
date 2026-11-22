@@ -1,7 +1,10 @@
 // Serveur de l'app : API + interface. Aucune dépendance à part le SDK Claude.
 // Lancer : npm start   (ou npm run demo pour remplir avec des données d'exemple)
 import http from 'node:http';
+import os from 'node:os';
+import QRCode from 'qrcode';
 import { readFileSync, existsSync, writeFileSync } from 'node:fs';
+import { PHOTO_DIR, deletePhotoFile, purgeOldSales } from './lib/maintenance.js';
 import { randomBytes, createHmac, timingSafeEqual } from 'node:crypto';
 import path from 'node:path';
 import { db, getSettings, setSetting, plain, log } from './lib/db.js';
@@ -16,6 +19,8 @@ if (existsSync('.env')) {
     if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, '');
   }
 }
+
+const PORT = Number(process.env.PORT) || 3000;
 
 // ---------- Accès protégé par mot de passe ----------
 const secretFile = path.resolve('data/secret.json');
@@ -49,7 +54,7 @@ const body = (req) => new Promise((resolve, reject) => {
 });
 const num = (v, d = 0) => (v === '' || v == null || Number.isNaN(Number(v)) ? d : Number(v));
 
-const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.webmanifest': 'application/manifest+json', '.png': 'image/png' };
+const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.webmanifest': 'application/manifest+json', '.png': 'image/png', '.jpg': 'image/jpeg' };
 function serveStatic(req, res) {
   let p = decodeURIComponent(new URL(req.url, 'http://x').pathname);
   if (p === '/') p = '/index.html';
@@ -152,7 +157,11 @@ on('PUT', '/api/items/:id', (b, [id]) => {
   saveListings(Number(id), b.platforms);
   return { ok: true };
 });
-on('DELETE', '/api/items/:id', (b, [id]) => { db.prepare('DELETE FROM items WHERE id = ?').run(id); return { ok: true }; });
+on('DELETE', '/api/items/:id', (b, [id]) => {
+  deletePhotoFile(db.prepare('SELECT photo FROM items WHERE id = ?').get(id)?.photo);
+  db.prepare('DELETE FROM items WHERE id = ?').run(id);
+  return { ok: true };
+});
 on('POST', '/api/items/:id/sell', async (b, [id]) => {
   await recordSale({ item_id: Number(id), platform: b.platform, price: num(b.price), fees: b.fees === '' || b.fees == null ? undefined : num(b.fees), shipping_paid: num(b.shipping_paid), buyer: b.buyer });
   return { ok: true };
@@ -179,9 +188,45 @@ on('POST', '/api/conversations/:id/auto', async (b, [id]) => ({ text: await auto
 // Simuler un message entrant (pour tester les réponses automatiques avant les connexions)
 on('POST', '/api/test-message', async (b) => ({ id: await receiveMessage({ platform: b.platform || 'vinted', buyer: b.buyer || 'Test', item_id: b.item_id ? Number(b.item_id) : null, body: String(b.body || '') }) }));
 
+// Photo envoyée depuis le téléphone ou le PC (déjà réduite par l'app, en JPEG)
+on('POST', '/api/items/:id/photo', (b, [id]) => {
+  const m = String(b.data || '').match(/^data:image\/(jpeg|png|webp);base64,(.+)$/);
+  if (!m) throw new Error('Image invalide');
+  const buf = Buffer.from(m[2], 'base64');
+  if (buf.length > 4e6) throw new Error('Image trop lourde');
+  const item = db.prepare('SELECT photo FROM items WHERE id = ?').get(id);
+  if (!item) throw new Error('Article introuvable');
+  deletePhotoFile(item.photo);
+  const name = `${id}-${Date.now()}.${m[1] === 'jpeg' ? 'jpg' : m[1]}`;
+  writeFileSync(path.join(PHOTO_DIR, name), buf);
+  db.prepare('UPDATE items SET photo = ? WHERE id = ?').run(`/photos/${name}`, id);
+  return { photo: `/photos/${name}` };
+});
+on('POST', '/api/maintenance/purge', () => ({ archived: purgeOldSales() }));
+
+// Adresses pour ouvrir l'app depuis le téléphone (même Wi-Fi)
+function lanUrls() {
+  const out = [];
+  for (const list of Object.values(os.networkInterfaces())) {
+    for (const a of list || []) if (a.family === 'IPv4' && !a.internal) out.push(`http://${a.address}:${PORT}`);
+  }
+  return out.sort((a, b) => Number(/\/\/192\.168\./.test(b)) - Number(/\/\/192\.168\./.test(a)));
+}
+on('GET', '/api/network', async () => {
+  const urls = lanUrls();
+  const qr = urls[0] ? await QRCode.toString(urls[0], { type: 'svg', margin: 1, color: { dark: '#000000', light: '#ffffff' } }) : null;
+  return { urls, qr };
+});
+
 // ---------- Serveur ----------
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, 'http://x');
+  if (url.pathname.startsWith('/photos/')) {
+    const file = path.join(PHOTO_DIR, path.basename(url.pathname));
+    if (!authed(req) || !existsSync(file)) { res.writeHead(404); return res.end(); }
+    res.writeHead(200, { 'Content-Type': MIME[path.extname(file)] || 'image/jpeg', 'Cache-Control': 'private, max-age=86400' });
+    return res.end(readFileSync(file));
+  }
   if (!url.pathname.startsWith('/api/')) return serveStatic(req, res);
 
   if (url.pathname === '/api/login' && req.method === 'POST') {
@@ -219,9 +264,13 @@ const server = http.createServer(async (req, res) => {
 });
 
 if (process.argv.includes('--demo')) await seedDemo();
-const PORT = Number(process.env.PORT) || 3000;
+server.on('error', (err) => {
+  if (err.code === 'EADDRINUSE') { console.log(`  Revente tourne déjà sur le port ${PORT}.`); process.exit(0); }
+  throw err;
+});
 server.listen(PORT, '0.0.0.0', () => {
   console.log(`\n  App de revente prête : http://localhost:${PORT}`);
+  for (const u of lanUrls()) console.log(`  Sur le téléphone (même Wi-Fi) : ${u}`);
   console.log(`  Mot de passe : ${process.env.APP_PASSWORD ? '(celui de APP_PASSWORD)' : PASSWORD}\n`);
   startAutopilot();
 });

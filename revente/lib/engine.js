@@ -3,6 +3,7 @@
 import { db, getSetting, log, plain } from './db.js';
 import { connectors, PLATFORMS } from './connectors/index.js';
 import { templateReply, aiReply } from './replies.js';
+import { dailyMaintenance } from './maintenance.js';
 
 const getItem = (id) => (id ? db.prepare('SELECT * FROM items WHERE id = ?').get(id) : null);
 const history = (convId) => plain(db.prepare('SELECT * FROM messages WHERE conversation_id = ? ORDER BY id').all(convId));
@@ -128,6 +129,7 @@ export function startAutopilot() {
       await pullMessages();
       await retryUndelivered();
       await processDelists();
+      dailyMaintenance();
     } catch (err) {
       log('erreur', `Pilote automatique : ${err.message}`);
     }
