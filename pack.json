@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-23 18:29",
+ "packVersion": "2026-11-23 19:03",
  "launcherVersion": 9,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -60,9 +60,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/835882f4f78b-aiguardian-1.0.0.jar",
-   "sha1": "835882f4f78bd13af5fa2b8b3aadfb0f14d0c761",
-   "size": 33015164
+   "url": "mods/7ea85cc8a5bf-aiguardian-1.0.0.jar",
+   "sha1": "7ea85cc8a5bfeeffd026c44e9491411d57aaf34d",
+   "size": 33016218
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
