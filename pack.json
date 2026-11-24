@@ -1,8 +1,8 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-24 12:20",
- "launcherVersion": 10,
+ "packVersion": "2026-11-24 13:04",
+ "launcherVersion": 11,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
  "forge": "47.4.28",
@@ -16,13 +16,18 @@
  "news": [
   {
    "date": "24 novembre 2026",
-   "title": "AI Guardian : nouveau menu du jeu",
-   "text": "Mod fait maison. Le menu principal de Minecraft change : Apocalypse en lettres de pierre, boutons en dalles sombres, la ville de Mosslorn en fond. Realms disparaît, le menu d'Essential reste."
+   "title": "Bande-annonce de Mosslorn",
+   "text": "Le bouton Bande-annonce de l'accueil joue le film de la carte, monté par sieoX : 3 min 20 dans la ville où se passe le pack."
   },
   {
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "24 novembre 2026",
+   "title": "AI Guardian : nouveau menu du jeu",
+   "text": "Mod fait maison. Le menu principal de Minecraft ressemble maintenant au launcher : même titre, bouton Solo ambre, la ville de Mosslorn en fond. Realms disparaît, le menu d'Essential reste."
   },
   {
    "date": "24 novembre 2026",
@@ -54,6 +59,12 @@
   "text": "Carte : Mosslorn, par Milkshake___",
   "url": "https://www.youtube.com/@milkshakemp3"
  },
+ "trailer": {
+  "id": "1afuMY5R5PU",
+  "title": "Mosslorn, la carte du pack",
+  "credit": "vidéo de sieoX",
+  "length": "3 min 20"
+ },
  "maps": [
   {
    "name": "Maahkay Revamped",
@@ -79,9 +90,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/ce7ea854f3fb-aiguardian-1.0.0.jar",
-   "sha1": "ce7ea854f3fb89da6568c20aed7a0613b8b7231a",
-   "size": 38278447
+   "url": "mods/b224b70d40b8-aiguardian-1.0.0.jar",
+   "sha1": "b224b70d40b83e20f37887e28be09b25933bf39d",
+   "size": 38330333
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
