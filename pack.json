@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-24 15:08",
+ "packVersion": "2026-11-24 19:17",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,13 +16,18 @@
  "news": [
   {
    "date": "24 novembre 2026",
-   "title": "Bande-annonce de Mosslorn",
-   "text": "Le bouton Bande-annonce de l'accueil joue le film de la carte, monté par sieoX : 3 min 20 dans la ville où se passe le pack."
+   "title": "Coffres vides au départ",
+   "text": "Les coffres et barils de la ville sont vides au lancement. Un coffre ouvert se remplit à nouveau une heure de jeu plus tard, avec ce qu'on trouve dans ce genre d'endroit : nourriture en cuisine, soins à l'infirmerie, munitions chez les militaires."
   },
   {
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "24 novembre 2026",
+   "title": "Bande-annonce de Mosslorn",
+   "text": "Le bouton Bande-annonce de l'accueil joue le film de la carte, monté par sieoX : 3 min 20 dans la ville où se passe le pack."
   },
   {
    "date": "24 novembre 2026",
@@ -96,9 +101,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/578ae1a2f6be-aiguardian-1.0.0.jar",
-   "sha1": "578ae1a2f6bec1c2b364e7f44ef3ed7b72bc55ba",
-   "size": 38332211
+   "url": "mods/bf3758eb7a16-aiguardian-1.0.0.jar",
+   "sha1": "bf3758eb7a16490ef4d2967b820e79cac2060a86",
+   "size": 38332419
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
