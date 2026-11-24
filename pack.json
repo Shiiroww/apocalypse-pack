@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-24 12:15",
+ "packVersion": "2026-11-24 12:20",
  "launcherVersion": 10,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,13 +16,18 @@
  "news": [
   {
    "date": "24 novembre 2026",
-   "title": "Nouveau launcher",
-   "text": "Interface refaite : la ville de Mosslorn filmée en fond, la liste des mods du pack, et chaque mise à jour racontée ici."
+   "title": "AI Guardian : nouveau menu du jeu",
+   "text": "Mod fait maison. Le menu principal de Minecraft change : Apocalypse en lettres de pierre, boutons en dalles sombres, la ville de Mosslorn en fond. Realms disparaît, le menu d'Essential reste."
   },
   {
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "24 novembre 2026",
+   "title": "Nouveau launcher",
+   "text": "Interface refaite : la ville de Mosslorn filmée en fond, la liste des mods du pack, et chaque mise à jour racontée ici."
   },
   {
    "date": "23 novembre 2026",
@@ -74,9 +79,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/436fcdbf2790-aiguardian-1.0.0.jar",
-   "sha1": "436fcdbf2790f69521253ee88d86d1cca32b5397",
-   "size": 38315436
+   "url": "mods/ce7ea854f3fb-aiguardian-1.0.0.jar",
+   "sha1": "ce7ea854f3fb89da6568c20aed7a0613b8b7231a",
+   "size": 38278447
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
