@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-24 03:59",
+ "packVersion": "2026-11-24 04:23",
  "launcherVersion": 10,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -22,7 +22,7 @@
   {
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
-   "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei."
+   "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
   },
   {
    "date": "23 novembre 2026",
@@ -74,9 +74,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/9d8aeec34cd5-aiguardian-1.0.0.jar",
-   "sha1": "9d8aeec34cd52878b35ffdb9a7f99a37033d172a",
-   "size": 33004503
+   "url": "mods/722551cd2927-aiguardian-1.0.0.jar",
+   "sha1": "722551cd2927839cb0bd3e9bdf5b38dad1b7a0fe",
+   "size": 32308347
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
