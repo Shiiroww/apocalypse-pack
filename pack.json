@@ -1,8 +1,8 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-24 14:42",
- "launcherVersion": 11,
+ "packVersion": "2026-11-24 14:47",
+ "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
  "forge": "47.4.28",
@@ -27,7 +27,7 @@
   {
    "date": "24 novembre 2026",
    "title": "AI Guardian : nouveau menu du jeu",
-   "text": "Mod fait maison. Le menu principal de Minecraft ressemble maintenant au launcher : même titre, bouton Solo ambre, la ville de Mosslorn en fond. Realms disparaît, le menu d'Essential reste."
+   "text": "Mod fait maison. Le menu principal de Minecraft ressemble maintenant au launcher : même titre, bouton Solo ambre, et une vidéo de Mosslorn en fond, filmée par Milkshake___, l'auteur de la carte. Realms disparaît, le menu d'Essential reste."
   },
   {
    "date": "24 novembre 2026",
@@ -83,6 +83,12 @@
  },
  "files": [
   {
+   "path": "aiguardian-media/menu.zip",
+   "url": "media/048ca1116a82-menu.zip",
+   "sha1": "048ca1116a82c1736d28485febbf7845dc7e8bc9",
+   "size": 29280235
+  },
+  {
    "path": "mods/150kb_superbcarfare_1.20.1_1.0.0.jar",
    "url": "https://edge.forgecdn.net/files/9042/156/150kb_superbcarfare_1.20.1_1.0.0.jar",
    "sha1": "35f06955edb05c7d75911be695919da0c39a069c",
@@ -90,9 +96,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/cfde0ada236e-aiguardian-1.0.0.jar",
-   "sha1": "cfde0ada236e3eeddf9c7025bfa68b6b832d390d",
-   "size": 38330463
+   "url": "mods/534dd4def0a2-aiguardian-1.0.0.jar",
+   "sha1": "534dd4def0a2e4f8b9fd41d41825df5ed7f38ece",
+   "size": 38331740
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
