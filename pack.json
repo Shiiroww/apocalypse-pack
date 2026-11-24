@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-24 14:51",
+ "packVersion": "2026-11-24 14:59",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -84,9 +84,9 @@
  "files": [
   {
    "path": "aiguardian-media/menu.zip",
-   "url": "media/599a727d6e8a-menu.zip",
-   "sha1": "599a727d6e8a7e596fb53016eed5afa0131d66b7",
-   "size": 46940585
+   "url": "media/016c1ce9fbd9-menu.zip",
+   "sha1": "016c1ce9fbd9f4746858b02d551645e392f721cc",
+   "size": 18997031
   },
   {
    "path": "mods/150kb_superbcarfare_1.20.1_1.0.0.jar",
