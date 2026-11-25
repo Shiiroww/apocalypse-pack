@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 21:20",
+ "packVersion": "2026-11-25 21:23",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -17,7 +17,7 @@
   {
    "date": "25 novembre 2026",
    "title": "Distributeur réparé, fouilles rangées au bon endroit",
-   "text": "Mod fait maison. Le distributeur de billets sur pied s'affiche de nouveau (il apparaissait en damier violet). Un garde qui fouille un prisonnier range ses affaires dans un coffre de la base au lieu de les poser par terre. Les dégâts des portes forcées ont leur propre fichier de sauvegarde et n'abîment plus la liste des portes connues de l'IA."
+   "text": "Mod fait maison. Le distributeur de billets sur pied s'affiche de nouveau (il apparaissait en damier violet). Un garde qui fouille un prisonnier range ses affaires dans un coffre de la base au lieu de les poser par terre. Les dégâts des portes forcées ont leur propre fichier de sauvegarde et n'abîment plus la liste des portes connues de l'IA. Tuer un seul habitant suffit désormais pour devenir ennemi de la base, quelle que soit sa réputation avant."
   },
   {
    "date": "25 novembre 2026",
@@ -186,9 +186,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/d6c8b695d2ef-aiguardian-1.0.0.jar",
-   "sha1": "d6c8b695d2ef47ee5354f2eec68ada9ca331ce34",
-   "size": 38264205
+   "url": "mods/9bb3deb03c7f-aiguardian-1.0.0.jar",
+   "sha1": "9bb3deb03c7f43c1c086398b3d0885db2f61c2b2",
+   "size": 38264214
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
