@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 23:13",
+ "packVersion": "2026-11-25 23:18",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "L'IA ne sait plus tout",
-   "text": "Mod fait maison. L'IA ne voit plus que ses caméras, ses capteurs et ce qui se passe près du Bridge. Le reste, les habitants doivent venir le lui dire au Bridge, ou le raconter à quelqu'un qui ira ; un témoin tué en route emporte ce qu'il savait. Ceux qui portent un talkie-walkie de Simple Radio lui parlent de partout et reçoivent ses ordres : rangez-en dans un coffre, les gardes les prendront. Un coup ou un meurtre que personne n'a vu ne compte pas ; quand le corps est trouvé, la base enquête sur qui traînait dans le coin, et avec quelle arme. Une victime relevée dénonce celui qui l'a mise à terre. Un seul meurtre suffit pour devenir ennemi."
+   "title": "Papiers perdus, papiers refaits",
+   "text": "Mod fait maison. Tu as perdu tes papiers d'identité ? Va voir le commerçant d'une colonie avec des papiers vierges en main et 20 de valeur en marchandises dans l'autre main, puis accroupi + clic droit : il te refait tes vrais papiers. Les anciens sont déclarés perdus, et celui qui les montre à un garde passe pour un voleur. Les caméras en ronde ne fixent plus le mur d'à côté : comme les projecteurs, elles font demi-tour avant."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "L'IA ne sait plus tout",
+   "text": "Mod fait maison. L'IA ne voit plus que ses caméras, ses capteurs et ce qui se passe près du Bridge. Le reste, les habitants doivent venir le lui dire au Bridge, ou le raconter à quelqu'un qui ira ; un témoin tué en route emporte ce qu'il savait. Ceux qui portent un talkie-walkie de Simple Radio lui parlent de partout et reçoivent ses ordres : rangez-en dans un coffre, les gardes les prendront. Un coup ou un meurtre que personne n'a vu ne compte pas ; quand le corps est trouvé, la base enquête sur qui traînait dans le coin, et avec quelle arme. Une victime relevée dénonce celui qui l'a mise à terre. Un seul meurtre suffit pour devenir ennemi."
   },
   {
    "date": "25 novembre 2026",
@@ -176,9 +181,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/032380e52fb4-aiguardian-1.0.0.jar",
-   "sha1": "032380e52fb4ffc5cfbccd69054123a00ea00e8d",
-   "size": 38284430
+   "url": "mods/66650334dd9b-aiguardian-1.0.0.jar",
+   "sha1": "66650334dd9b6f6f121da2809c2d108b1cfe9d82",
+   "size": 38286182
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
