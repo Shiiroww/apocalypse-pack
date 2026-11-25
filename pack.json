@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 20:46",
+ "packVersion": "2026-11-25 20:56",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "L'intendant tient les coffres",
-   "text": "Mod fait maison. Chaque matin, l'intendant fait le tour de toute la base et regarde sur place dans chaque bloc qui a un inventaire : coffres, tonneaux, caisses, placards, fours, boîtes de Shulker. S'il y trouve de l'équipement arrivé depuis sa dernière tournée (armure, armes, munitions, cartes d'accès), il le signale à l'IA : tous les habitants apprennent ce que contient le coffre, et l'IA envoie aussitôt celui à qui ça sert le plus s'équiper. Les cartes rangées dans un coffre sont prises par ceux qui en ont besoin pour passer un lecteur. Quand il n'a rien d'autre à faire, l'intendant range les coffres : l'équipement avec l'équipement, les matériaux avec les matériaux, la réserve de vivres à part. L'IA ne connaît plus les stocks qu'à travers ses tournées : ce qui disparaît d'un coffre ne se remarque qu'à son passage."
+   "title": "Lecteurs qui reconnaissent les habitants, journal plus lisible",
+   "text": "Mod fait maison. Un lecteur de cartes posé en créatif appartient à l'IA comme les pavés : il reconnaît les habitants de la base et leur ouvre sans carte. Le journal ne déborde plus quand l'IA change les lumières pour économiser la batterie : une seule ligne pour toute la salve. Un PNJ qui n'arrive pas jusqu'à un corps pour récupérer l'équipement laisse la place à un autre au lieu d'y être renvoyé en boucle."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "L'intendant tient les coffres",
+   "text": "Mod fait maison. Chaque matin, l'intendant fait le tour de toute la base et regarde sur place dans chaque bloc qui a un inventaire : coffres, tonneaux, caisses, placards, fours, boîtes de Shulker. S'il y trouve de l'équipement arrivé depuis sa dernière tournée (armure, armes, munitions, cartes d'accès), il le signale à l'IA : tous les habitants apprennent ce que contient le coffre, et l'IA envoie aussitôt celui à qui ça sert le plus s'équiper. Les cartes rangées dans un coffre sont prises par ceux qui en ont besoin pour passer un lecteur. Quand il n'a rien d'autre à faire, l'intendant range les coffres : l'équipement avec l'équipement, les matériaux avec les matériaux, la réserve de vivres à part. L'IA ne connaît plus les stocks qu'à travers ses tournées : ce qui disparaît d'un coffre ne se remarque qu'à son passage."
   },
   {
    "date": "25 novembre 2026",
@@ -176,9 +181,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/5544e4d02a3f-aiguardian-1.0.0.jar",
-   "sha1": "5544e4d02a3f704b33b09ceee3153b2b52bc5a88",
-   "size": 38264432
+   "url": "mods/705b5bf544e8-aiguardian-1.0.0.jar",
+   "sha1": "705b5bf544e81597c1fa8cd155bc7a7fc83ab422",
+   "size": 38265720
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
