@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 22:41",
+ "packVersion": "2026-11-25 22:47",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -32,7 +32,7 @@
   {
    "date": "25 novembre 2026",
    "title": "L'intendant tient les coffres",
-   "text": "Mod fait maison. Chaque matin, l'intendant fait le tour de la base et regarde dans chaque bloc qui a un inventaire. S'il trouve de l'équipement nouveau (armure, armes, munitions, cartes, talkies), il va le dire à l'IA, qui envoie celui à qui ça sert le plus s'équiper. Le reste du temps, il range : l'équipement ensemble, les matériaux ensemble, la réserve de vivres à part. Un garde qui fouille un prisonnier range ses affaires dans un coffre au lieu de les poser par terre. Un nouvel intendant qui ne connaît pas encore la réserve va la trouver lui-même au lieu de rester les bras croisés."
+   "text": "Mod fait maison. Chaque matin, l'intendant fait le tour de la base et regarde dans chaque bloc qui a un inventaire. S'il trouve de l'équipement nouveau (armure, armes, munitions, cartes, talkies), il va le dire à l'IA, qui envoie celui à qui ça sert le plus s'équiper. Le reste du temps, il range toute la base : vivres, boissons et soins à la réserve, armes, munitions, armures, cartes et talkies à l'armurerie (le coffre près d'un râtelier d'armes), les matériaux ensemble ailleurs. Un garde qui fouille un prisonnier range ses affaires dans un coffre au lieu de les poser par terre. Un nouvel intendant qui ne connaît pas encore la réserve va la trouver lui-même au lieu de rester les bras croisés."
   },
   {
    "date": "25 novembre 2026",
@@ -176,9 +176,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/a0e793a4da48-aiguardian-1.0.0.jar",
-   "sha1": "a0e793a4da48d6b8ce9bbb6aae318f63af063eeb",
-   "size": 38282345
+   "url": "mods/cf10a6a4622f-aiguardian-1.0.0.jar",
+   "sha1": "cf10a6a4622f96029bc174f9f747f9a9c9d40f63",
+   "size": 38282850
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
