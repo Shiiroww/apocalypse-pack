@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 19:47",
+ "packVersion": "2026-11-25 20:01",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Les portes se forcent, elles ne se cassent plus",
-   "text": "Mod fait maison. Dans une base, une porte ne se casse plus comme un bloc : chaque coup la force un peu plus. Une porte du mod s'entrouvre à chaque coup, une porte en bois ou en fer se fissure, et au dernier coup elle s'ouvre en grand et reste bloquée ouverte. Une hache ou une pioche va plus vite qu'à mains nues. Les zombies qui s'acharnent sur une porte, les pillards et les explosions la forcent de la même façon. Une porte enfoncée est gardée par un garde jusqu'à ce que l'ingénieur la répare avec un lingot de fer, ou qu'un habitant le fasse lui-même (clic droit avec un lingot de fer)."
+   "title": "Finitions : portes voisines et décor",
+   "text": "Mod fait maison. Forcer une porte coulissante ne fait plus bouger les portes voisines du couloir : seule la porte frappée et ses battants s'ouvrent. Côté décor, le tiroir de la caisse, le tiroir du chariot à outils et la porte de la vitrine réfrigérée ne traversent plus le meuble en se fermant, la grille du frigo a rejoint le socle, la chaîne des bornes ne flotte plus et la porte du distributeur sur pied ne dépasse plus de son bloc."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Les portes se forcent, elles ne se cassent plus",
+   "text": "Mod fait maison. Dans une base, une porte ne se casse plus comme un bloc : chaque coup la force un peu plus. Une porte du mod s'entrouvre à chaque coup, une porte en bois ou en fer se fissure, et au dernier coup elle s'ouvre en grand et reste bloquée ouverte. Une hache ou une pioche va plus vite qu'à mains nues. Les zombies qui s'acharnent sur une porte, les pillards et les explosions la forcent de la même façon. Une porte enfoncée est gardée par un garde jusqu'à ce que l'ingénieur la répare avec un lingot de fer, ou qu'un habitant le fasse lui-même (clic droit avec un lingot de fer)."
   },
   {
    "date": "25 novembre 2026",
@@ -156,9 +161,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/98f7a4dc134a-aiguardian-1.0.0.jar",
-   "sha1": "98f7a4dc134a18ebb1da50907e6309a2a014a844",
-   "size": 38369418
+   "url": "mods/a393b8672bdb-aiguardian-1.0.0.jar",
+   "sha1": "a393b8672bdbc0d5e64cee365b87db013925cc93",
+   "size": 38259008
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
