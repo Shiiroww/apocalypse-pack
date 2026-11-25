@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 22:32",
+ "packVersion": "2026-11-25 22:41",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -42,7 +42,7 @@
   {
    "date": "25 novembre 2026",
    "title": "Finitions de la base",
-   "text": "Mod fait maison. Les habitants ne tournent plus sur eux-mêmes au repos. Le générateur ne s'allume et ne s'éteint plus toutes les trois secondes. Le journal ne déborde plus quand l'IA change les lumières. Celui qui a piraté le Bridge n'est plus jamais suspect pour sa propre base. Décor : caisse, chariot à outils, vitrine réfrigérée, frigo, bornes et distributeur de billets corrigés (le distributeur s'affichait en damier violet)."
+   "text": "Mod fait maison. Les habitants ne tournent plus sur eux-mêmes au repos. Le générateur ne s'allume et ne s'éteint plus toutes les trois secondes. Le journal ne déborde plus quand l'IA change les lumières. Celui qui a piraté le Bridge n'est plus jamais suspect pour sa propre base. Décor : caisse, chariot à outils, vitrine réfrigérée, frigo, bornes et distributeur de billets corrigés (le distributeur s'affichait en damier violet). Les coffres de votre base ne sont plus pris pour des coffres de ravitaillement de la carte quand elle est construite dans un bâtiment de la map : ils ne se remplissent plus tout seuls. Un habitant qui aide l'intendant ne monte plus de niveau en reposant ses propres provisions dans la réserve."
   },
   {
    "date": "25 novembre 2026",
@@ -176,9 +176,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/0d4470810ff5-aiguardian-1.0.0.jar",
-   "sha1": "0d4470810ff55824c98dd53bc4683ed961e76677",
-   "size": 38281849
+   "url": "mods/a0e793a4da48-aiguardian-1.0.0.jar",
+   "sha1": "a0e793a4da48d6b8ce9bbb6aae318f63af063eeb",
+   "size": 38282345
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
