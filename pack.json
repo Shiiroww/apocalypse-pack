@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 20:25",
+ "packVersion": "2026-11-25 20:30",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Des PNJ qui ne tournent plus sur eux-mêmes au repos",
-   "text": "Mod fait maison. Un habitant qui remplit la réserve ou s'assoit ne pivote plus sur place en fixant le coffre ou le siège sous ses pieds. Les habitants connaissent à nouveau le code des pavés de leur chef, même posés avant son personnage actuel : ils ne restent plus bloqués devant leurs propres portes."
+   "title": "Les portes à poignée échappent à l'IA",
+   "text": "Mod fait maison. L'IA ne commande plus que les pavés à code, les lecteurs de cartes et le reste du matériel : une porte en bois, un portillon ou une porte de service à poignée s'ouvre toujours à la main. Un pavé voisin ne la verrouille plus et le confinement de la base ne la ferme plus, si bien que les PNJ ne se cognent plus dedans en tapant le code de la porte d'à côté. Un pavé posé en créatif appartient à l'IA et à celui qui l'a posé : tous les habitants de la base en connaissent le code et le tapent eux-mêmes, sans attendre que l'IA leur ouvre. Un pavé posé en survie reste à son propriétaire seul."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Des PNJ qui ne tournent plus sur eux-mêmes au repos",
+   "text": "Mod fait maison. Un habitant qui remplit la réserve ou s'assoit ne pivote plus sur place en fixant le coffre ou le siège sous ses pieds. Les habitants connaissent à nouveau le code des pavés de leur chef, même posés avant son personnage actuel : ils ne restent plus bloqués devant leurs propres portes."
   },
   {
    "date": "25 novembre 2026",
@@ -166,9 +171,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/edd1cb0c19fc-aiguardian-1.0.0.jar",
-   "sha1": "edd1cb0c19fcbaf48f31c52e3adb2690ca369cc1",
-   "size": 38259460
+   "url": "mods/f07889e60cbd-aiguardian-1.0.0.jar",
+   "sha1": "f07889e60cbd1f9efbd2e5b633f8d9c511904d73",
+   "size": 38259849
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
