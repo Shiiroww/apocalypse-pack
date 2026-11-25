@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 00:40",
+ "packVersion": "2026-11-26 00:46",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Parlez à l'IA au talkie",
-   "text": "Mod fait maison. Réglez votre talkie-walkie sur la fréquence de la base et parlez : l'IA vous entend et vous répond à la radio. Elle ne sait pas qui vous êtes, seulement une voix. Présentez-vous si vous voulez qu'elle vous connaisse, et ne comptez pas sur elle pour livrer ses secrets à un inconnu. Pas de micro ? Écrivez dans le chat avec le talkie en main : votre message part à la radio, pas aux autres joueurs."
+   "title": "La radio des gardes",
+   "text": "Mod fait maison. L'IA ne parle plus toute seule au talkie : plus de sirène ni d'annonces sur la fréquence. On y entend maintenant de vrais échanges. L'IA appelle un garde (« Lucas, ici le Bridge. Tiens la porte nord. Terminé. ») et il répond avec sa propre voix. Un garde qui voit quelque chose appelle le Bridge, et l'IA accuse réception. Chaque garde a sa voix, toujours la même. Un garde sans talkie et loin du Bridge n'entend pas l'IA : elle envoie un garde équipé le prévenir, qui marche jusqu'à lui et lui crie l'ordre. En attendant, le garde isolé se débrouille seul : il appelle à l'aide, se replie s'il est blessé, relève un camarade à terre. Donnez des talkies à vos gardes pour garder le contact."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Parlez à l'IA au talkie",
+   "text": "Mod fait maison. Réglez votre talkie-walkie sur la fréquence de la base et parlez : l'IA vous entend et vous répond à la radio. Elle ne sait pas qui vous êtes, seulement une voix. Présentez-vous si vous voulez qu'elle vous connaisse, et ne comptez pas sur elle pour livrer ses secrets à un inconnu. Pas de micro ? Écrivez dans le chat avec le talkie en main : votre message part à la radio, pas aux autres joueurs."
   },
   {
    "date": "26 novembre 2026",
@@ -196,9 +201,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/9528b21ffd48-aiguardian-1.0.0.jar",
-   "sha1": "9528b21ffd4868ad9d95b409946578ecde4792b4",
-   "size": 38306088
+   "url": "mods/8e7ec9b635ff-aiguardian-1.0.0.jar",
+   "sha1": "8e7ec9b635ffffb7ff2d72bda37a8704c9728052",
+   "size": 38312986
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
