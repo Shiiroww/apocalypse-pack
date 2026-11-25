@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 18:11",
+ "packVersion": "2026-11-25 18:17",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Portes doubles réparées",
-   "text": "Les PNJ passent enfin les portes de service doubles. Avant, un garde ouvrait un battant puis refermait la paire devant lui dès que son chemin passait par l'autre battant, et restait coincé. Les deux battants comptent maintenant comme une seule porte, et rien ne se referme tant que quelqu'un est dans l'un des deux passages."
+   "title": "Les survivants ont un emploi du temps",
+   "text": "Mod fait maison. Les PNJ vivent une vraie journée. Le matin ils se lèvent et font leur toilette au point d'eau. Trois fois par jour ils se retrouvent à table : petit-déjeuner, déjeuner, dîner, et ceux qui n'ont pas faim s'assoient quand même avec les autres. Aux heures de travail, un garde fait des rondes autour de la base et un travailleur sans tâche reste à son poste : le fermier dans les champs, le cuisinier en cuisine, l'ingénieur avec ses machines. Le soir, le fermier, l'éleveur, l'armurier et l'intendant arrêtent le travail pour le feu et les amis. La nuit, tout le monde dort jusqu'au matin, sauf les gardes de veille. Chacun a ses horaires : certains se lèvent tôt, d'autres veillent tard."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Portes doubles réparées",
+   "text": "Les PNJ passent enfin les portes de service doubles. Avant, un garde ouvrait un battant puis refermait la paire devant lui dès que son chemin passait par l'autre battant, et restait coincé. Les deux battants comptent maintenant comme une seule porte, et rien ne se referme tant que quelqu'un est dans l'un des deux passages."
   },
   {
    "date": "24 novembre 2026",
@@ -111,9 +116,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/268e400840e9-aiguardian-1.0.0.jar",
-   "sha1": "268e400840e979fce05aae53aa893d96272c24cc",
-   "size": 38333495
+   "url": "mods/7a1716ee66df-aiguardian-1.0.0.jar",
+   "sha1": "7a1716ee66dfe20c967b48f5d0a1371aa31d87fe",
+   "size": 38341136
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
