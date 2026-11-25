@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 21:15",
+ "packVersion": "2026-11-25 21:20",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Lecteurs qui reconnaissent les habitants, journal plus lisible",
-   "text": "Mod fait maison. Un lecteur de cartes posé en créatif appartient à l'IA comme les pavés : il reconnaît les habitants de la base et leur ouvre sans carte. Le journal ne déborde plus quand l'IA change les lumières pour économiser la batterie : une seule ligne pour toute la salve. Un PNJ qui n'arrive pas jusqu'à un corps pour récupérer l'équipement laisse la place à un autre au lieu d'y être renvoyé en boucle. Les PNJ voient enfin le bouton de sortie quand ils sont collés à la porte : ils sortent seuls au lieu d'attendre que l'IA leur ouvre. Le générateur ne s'allume et s'éteint plus toutes les trois secondes : il charge la batterie jusqu'au bout, puis s'arrête."
+   "title": "Distributeur réparé, fouilles rangées au bon endroit",
+   "text": "Mod fait maison. Le distributeur de billets sur pied s'affiche de nouveau (il apparaissait en damier violet). Un garde qui fouille un prisonnier range ses affaires dans un coffre de la base au lieu de les poser par terre. Les dégâts des portes forcées ont leur propre fichier de sauvegarde et n'abîment plus la liste des portes connues de l'IA."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Lecteurs qui reconnaissent les habitants, journal plus lisible",
+   "text": "Mod fait maison. Un lecteur de cartes posé en créatif appartient à l'IA comme les pavés : il reconnaît les habitants de la base et leur ouvre sans carte. Le journal ne déborde plus quand l'IA change les lumières pour économiser la batterie : une seule ligne pour toute la salve. Un PNJ qui n'arrive pas jusqu'à un corps pour récupérer l'équipement laisse la place à un autre au lieu d'y être renvoyé en boucle. Les PNJ voient enfin le bouton de sortie quand ils sont collés à la porte : ils sortent seuls au lieu d'attendre que l'IA leur ouvre. Le générateur ne s'allume et s'éteint plus toutes les trois secondes : il charge la batterie jusqu'au bout, puis s'arrête."
   },
   {
    "date": "25 novembre 2026",
@@ -181,9 +186,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/f3f580698e44-aiguardian-1.0.0.jar",
-   "sha1": "f3f580698e4498f370c6fd2df8bbca6d9e7b3caa",
-   "size": 38265733
+   "url": "mods/d6c8b695d2ef-aiguardian-1.0.0.jar",
+   "sha1": "d6c8b695d2ef47ee5354f2eec68ada9ca331ce34",
+   "size": 38264205
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
