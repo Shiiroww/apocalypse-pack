@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 18:24",
+ "packVersion": "2026-11-25 18:37",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Les habitants passent les lecteurs de cartes",
-   "text": "Mod fait maison. Les PNJ de la base n'ont pas de carte d'accès, alors chaque lecteur les refusait : ils faisaient demi-tour, et l'IA leur ouvrait la porte quelques secondes plus tard, souvent quand ils étaient déjà repartis. Maintenant l'IA reconnaît ses habitants devant un lecteur, ou du côté d'une porte qui n'en a pas, et ouvre tout de suite. Les prisonniers, les inconnus et les PNJ isolés restent dehors, et la porte reste fermée si un monstre est juste à côté."
+   "title": "Portes : plus de moitié haute sombre",
+   "text": "Mod fait maison. Sur les portes du mod, la moitié haute du battant pouvait s'afficher plus sombre et un peu brune, alors que la moitié basse restait grise. Chaque moitié prend maintenant la lumière de la pièce devant et derrière elle, comme une porte normale de Minecraft : les deux moitiés ont la même teinte."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Les habitants passent les lecteurs de cartes",
+   "text": "Mod fait maison. Les PNJ de la base n'ont pas de carte d'accès, alors chaque lecteur les refusait : ils faisaient demi-tour, et l'IA leur ouvrait la porte quelques secondes plus tard, souvent quand ils étaient déjà repartis. Maintenant l'IA reconnaît ses habitants devant un lecteur, ou du côté d'une porte qui n'en a pas, et ouvre tout de suite. Les prisonniers, les inconnus et les PNJ isolés restent dehors, et la porte reste fermée si un monstre est juste à côté."
   },
   {
    "date": "25 novembre 2026",
@@ -121,9 +126,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/5b3c2de2a80e-aiguardian-1.0.0.jar",
-   "sha1": "5b3c2de2a80ee4969818aed6d55c093a4ebb66ab",
-   "size": 38341832
+   "url": "mods/03a821852406-aiguardian-1.0.0.jar",
+   "sha1": "03a8218524065a26bbe33bf0dc9b3d6f51f7d645",
+   "size": 38342174
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
