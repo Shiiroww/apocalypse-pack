@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 21:37",
+ "packVersion": "2026-11-25 21:53",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Les habitants vont parler à l'IA",
-   "text": "Mod fait maison. L'IA n'apprend plus rien par magie. Un habitant qui voit un crime, une victime réanimée qui a vu son agresseur, celui qui trouve un corps et l'intendant après sa tournée doivent venir au Bridge pour le dire à l'IA, ou le raconter à quelqu'un qui ira. S'ils n'ont rien d'autre à faire, ils y vont d'eux-mêmes. Tant qu'ils n'ont pas parlé, l'IA ne sait rien, et un témoin tué en route emporte ce qu'il savait. Seules les caméras voient pour l'IA directement."
+   "title": "Talkies-walkies et une IA qui ne sait pas tout",
+   "text": "Mod fait maison. L'IA ne voit plus que ce que voient ses caméras, ses détecteurs et ce qui se passe près du Bridge. Le reste, elle l'apprend des habitants : ceux qui portent un talkie-walkie de Simple Radio lui parlent de partout et reçoivent ses ordres, les autres doivent revenir au Bridge. Un habitant sans radio, loin du Bridge, vit et se défend seul, et l'IA ne connaît de lui que sa dernière position. Les gardes prennent d'eux-mêmes les talkies rangés dans les coffres. Pour un attaquant, abattre le garde qui porte la radio coupe la base de ses yeux."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Les habitants vont parler à l'IA",
+   "text": "Mod fait maison. L'IA n'apprend plus rien par magie. Un habitant qui voit un crime, une victime réanimée qui a vu son agresseur, celui qui trouve un corps et l'intendant après sa tournée doivent venir au Bridge pour le dire à l'IA, ou le raconter à quelqu'un qui ira. S'ils n'ont rien d'autre à faire, ils y vont d'eux-mêmes. Tant qu'ils n'ont pas parlé, l'IA ne sait rien, et un témoin tué en route emporte ce qu'il savait. Seules les caméras voient pour l'IA directement."
   },
   {
    "date": "25 novembre 2026",
@@ -196,9 +201,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/46be746401b0-aiguardian-1.0.0.jar",
-   "sha1": "46be746401b0fcaff93c0934dea9f11f56a969d4",
-   "size": 38279493
+   "url": "mods/1ae9ab867ed2-aiguardian-1.0.0.jar",
+   "sha1": "1ae9ab867ed2b695b6fb9926444b9db1bf2e6a0e",
+   "size": 38281235
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
