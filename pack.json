@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 18:45",
+ "packVersion": "2026-11-25 19:01",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Sièges, métiers et journal corrigés",
-   "text": "Mod fait maison. Un joueur qui tue des habitants de la base pendant un siège ne reçoit plus la médaille de la défense ni la récompense de fin de siège. La fête « siège repoussé » n'a lieu que si des monstres ont vraiment été tués. Un PNJ qui aide l'intendant ne monte plus de niveau d'intendant juste en comptant les stocks, et une base sans coffre de stockage le dit une fois au lieu d'annoncer que tout manque. Le journal accorde « il » et « elle » devant les portes, n'écrit plus « wrong_side », et une base pleine de sirènes n'écrit plus une ligne par sirène."
+   "title": "Une IA qui se souvient, des PNJ qui se sauvent",
+   "text": "Mod fait maison. Quand l'IA de la base réfléchit avec Claude, elle sait maintenant pourquoi elle a été réveillée et se souvient du dernier quart d'heure : morts, gardes à terre, alarmes et ce qu'elle a elle-même décidé. Elle connaît aussi le métier, la consigne et les munitions de chaque habitant, pour ne plus envoyer un cuisinier ou un garde sans balles au combat. Le mode super autonome marche aussi avec Claude. Côté PNJ : à court d'air sous l'eau, ils remontent respirer ; coincés dans un bloc, ils se dégagent ; en feu, ils courent vers l'eau si elle est à moins de 6 blocs."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Sièges, métiers et journal corrigés",
+   "text": "Mod fait maison. Un joueur qui tue des habitants de la base pendant un siège ne reçoit plus la médaille de la défense ni la récompense de fin de siège. La fête « siège repoussé » n'a lieu que si des monstres ont vraiment été tués. Un PNJ qui aide l'intendant ne monte plus de niveau d'intendant juste en comptant les stocks, et une base sans coffre de stockage le dit une fois au lieu d'annoncer que tout manque. Le journal accorde « il » et « elle » devant les portes, n'écrit plus « wrong_side », et une base pleine de sirènes n'écrit plus une ligne par sirène."
   },
   {
    "date": "25 novembre 2026",
@@ -136,9 +141,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/e76ae5545f1d-aiguardian-1.0.0.jar",
-   "sha1": "e76ae5545f1dd243dc7b3817b23391999571c07a",
-   "size": 38343193
+   "url": "mods/7957517ca1e1-aiguardian-1.0.0.jar",
+   "sha1": "7957517ca1e18bbac04646254eff01190815cab5",
+   "size": 38344316
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
