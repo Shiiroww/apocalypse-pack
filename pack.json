@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 21:33",
+ "packVersion": "2026-11-25 21:37",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Témoins et enquêtes",
-   "text": "Mod fait maison. La base ne sait plus tout. Un coup ou un meurtre ne compte que si quelqu'un l'a vu : un habitant, une caméra, ou la victime d'un coup. Un habitant tué sans témoin, c'est un mort de plus, et personne ne sait qui l'a fait. Quand son corps est trouvé, la base enquête : celui qu'on a vu traîner près du corps vers l'heure du meurtre devient suspect, et s'il avait en main la même arme que le tueur, il est désigné comme le meurtrier. Sans personne vu dans le coin, l'affaire reste sans coupable. Celui qui a piraté le Bridge n'est plus jamais suspect, ennemi ou pillard pour la base dont l'IA travaille pour lui, même une base sans faction : ses anciens griefs sont effacés au moment du piratage."
+   "title": "Les habitants vont parler à l'IA",
+   "text": "Mod fait maison. L'IA n'apprend plus rien par magie. Un habitant qui voit un crime, une victime réanimée qui a vu son agresseur, celui qui trouve un corps et l'intendant après sa tournée doivent venir au Bridge pour le dire à l'IA, ou le raconter à quelqu'un qui ira. S'ils n'ont rien d'autre à faire, ils y vont d'eux-mêmes. Tant qu'ils n'ont pas parlé, l'IA ne sait rien, et un témoin tué en route emporte ce qu'il savait. Seules les caméras voient pour l'IA directement."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Témoins et enquêtes",
+   "text": "Mod fait maison. La base ne sait plus tout. Un coup ou un meurtre ne compte que si quelqu'un l'a vu : un habitant, une caméra, ou la victime d'un coup. Un habitant tué sans témoin, c'est un mort de plus, et personne ne sait qui l'a fait. Quand son corps est trouvé, la base enquête : celui qu'on a vu traîner près du corps vers l'heure du meurtre devient suspect, et s'il avait en main la même arme que le tueur, il est désigné comme le meurtrier. Sans personne vu dans le coin, l'affaire reste sans coupable. Celui qui a piraté le Bridge n'est plus jamais suspect, ennemi ou pillard pour la base dont l'IA travaille pour lui, même une base sans faction : ses anciens griefs sont effacés au moment du piratage."
   },
   {
    "date": "25 novembre 2026",
@@ -191,9 +196,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/adac73aa1529-aiguardian-1.0.0.jar",
-   "sha1": "adac73aa1529dcd79e73ed04f2692bcf579ed04d",
-   "size": 38272222
+   "url": "mods/46be746401b0-aiguardian-1.0.0.jar",
+   "sha1": "46be746401b0fcaff93c0934dea9f11f56a969d4",
+   "size": 38279493
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
