@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 21:23",
+ "packVersion": "2026-11-25 21:28",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Distributeur réparé, fouilles rangées au bon endroit",
-   "text": "Mod fait maison. Le distributeur de billets sur pied s'affiche de nouveau (il apparaissait en damier violet). Un garde qui fouille un prisonnier range ses affaires dans un coffre de la base au lieu de les poser par terre. Les dégâts des portes forcées ont leur propre fichier de sauvegarde et n'abîment plus la liste des portes connues de l'IA. Tuer un seul habitant suffit désormais pour devenir ennemi de la base, quelle que soit sa réputation avant."
+   "title": "Témoins et enquêtes",
+   "text": "Mod fait maison. La base ne sait plus tout. Un coup ou un meurtre ne compte que si quelqu'un l'a vu : un habitant, une caméra, ou la victime d'un coup. Un habitant tué sans témoin, c'est un mort de plus, et personne ne sait qui l'a fait. Quand son corps est trouvé, la base enquête : celui qu'on a vu traîner près du corps vers l'heure du meurtre devient suspect, et s'il avait en main la même arme que le tueur, il est désigné comme le meurtrier. Sans personne vu dans le coin, l'affaire reste sans coupable."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Distributeur réparé, fouilles rangées au bon endroit",
+   "text": "Mod fait maison. Le distributeur de billets sur pied s'affiche de nouveau (il apparaissait en damier violet). Un garde qui fouille un prisonnier range ses affaires dans un coffre de la base au lieu de les poser par terre. Les dégâts des portes forcées ont leur propre fichier de sauvegarde et n'abîment plus la liste des portes connues de l'IA. Tuer un seul habitant suffit désormais pour devenir ennemi de la base, quelle que soit sa réputation avant."
   },
   {
    "date": "25 novembre 2026",
@@ -186,9 +191,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/9bb3deb03c7f-aiguardian-1.0.0.jar",
-   "sha1": "9bb3deb03c7f43c1c086398b3d0885db2f61c2b2",
-   "size": 38264214
+   "url": "mods/080d4e688750-aiguardian-1.0.0.jar",
+   "sha1": "080d4e688750b12460636ce1ff4646723ae30fb3",
+   "size": 38271810
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
