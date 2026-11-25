@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 00:01",
+ "packVersion": "2026-11-25 18:11",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -15,9 +15,9 @@
  },
  "news": [
   {
-   "date": "24 novembre 2026",
-   "title": "Coffres vides au départ",
-   "text": "Les coffres et barils de la ville sont vides au lancement. Un coffre ouvert se remplit à nouveau une heure de jeu plus tard, avec ce qu'on trouve dans ce genre d'endroit : nourriture en cuisine, soins à l'infirmerie, munitions chez les militaires."
+   "date": "25 novembre 2026",
+   "title": "Portes doubles réparées",
+   "text": "Les PNJ passent enfin les portes de service doubles. Avant, un garde ouvrait un battant puis refermait la paire devant lui dès que son chemin passait par l'autre battant, et restait coincé. Les deux battants comptent maintenant comme une seule porte, et rien ne se referme tant que quelqu'un est dans l'un des deux passages."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "24 novembre 2026",
+   "title": "Coffres vides au départ",
+   "text": "Les coffres et barils de la ville sont vides au lancement. Un coffre ouvert se remplit à nouveau une heure de jeu plus tard, avec ce qu'on trouve dans ce genre d'endroit : nourriture en cuisine, soins à l'infirmerie, munitions chez les militaires."
   },
   {
    "date": "24 novembre 2026",
@@ -106,9 +111,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/e142f993c995-aiguardian-1.0.0.jar",
-   "sha1": "e142f993c9956cb5a30922b292a9f991f9cfddb3",
-   "size": 38333120
+   "url": "mods/268e400840e9-aiguardian-1.0.0.jar",
+   "sha1": "268e400840e979fce05aae53aa893d96272c24cc",
+   "size": 38333495
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
