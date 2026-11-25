@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 00:10",
+ "packVersion": "2026-11-26 00:28",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -17,7 +17,7 @@
   {
    "date": "26 novembre 2026",
    "title": "Les gardes se méfient",
-   "text": "Mod fait maison. Une torche allumée au loin dans la nuit, des pas inconnus, des coups de feu, un inconnu qui rôde : les gardes le remarquent. Pas d'alarme, mais la colonie reste sur ses gardes pendant quelques minutes. Personne ne s'endort, les gardes regardent souvent de ce côté, et l'un d'eux peut venir jeter un œil sans bruit. Si rien ne se passe, ils se détendent. La nuit, éteignez votre torche ou votre lampe de poche si vous voulez approcher une base. À l'inverse, une lampe de poche braquée sur un zombie le rend visible aux gardes et aux caméras. Les PNJ aussi sortent leur lampe de poche, leur lanterne ou leur torche la nuit : ils voient mieux autour d'eux. Rangez-en dans les coffres de la base, l'intendant les fera passer."
+   "text": "Mod fait maison. Une torche allumée au loin dans la nuit, des pas inconnus, des coups de feu, un inconnu qui rôde : les gardes le remarquent. Pas d'alarme, mais la colonie reste sur ses gardes pendant quelques minutes. Personne ne s'endort, les gardes regardent souvent de ce côté, et l'un d'eux peut venir jeter un œil sans bruit. Si rien ne se passe, ils se détendent. La nuit, éteignez votre torche ou votre lampe de poche si vous voulez approcher une base. À l'inverse, une lampe de poche braquée sur un zombie le rend visible aux gardes et aux caméras. Les PNJ aussi sortent leur lampe de poche, leur lanterne ou leur torche la nuit : ils voient mieux autour d'eux. Rangez-en dans les coffres de la base, l'intendant les fera passer. L'ingénieur répare enfin ce qui est en hauteur : une caméra ou un plafonnier jusqu'à 5 blocs au-dessus du sol, depuis le sol, sans échelle."
   },
   {
    "date": "26 novembre 2026",
@@ -191,9 +191,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/9eeff821fdbe-aiguardian-1.0.0.jar",
-   "sha1": "9eeff821fdbe980d925064e05ab570fdea29a3bd",
-   "size": 38297840
+   "url": "mods/92960ce81cf1-aiguardian-1.0.0.jar",
+   "sha1": "92960ce81cf11b71555cc24b2fc7b2959988d1f2",
+   "size": 38297886
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
