@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 23:18",
+ "packVersion": "2026-11-25 23:30",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -17,7 +17,7 @@
   {
    "date": "25 novembre 2026",
    "title": "Papiers perdus, papiers refaits",
-   "text": "Mod fait maison. Tu as perdu tes papiers d'identité ? Va voir le commerçant d'une colonie avec des papiers vierges en main et 20 de valeur en marchandises dans l'autre main, puis accroupi + clic droit : il te refait tes vrais papiers. Les anciens sont déclarés perdus, et celui qui les montre à un garde passe pour un voleur. Les caméras en ronde ne fixent plus le mur d'à côté : comme les projecteurs, elles font demi-tour avant."
+   "text": "Mod fait maison. Tu as perdu tes papiers d'identité ? Va voir le commerçant d'une colonie avec des papiers vierges en main et 20 de valeur en marchandises dans l'autre main, puis accroupi + clic droit : il te refait tes vrais papiers. Les anciens sont déclarés perdus, et celui qui les montre à un garde passe pour un voleur. Les caméras en ronde ne fixent plus le mur d'à côté : comme les projecteurs, elles font demi-tour avant. La nuit, elles voient mal : quelques blocs dans le noir, et de plus en plus loin là où c'est éclairé. Éclairez votre base pour qu'elles fassent leur travail."
   },
   {
    "date": "25 novembre 2026",
@@ -181,9 +181,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/66650334dd9b-aiguardian-1.0.0.jar",
-   "sha1": "66650334dd9b6f6f121da2809c2d108b1cfe9d82",
-   "size": 38286182
+   "url": "mods/9101ad404deb-aiguardian-1.0.0.jar",
+   "sha1": "9101ad404deb2e05cc2b1000aff599cca02ea4a5",
+   "size": 38286344
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
