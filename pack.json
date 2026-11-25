@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 19:37",
+ "packVersion": "2026-11-25 19:47",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Des portes qui se défendent, une batterie qui tient la nuit",
-   "text": "Mod fait maison. Une porte de la base qu'on frappe, qu'un zombie défonce ou qu'on force au forceur alerte la base, si quelqu'un l'a vu ou entendu : deux gardes viennent la tenir, une caméra la regarde, les projecteurs s'allument la nuit et les autres pavés se verrouillent. Un pavé en mode bascule ne laisse plus sa porte ouverte : elle se referme quand plus personne n'est à côté, ou tout de suite si un ennemi approche. L'IA et les PNJ n'ouvrent plus avec un inconnu repéré devant la porte, et la nuit un code qui a fuité ne suffit plus devant une caméra. Celui que personne n'a vu peut toujours se faufiler. La batterie se gère jusqu'à l'aube : si elle ne tiendra pas, l'IA coupe les caméras inutiles, démarre le générateur et fait brancher une cellule plus tôt. Les rondes passent par les entrées et les endroits attaqués."
+   "title": "Les portes se forcent, elles ne se cassent plus",
+   "text": "Mod fait maison. Dans une base, une porte ne se casse plus comme un bloc : chaque coup la force un peu plus. Une porte du mod s'entrouvre à chaque coup, une porte en bois ou en fer se fissure, et au dernier coup elle s'ouvre en grand et reste bloquée ouverte. Une hache ou une pioche va plus vite qu'à mains nues. Les zombies qui s'acharnent sur une porte, les pillards et les explosions la forcent de la même façon. Une porte enfoncée est gardée par un garde jusqu'à ce que l'ingénieur la répare avec un lingot de fer, ou qu'un habitant le fasse lui-même (clic droit avec un lingot de fer)."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Des portes qui se défendent, une batterie qui tient la nuit",
+   "text": "Mod fait maison. Une porte de la base qu'on frappe, qu'un zombie défonce ou qu'on force au forceur alerte la base, si quelqu'un l'a vu ou entendu : deux gardes viennent la tenir, une caméra la regarde, les projecteurs s'allument la nuit et les autres pavés se verrouillent. Un pavé en mode bascule ne laisse plus sa porte ouverte : elle se referme quand plus personne n'est à côté, ou tout de suite si un ennemi approche. L'IA et les PNJ n'ouvrent plus avec un inconnu repéré devant la porte, et la nuit un code qui a fuité ne suffit plus devant une caméra. Celui que personne n'a vu peut toujours se faufiler. La batterie se gère jusqu'à l'aube : si elle ne tiendra pas, l'IA coupe les caméras inutiles, démarre le générateur et fait brancher une cellule plus tôt. Les rondes passent par les entrées et les endroits attaqués."
   },
   {
    "date": "25 novembre 2026",
@@ -151,9 +156,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/55ab09f55b53-aiguardian-1.0.0.jar",
-   "sha1": "55ab09f55b53617810fa6c468347200e05fff596",
-   "size": 38358085
+   "url": "mods/98f7a4dc134a-aiguardian-1.0.0.jar",
+   "sha1": "98f7a4dc134a18ebb1da50907e6309a2a014a844",
+   "size": 38369418
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
