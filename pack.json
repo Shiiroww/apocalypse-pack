@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 22:00",
+ "packVersion": "2026-11-25 22:04",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Talkies-walkies et une IA qui ne sait pas tout",
-   "text": "Mod fait maison. L'IA ne voit plus que ce que voient ses caméras, ses détecteurs et ce qui se passe près du Bridge. Le reste, elle l'apprend des habitants : ceux qui portent un talkie-walkie de Simple Radio lui parlent de partout et reçoivent ses ordres, les autres doivent revenir au Bridge. Un habitant sans radio, loin du Bridge, vit et se défend seul, et l'IA ne connaît de lui que sa dernière position. Les gardes prennent d'eux-mêmes les talkies rangés dans les coffres. Pour un attaquant, abattre le garde qui porte la radio coupe la base de ses yeux."
+   "title": "L'IA ne sait plus tout",
+   "text": "Mod fait maison. L'IA ne voit plus que ses caméras, ses capteurs et ce qui se passe près du Bridge. Le reste, les habitants doivent venir le lui dire au Bridge, ou le raconter à quelqu'un qui ira ; un témoin tué en route emporte ce qu'il savait. Ceux qui portent un talkie-walkie de Simple Radio lui parlent de partout et reçoivent ses ordres : rangez-en dans un coffre, les gardes les prendront. Un coup ou un meurtre que personne n'a vu ne compte pas ; quand le corps est trouvé, la base enquête sur qui traînait dans le coin, et avec quelle arme. Une victime relevée dénonce celui qui l'a mise à terre. Un seul meurtre suffit pour devenir ennemi."
   },
   {
    "date": "25 novembre 2026",
@@ -31,43 +31,18 @@
   },
   {
    "date": "25 novembre 2026",
-   "title": "Les habitants vont parler à l'IA",
-   "text": "Mod fait maison. L'IA n'apprend plus rien par magie. Un habitant qui voit un crime, une victime réanimée qui a vu son agresseur, celui qui trouve un corps et l'intendant après sa tournée doivent venir au Bridge pour le dire à l'IA, ou le raconter à quelqu'un qui ira. S'ils n'ont rien d'autre à faire, ils y vont d'eux-mêmes. Tant qu'ils n'ont pas parlé, l'IA ne sait rien, et un témoin tué en route emporte ce qu'il savait. Seules les caméras voient pour l'IA directement."
-  },
-  {
-   "date": "25 novembre 2026",
-   "title": "Témoins et enquêtes",
-   "text": "Mod fait maison. La base ne sait plus tout. Un coup ou un meurtre ne compte que si quelqu'un l'a vu : un habitant, une caméra, ou la victime d'un coup. Un habitant tué sans témoin, c'est un mort de plus, et personne ne sait qui l'a fait. Quand son corps est trouvé, la base enquête : celui qu'on a vu traîner près du corps vers l'heure du meurtre devient suspect, et s'il avait en main la même arme que le tueur, il est désigné comme le meurtrier. Sans personne vu dans le coin, l'affaire reste sans coupable. Celui qui a piraté le Bridge n'est plus jamais suspect, ennemi ou pillard pour la base dont l'IA travaille pour lui, même une base sans faction : ses anciens griefs sont effacés au moment du piratage."
-  },
-  {
-   "date": "25 novembre 2026",
-   "title": "Distributeur réparé, fouilles rangées au bon endroit",
-   "text": "Mod fait maison. Le distributeur de billets sur pied s'affiche de nouveau (il apparaissait en damier violet). Un garde qui fouille un prisonnier range ses affaires dans un coffre de la base au lieu de les poser par terre. Les dégâts des portes forcées ont leur propre fichier de sauvegarde et n'abîment plus la liste des portes connues de l'IA. Tuer un seul habitant suffit désormais pour devenir ennemi de la base, quelle que soit sa réputation avant."
-  },
-  {
-   "date": "25 novembre 2026",
-   "title": "Lecteurs qui reconnaissent les habitants, journal plus lisible",
-   "text": "Mod fait maison. Un lecteur de cartes posé en créatif appartient à l'IA comme les pavés : il reconnaît les habitants de la base et leur ouvre sans carte. Le journal ne déborde plus quand l'IA change les lumières pour économiser la batterie : une seule ligne pour toute la salve. Un PNJ qui n'arrive pas jusqu'à un corps pour récupérer l'équipement laisse la place à un autre au lieu d'y être renvoyé en boucle. Les PNJ voient enfin le bouton de sortie quand ils sont collés à la porte : ils sortent seuls au lieu d'attendre que l'IA leur ouvre. Le générateur ne s'allume et s'éteint plus toutes les trois secondes : il charge la batterie jusqu'au bout, puis s'arrête."
-  },
-  {
-   "date": "25 novembre 2026",
    "title": "L'intendant tient les coffres",
-   "text": "Mod fait maison. Chaque matin, l'intendant fait le tour de toute la base et regarde sur place dans chaque bloc qui a un inventaire : coffres, tonneaux, caisses, placards, fours, boîtes de Shulker. S'il y trouve de l'équipement arrivé depuis sa dernière tournée (armure, armes, munitions, cartes d'accès), il le signale à l'IA : tous les habitants apprennent ce que contient le coffre, et l'IA envoie aussitôt celui à qui ça sert le plus s'équiper. Les cartes rangées dans un coffre sont prises par ceux qui en ont besoin pour passer un lecteur. Quand il n'a rien d'autre à faire, l'intendant range les coffres : l'équipement avec l'équipement, les matériaux avec les matériaux, la réserve de vivres à part. L'IA ne connaît plus les stocks qu'à travers ses tournées : ce qui disparaît d'un coffre ne se remarque qu'à son passage."
+   "text": "Mod fait maison. Chaque matin, l'intendant fait le tour de la base et regarde dans chaque bloc qui a un inventaire. S'il trouve de l'équipement nouveau (armure, armes, munitions, cartes, talkies), il va le dire à l'IA, qui envoie celui à qui ça sert le plus s'équiper. Le reste du temps, il range : l'équipement ensemble, les matériaux ensemble, la réserve de vivres à part. Un garde qui fouille un prisonnier range ses affaires dans un coffre au lieu de les poser par terre."
   },
   {
    "date": "25 novembre 2026",
-   "title": "Les portes à poignée échappent à l'IA",
-   "text": "Mod fait maison. L'IA ne commande plus que les pavés à code, les lecteurs de cartes et le reste du matériel : une porte en bois, un portillon ou une porte de service à poignée s'ouvre toujours à la main. Un pavé voisin ne la verrouille plus et le confinement de la base ne la ferme plus, si bien que les PNJ ne se cognent plus dedans en tapant le code de la porte d'à côté. Un pavé posé en créatif appartient à l'IA et à celui qui l'a posé : tous les habitants de la base en connaissent le code et le tapent eux-mêmes, sans attendre que l'IA leur ouvre. Un pavé posé en survie reste à son propriétaire seul. La porte de service à poignée ne se referme plus toute seule : elle reste comme on l'a laissée."
+   "title": "Portes, pavés et lecteurs",
+   "text": "Mod fait maison. Forcer une porte ne fait plus bouger ses voisines. Un pavé ou un lecteur posé en créatif appartient à l'IA : tous les habitants passent sans carte ni code, et tapent le code eux-mêmes. Les portes à poignée, en bois ou les portillons échappent à l'IA et au confinement, et la porte de service ne se referme plus seule. Les PNJ voient le bouton de sortie même collés à la porte, et ne se cognent plus dans une porte en tapant le code de la voisine."
   },
   {
    "date": "25 novembre 2026",
-   "title": "Des PNJ qui ne tournent plus sur eux-mêmes au repos",
-   "text": "Mod fait maison. Un habitant qui remplit la réserve ou s'assoit ne pivote plus sur place en fixant le coffre ou le siège sous ses pieds. Les habitants connaissent à nouveau le code des pavés de leur chef, même posés avant son personnage actuel : ils ne restent plus bloqués devant leurs propres portes."
-  },
-  {
-   "date": "25 novembre 2026",
-   "title": "Finitions : portes voisines et décor",
-   "text": "Mod fait maison. Forcer une porte coulissante ne fait plus bouger les portes voisines du couloir : seule la porte frappée et ses battants s'ouvrent. Côté décor, le tiroir de la caisse, le tiroir du chariot à outils et la porte de la vitrine réfrigérée ne traversent plus le meuble en se fermant, la grille du frigo a rejoint le socle, la chaîne des bornes ne flotte plus et la porte du distributeur sur pied ne dépasse plus de son bloc."
+   "title": "Finitions de la base",
+   "text": "Mod fait maison. Les habitants ne tournent plus sur eux-mêmes au repos. Le générateur ne s'allume et ne s'éteint plus toutes les trois secondes. Le journal ne déborde plus quand l'IA change les lumières. Celui qui a piraté le Bridge n'est plus jamais suspect pour sa propre base. Décor : caisse, chariot à outils, vitrine réfrigérée, frigo, bornes et distributeur de billets corrigés (le distributeur s'affichait en damier violet)."
   },
   {
    "date": "25 novembre 2026",
@@ -201,9 +176,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/ceda990ff503-aiguardian-1.0.0.jar",
-   "sha1": "ceda990ff5030df3da9db413d9c21d44f653bf3d",
-   "size": 38281227
+   "url": "mods/e334d7b692b7-aiguardian-1.0.0.jar",
+   "sha1": "e334d7b692b780541340264cf706a8cc78a4582a",
+   "size": 38281670
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
