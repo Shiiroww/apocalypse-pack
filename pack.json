@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 23:58",
+ "packVersion": "2026-11-26 00:02",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -15,9 +15,14 @@
  },
  "news": [
   {
-   "date": "25 novembre 2026",
-   "title": "Papiers perdus, papiers refaits",
-   "text": "Mod fait maison. Tu as perdu tes papiers d'identité ? Va voir le commerçant d'une colonie avec des papiers vierges en main et 20 de valeur en marchandises dans l'autre main, puis accroupi + clic droit : il te refait tes vrais papiers. Les anciens sont déclarés perdus, et celui qui les montre à un garde passe pour un voleur. Les caméras en ronde ne fixent plus le mur d'à côté : comme les projecteurs, elles font demi-tour avant. La nuit, elles voient mal : quelques blocs dans le noir, et de plus en plus loin là où c'est éclairé. Éclairez votre base pour qu'elles fassent leur travail."
+   "date": "26 novembre 2026",
+   "title": "Les gardes se méfient",
+   "text": "Mod fait maison. Une torche allumée au loin dans la nuit, des pas inconnus, des coups de feu, un inconnu qui rôde : les gardes le remarquent. Pas d'alarme, mais la colonie reste sur ses gardes pendant quelques minutes. Personne ne s'endort, les gardes regardent souvent de ce côté, et l'un d'eux peut venir jeter un œil sans bruit. Si rien ne se passe, ils se détendent. La nuit, éteignez votre torche si vous voulez approcher une base."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Mise à jour des mods",
+   "text": "Mis à jour : AI Guardian (mod fait maison)."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Papiers perdus, papiers refaits",
+   "text": "Mod fait maison. Tu as perdu tes papiers d'identité ? Va voir le commerçant d'une colonie avec des papiers vierges en main et 20 de valeur en marchandises dans l'autre main, puis accroupi + clic droit : il te refait tes vrais papiers. Les anciens sont déclarés perdus, et celui qui les montre à un garde passe pour un voleur. Les caméras en ronde ne fixent plus le mur d'à côté : comme les projecteurs, elles font demi-tour avant. La nuit, elles voient mal : quelques blocs dans le noir, et de plus en plus loin là où c'est éclairé. Éclairez votre base pour qu'elles fassent leur travail."
   },
   {
    "date": "25 novembre 2026",
@@ -181,9 +191,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/2379263e6c3f-aiguardian-1.0.0.jar",
-   "sha1": "2379263e6c3f574f6d42716bc450dff8cc3b8590",
-   "size": 38287318
+   "url": "mods/34b6a954e719-aiguardian-1.0.0.jar",
+   "sha1": "34b6a954e71951944793709913d23e6d31d8e74b",
+   "size": 38292618
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
