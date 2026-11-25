@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 18:17",
+ "packVersion": "2026-11-25 18:24",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Les survivants ont un emploi du temps",
-   "text": "Mod fait maison. Les PNJ vivent une vraie journée. Le matin ils se lèvent et font leur toilette au point d'eau. Trois fois par jour ils se retrouvent à table : petit-déjeuner, déjeuner, dîner, et ceux qui n'ont pas faim s'assoient quand même avec les autres. Aux heures de travail, un garde fait des rondes autour de la base et un travailleur sans tâche reste à son poste : le fermier dans les champs, le cuisinier en cuisine, l'ingénieur avec ses machines. Le soir, le fermier, l'éleveur, l'armurier et l'intendant arrêtent le travail pour le feu et les amis. La nuit, tout le monde dort jusqu'au matin, sauf les gardes de veille. Chacun a ses horaires : certains se lèvent tôt, d'autres veillent tard."
+   "title": "Les habitants passent les lecteurs de cartes",
+   "text": "Mod fait maison. Les PNJ de la base n'ont pas de carte d'accès, alors chaque lecteur les refusait : ils faisaient demi-tour, et l'IA leur ouvrait la porte quelques secondes plus tard, souvent quand ils étaient déjà repartis. Maintenant l'IA reconnaît ses habitants devant un lecteur, ou du côté d'une porte qui n'en a pas, et ouvre tout de suite. Les prisonniers, les inconnus et les PNJ isolés restent dehors, et la porte reste fermée si un monstre est juste à côté."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Les survivants ont un emploi du temps",
+   "text": "Mod fait maison. Les PNJ vivent une vraie journée. Le matin ils se lèvent et font leur toilette au point d'eau. Trois fois par jour ils se retrouvent à table : petit-déjeuner, déjeuner, dîner, et ceux qui n'ont pas faim s'assoient quand même avec les autres. Aux heures de travail, un garde fait des rondes autour de la base et un travailleur sans tâche reste à son poste : le fermier dans les champs, le cuisinier en cuisine, l'ingénieur avec ses machines. Le soir, le fermier, l'éleveur, l'armurier et l'intendant arrêtent le travail pour le feu et les amis. La nuit, tout le monde dort jusqu'au matin, sauf les gardes de veille. Chacun a ses horaires : certains se lèvent tôt, d'autres veillent tard."
   },
   {
    "date": "25 novembre 2026",
@@ -116,9 +121,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/7a1716ee66df-aiguardian-1.0.0.jar",
-   "sha1": "7a1716ee66dfe20c967b48f5d0a1371aa31d87fe",
-   "size": 38341136
+   "url": "mods/5b3c2de2a80e-aiguardian-1.0.0.jar",
+   "sha1": "5b3c2de2a80ee4969818aed6d55c093a4ebb66ab",
+   "size": 38341832
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
