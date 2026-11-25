@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 19:01",
+ "packVersion": "2026-11-25 19:14",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Une IA qui se souvient, des PNJ qui se sauvent",
-   "text": "Mod fait maison. Quand l'IA de la base réfléchit avec Claude, elle sait maintenant pourquoi elle a été réveillée et se souvient du dernier quart d'heure : morts, gardes à terre, alarmes et ce qu'elle a elle-même décidé. Elle connaît aussi le métier, la consigne et les munitions de chaque habitant, pour ne plus envoyer un cuisinier ou un garde sans balles au combat. Le mode super autonome marche aussi avec Claude. Côté PNJ : à court d'air sous l'eau, ils remontent respirer ; coincés dans un bloc, ils se dégagent ; en feu, ils courent vers l'eau si elle est à moins de 6 blocs."
+   "title": "Des gardes qui ne restent plus à court de munitions",
+   "text": "Mod fait maison. Un garde dont l'arme est vide ne reste plus planté devant un zombie : il garde ses distances avec tout monstre qu'il voit, puis va reprendre des munitions dans les coffres de la base, même sans armurier. L'IA de la base ne l'envoie plus au combat et passe le relais à un autre garde, mais il peut toujours aller réanimer un camarade. Avec Claude, l'IA peut aussi poster un garde sur une tourelle pendant une grosse attaque. En mode super autonome, une expédition ne part jamais la nuit, pendant une attaque, sous 40 % de batterie ou en laissant moins de deux gardes à la base."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Une IA qui se souvient, des PNJ qui se sauvent",
+   "text": "Mod fait maison. Quand l'IA de la base réfléchit avec Claude, elle sait maintenant pourquoi elle a été réveillée et se souvient du dernier quart d'heure : morts, gardes à terre, alarmes et ce qu'elle a elle-même décidé. Elle connaît aussi le métier, la consigne et les munitions de chaque habitant, pour ne plus envoyer un cuisinier ou un garde sans balles au combat. Le mode super autonome marche aussi avec Claude. Côté PNJ : à court d'air sous l'eau, ils remontent respirer ; coincés dans un bloc, ils se dégagent ; en feu, ils courent vers l'eau si elle est à moins de 6 blocs."
   },
   {
    "date": "25 novembre 2026",
@@ -141,9 +146,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/7957517ca1e1-aiguardian-1.0.0.jar",
-   "sha1": "7957517ca1e18bbac04646254eff01190815cab5",
-   "size": 38344316
+   "url": "mods/c4f946b5b11e-aiguardian-1.0.0.jar",
+   "sha1": "c4f946b5b11ebf0761b097b6d0acea67d777ab30",
+   "size": 38345070
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
