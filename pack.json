@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 00:02",
+ "packVersion": "2026-11-26 00:06",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -17,7 +17,7 @@
   {
    "date": "26 novembre 2026",
    "title": "Les gardes se méfient",
-   "text": "Mod fait maison. Une torche allumée au loin dans la nuit, des pas inconnus, des coups de feu, un inconnu qui rôde : les gardes le remarquent. Pas d'alarme, mais la colonie reste sur ses gardes pendant quelques minutes. Personne ne s'endort, les gardes regardent souvent de ce côté, et l'un d'eux peut venir jeter un œil sans bruit. Si rien ne se passe, ils se détendent. La nuit, éteignez votre torche si vous voulez approcher une base."
+   "text": "Mod fait maison. Une torche allumée au loin dans la nuit, des pas inconnus, des coups de feu, un inconnu qui rôde : les gardes le remarquent. Pas d'alarme, mais la colonie reste sur ses gardes pendant quelques minutes. Personne ne s'endort, les gardes regardent souvent de ce côté, et l'un d'eux peut venir jeter un œil sans bruit. Si rien ne se passe, ils se détendent. La nuit, éteignez votre torche ou votre lampe de poche si vous voulez approcher une base. À l'inverse, une lampe de poche braquée sur un zombie le rend visible aux gardes et aux caméras."
   },
   {
    "date": "26 novembre 2026",
@@ -191,9 +191,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/34b6a954e719-aiguardian-1.0.0.jar",
-   "sha1": "34b6a954e71951944793709913d23e6d31d8e74b",
-   "size": 38292618
+   "url": "mods/729b29b9af31-aiguardian-1.0.0.jar",
+   "sha1": "729b29b9af317d82deafcb09b6a47b937a4e1af0",
+   "size": 38293680
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
