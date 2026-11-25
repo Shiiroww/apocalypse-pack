@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 20:43",
+ "packVersion": "2026-11-25 20:46",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -17,7 +17,7 @@
   {
    "date": "25 novembre 2026",
    "title": "L'intendant tient les coffres",
-   "text": "Mod fait maison. Chaque matin, l'intendant fait le tour des coffres de la base et regarde dans chacun, sur place. S'il y trouve de l'équipement arrivé depuis sa dernière tournée (armure, armes, munitions, cartes d'accès), il le signale à l'IA : tous les habitants apprennent ce que contient le coffre, et l'IA envoie aussitôt celui à qui ça sert le plus s'équiper. Les cartes rangées dans un coffre sont prises par ceux qui en ont besoin pour passer un lecteur. Quand il n'a rien d'autre à faire, l'intendant range les coffres : l'équipement avec l'équipement, les matériaux avec les matériaux, la réserve de vivres à part. L'IA ne connaît plus les stocks qu'à travers ses tournées : ce qui disparaît d'un coffre ne se remarque qu'à son passage."
+   "text": "Mod fait maison. Chaque matin, l'intendant fait le tour de toute la base et regarde sur place dans chaque bloc qui a un inventaire : coffres, tonneaux, caisses, placards, fours, boîtes de Shulker. S'il y trouve de l'équipement arrivé depuis sa dernière tournée (armure, armes, munitions, cartes d'accès), il le signale à l'IA : tous les habitants apprennent ce que contient le coffre, et l'IA envoie aussitôt celui à qui ça sert le plus s'équiper. Les cartes rangées dans un coffre sont prises par ceux qui en ont besoin pour passer un lecteur. Quand il n'a rien d'autre à faire, l'intendant range les coffres : l'équipement avec l'équipement, les matériaux avec les matériaux, la réserve de vivres à part. L'IA ne connaît plus les stocks qu'à travers ses tournées : ce qui disparaît d'un coffre ne se remarque qu'à son passage."
   },
   {
    "date": "25 novembre 2026",
@@ -176,9 +176,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/866608fc689d-aiguardian-1.0.0.jar",
-   "sha1": "866608fc689dbc710dc1a0e9040bcd617088a5a2",
-   "size": 38263537
+   "url": "mods/5544e4d02a3f-aiguardian-1.0.0.jar",
+   "sha1": "5544e4d02a3f704b33b09ceee3153b2b52bc5a88",
+   "size": 38264432
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
