@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 20:56",
+ "packVersion": "2026-11-25 21:15",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -17,7 +17,7 @@
   {
    "date": "25 novembre 2026",
    "title": "Lecteurs qui reconnaissent les habitants, journal plus lisible",
-   "text": "Mod fait maison. Un lecteur de cartes posé en créatif appartient à l'IA comme les pavés : il reconnaît les habitants de la base et leur ouvre sans carte. Le journal ne déborde plus quand l'IA change les lumières pour économiser la batterie : une seule ligne pour toute la salve. Un PNJ qui n'arrive pas jusqu'à un corps pour récupérer l'équipement laisse la place à un autre au lieu d'y être renvoyé en boucle."
+   "text": "Mod fait maison. Un lecteur de cartes posé en créatif appartient à l'IA comme les pavés : il reconnaît les habitants de la base et leur ouvre sans carte. Le journal ne déborde plus quand l'IA change les lumières pour économiser la batterie : une seule ligne pour toute la salve. Un PNJ qui n'arrive pas jusqu'à un corps pour récupérer l'équipement laisse la place à un autre au lieu d'y être renvoyé en boucle. Les PNJ voient enfin le bouton de sortie quand ils sont collés à la porte : ils sortent seuls au lieu d'attendre que l'IA leur ouvre. Le générateur ne s'allume et s'éteint plus toutes les trois secondes : il charge la batterie jusqu'au bout, puis s'arrête."
   },
   {
    "date": "25 novembre 2026",
@@ -181,9 +181,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/705b5bf544e8-aiguardian-1.0.0.jar",
-   "sha1": "705b5bf544e81597c1fa8cd155bc7a7fc83ab422",
-   "size": 38265720
+   "url": "mods/f3f580698e44-aiguardian-1.0.0.jar",
+   "sha1": "f3f580698e4498f370c6fd2df8bbca6d9e7b3caa",
+   "size": 38265733
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
