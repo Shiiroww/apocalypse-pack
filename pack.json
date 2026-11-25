@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 20:32",
+ "packVersion": "2026-11-25 20:40",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Les portes à poignée échappent à l'IA",
-   "text": "Mod fait maison. L'IA ne commande plus que les pavés à code, les lecteurs de cartes et le reste du matériel : une porte en bois, un portillon ou une porte de service à poignée s'ouvre toujours à la main. Un pavé voisin ne la verrouille plus et le confinement de la base ne la ferme plus, si bien que les PNJ ne se cognent plus dedans en tapant le code de la porte d'à côté. Un pavé posé en créatif appartient à l'IA et à celui qui l'a posé : tous les habitants de la base en connaissent le code et le tapent eux-mêmes, sans attendre que l'IA leur ouvre. Un pavé posé en survie reste à son propriétaire seul. La porte de service à poignée ne se referme plus toute seule : elle reste comme on l'a laissée."
+   "title": "L'intendant tient les coffres",
+   "text": "Mod fait maison. Quand de l'équipement arrive dans un coffre de la base (armure, armes, munitions, cartes d'accès), l'intendant le signale à l'IA : tous les habitants apprennent ce que contient le coffre, et l'IA envoie aussitôt celui à qui ça sert le plus s'équiper. Les cartes rangées dans un coffre sont prises par ceux qui en ont besoin pour passer un lecteur. Quand il n'a rien d'autre à faire, l'intendant range les coffres : l'équipement avec l'équipement, les matériaux avec les matériaux, la réserve de vivres à part."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Les portes à poignée échappent à l'IA",
+   "text": "Mod fait maison. L'IA ne commande plus que les pavés à code, les lecteurs de cartes et le reste du matériel : une porte en bois, un portillon ou une porte de service à poignée s'ouvre toujours à la main. Un pavé voisin ne la verrouille plus et le confinement de la base ne la ferme plus, si bien que les PNJ ne se cognent plus dedans en tapant le code de la porte d'à côté. Un pavé posé en créatif appartient à l'IA et à celui qui l'a posé : tous les habitants de la base en connaissent le code et le tapent eux-mêmes, sans attendre que l'IA leur ouvre. Un pavé posé en survie reste à son propriétaire seul. La porte de service à poignée ne se referme plus toute seule : elle reste comme on l'a laissée."
   },
   {
    "date": "25 novembre 2026",
@@ -171,9 +176,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/cf67642a5e72-aiguardian-1.0.0.jar",
-   "sha1": "cf67642a5e722590288e750300f482e3d210e72a",
-   "size": 38259857
+   "url": "mods/94421fef5a8a-aiguardian-1.0.0.jar",
+   "sha1": "94421fef5a8ad036065413675d10270e4e71f061",
+   "size": 38262897
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
