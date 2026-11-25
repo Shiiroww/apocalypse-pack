@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 20:12",
+ "packVersion": "2026-11-25 20:25",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -17,7 +17,7 @@
   {
    "date": "25 novembre 2026",
    "title": "Des PNJ qui ne tournent plus sur eux-mêmes au repos",
-   "text": "Mod fait maison. Un habitant qui remplit la réserve ou s'assoit ne pivote plus sur place en fixant le coffre ou le siège sous ses pieds."
+   "text": "Mod fait maison. Un habitant qui remplit la réserve ou s'assoit ne pivote plus sur place en fixant le coffre ou le siège sous ses pieds. Les habitants connaissent à nouveau le code des pavés de leur chef, même posés avant son personnage actuel : ils ne restent plus bloqués devant leurs propres portes."
   },
   {
    "date": "25 novembre 2026",
@@ -166,9 +166,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/45514b9ca2df-aiguardian-1.0.0.jar",
-   "sha1": "45514b9ca2dfa826633d96bc34f241d36f2df575",
-   "size": 38259323
+   "url": "mods/edd1cb0c19fc-aiguardian-1.0.0.jar",
+   "sha1": "edd1cb0c19fcbaf48f31c52e3adb2690ca369cc1",
+   "size": 38259460
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
