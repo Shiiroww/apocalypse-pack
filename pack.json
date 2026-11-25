@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 18:39",
+ "packVersion": "2026-11-25 18:45",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Les gardes lâchent enfin leur prisonnier",
-   "text": "Mod fait maison. Quand la place d'un prisonnier était impossible à atteindre (un mur entre lui et sa place), il marchait contre le mur sans s'arrêter, et le garde qui l'escortait restait collé à lui jour et nuit. Après 90 secondes sans arriver, le prisonnier est maintenant gardé là où il se trouve, et une escorte ne dure jamais plus de 3 minutes : le garde retourne à son travail."
+   "title": "Sièges, métiers et journal corrigés",
+   "text": "Mod fait maison. Un joueur qui tue des habitants de la base pendant un siège ne reçoit plus la médaille de la défense ni la récompense de fin de siège. La fête « siège repoussé » n'a lieu que si des monstres ont vraiment été tués. Un PNJ qui aide l'intendant ne monte plus de niveau d'intendant juste en comptant les stocks, et une base sans coffre de stockage le dit une fois au lieu d'annoncer que tout manque. Le journal accorde « il » et « elle » devant les portes, n'écrit plus « wrong_side », et une base pleine de sirènes n'écrit plus une ligne par sirène."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Les gardes lâchent enfin leur prisonnier",
+   "text": "Mod fait maison. Quand la place d'un prisonnier était impossible à atteindre (un mur entre lui et sa place), il marchait contre le mur sans s'arrêter, et le garde qui l'escortait restait collé à lui jour et nuit. Après 90 secondes sans arriver, le prisonnier est maintenant gardé là où il se trouve, et une escorte ne dure jamais plus de 3 minutes : le garde retourne à son travail."
   },
   {
    "date": "25 novembre 2026",
@@ -131,9 +136,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/484b9c5e42f1-aiguardian-1.0.0.jar",
-   "sha1": "484b9c5e42f1049bce9bfc6f9429040118ae07cf",
-   "size": 38342354
+   "url": "mods/e76ae5545f1d-aiguardian-1.0.0.jar",
+   "sha1": "e76ae5545f1dd243dc7b3817b23391999571c07a",
+   "size": 38343193
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
