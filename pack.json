@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 18:37",
+ "packVersion": "2026-11-25 18:39",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Portes : plus de moitié haute sombre",
-   "text": "Mod fait maison. Sur les portes du mod, la moitié haute du battant pouvait s'afficher plus sombre et un peu brune, alors que la moitié basse restait grise. Chaque moitié prend maintenant la lumière de la pièce devant et derrière elle, comme une porte normale de Minecraft : les deux moitiés ont la même teinte."
+   "title": "Les gardes lâchent enfin leur prisonnier",
+   "text": "Mod fait maison. Quand la place d'un prisonnier était impossible à atteindre (un mur entre lui et sa place), il marchait contre le mur sans s'arrêter, et le garde qui l'escortait restait collé à lui jour et nuit. Après 90 secondes sans arriver, le prisonnier est maintenant gardé là où il se trouve, et une escorte ne dure jamais plus de 3 minutes : le garde retourne à son travail."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Portes : plus de moitié haute sombre",
+   "text": "Mod fait maison. Sur les portes du mod, la moitié haute du battant pouvait s'afficher plus sombre et un peu brune, alors que la moitié basse restait grise. Chaque moitié prend maintenant la lumière de la pièce devant et derrière elle, comme une porte normale de Minecraft : les deux moitiés ont la même teinte."
   },
   {
    "date": "25 novembre 2026",
@@ -126,9 +131,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/03a821852406-aiguardian-1.0.0.jar",
-   "sha1": "03a8218524065a26bbe33bf0dc9b3d6f51f7d645",
-   "size": 38342174
+   "url": "mods/484b9c5e42f1-aiguardian-1.0.0.jar",
+   "sha1": "484b9c5e42f1049bce9bfc6f9429040118ae07cf",
+   "size": 38342354
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
