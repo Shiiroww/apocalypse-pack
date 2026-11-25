@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-25 20:01",
+ "packVersion": "2026-11-25 20:12",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "25 novembre 2026",
-   "title": "Finitions : portes voisines et décor",
-   "text": "Mod fait maison. Forcer une porte coulissante ne fait plus bouger les portes voisines du couloir : seule la porte frappée et ses battants s'ouvrent. Côté décor, le tiroir de la caisse, le tiroir du chariot à outils et la porte de la vitrine réfrigérée ne traversent plus le meuble en se fermant, la grille du frigo a rejoint le socle, la chaîne des bornes ne flotte plus et la porte du distributeur sur pied ne dépasse plus de son bloc."
+   "title": "Des PNJ qui ne tournent plus sur eux-mêmes au repos",
+   "text": "Mod fait maison. Un habitant qui remplit la réserve ou s'assoit ne pivote plus sur place en fixant le coffre ou le siège sous ses pieds."
   },
   {
    "date": "25 novembre 2026",
@@ -28,6 +28,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "25 novembre 2026",
+   "title": "Finitions : portes voisines et décor",
+   "text": "Mod fait maison. Forcer une porte coulissante ne fait plus bouger les portes voisines du couloir : seule la porte frappée et ses battants s'ouvrent. Côté décor, le tiroir de la caisse, le tiroir du chariot à outils et la porte de la vitrine réfrigérée ne traversent plus le meuble en se fermant, la grille du frigo a rejoint le socle, la chaîne des bornes ne flotte plus et la porte du distributeur sur pied ne dépasse plus de son bloc."
   },
   {
    "date": "25 novembre 2026",
@@ -161,9 +166,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/a393b8672bdb-aiguardian-1.0.0.jar",
-   "sha1": "a393b8672bdbc0d5e64cee365b87db013925cc93",
-   "size": 38259008
+   "url": "mods/45514b9ca2df-aiguardian-1.0.0.jar",
+   "sha1": "45514b9ca2dfa826633d96bc34f241d36f2df575",
+   "size": 38259323
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
