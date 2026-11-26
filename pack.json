@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 05:57",
+ "packVersion": "2026-11-26 06:04",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Talkies : deux fréquences et des sous-titres",
-   "text": "Les gardes ont leur propre fréquence, 102.00 : les ordres du Bridge, leurs réponses et leurs rapports y passent, et la 101.00 reste pour parler avec l'opératrice. Ce qui se dit s'affiche en sous-titres, aussi longtemps que dure la voix. L'opératrice ne laisse plus de blanc quand elle réfléchit, se tait quand vous prenez la parole, porte le deuil de ses morts et vous appelle parfois d'elle-même. Son écran garde le fil de la conversation."
+   "title": "Ce que la base voit vraiment",
+   "text": "Une caméra ne voit plus que ce qui est devant son objectif : l'opératrice ne prétend plus vous voir quand la caméra regarde ailleurs, et elle reconnaît ses propres habitants à l'écran. Un habitant achevé par un zombie n'est plus mis sur votre compte, et abattre quelqu'un d'infecté n'est pas un meurtre. Accusé, vous pouvez vous expliquer au talkie : elle vous écoute et peut vous accorder le bénéfice du doute."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Talkies : deux fréquences et des sous-titres",
+   "text": "Les gardes ont leur propre fréquence, 102.00 : les ordres du Bridge, leurs réponses et leurs rapports y passent, et la 101.00 reste pour parler avec l'opératrice. Ce qui se dit s'affiche en sous-titres, aussi longtemps que dure la voix. L'opératrice ne laisse plus de blanc quand elle réfléchit, se tait quand vous prenez la parole, porte le deuil de ses morts et vous appelle parfois d'elle-même. Son écran garde le fil de la conversation."
   },
   {
    "date": "26 novembre 2026",
@@ -356,9 +361,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/8bcb39be9f92-aiguardian-1.0.0.jar",
-   "sha1": "8bcb39be9f92ae382ca03127792caa784ab93e43",
-   "size": 38418363
+   "url": "mods/e16a91c446e4-aiguardian-1.0.0.jar",
+   "sha1": "e16a91c446e4373486502839ad7c30854a95e003",
+   "size": 38419931
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
