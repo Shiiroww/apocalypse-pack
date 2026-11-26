@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 01:11",
+ "packVersion": "2026-11-26 01:16",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Un habitant affamé va chercher à manger dehors",
-   "text": "Mod fait maison. Un habitant qui vivait sa vie ne cherchait à manger et à boire que dans la base. Quand les coffres étaient vides, il attendait sans rien faire, même en train de mourir de faim. Maintenant, à 6 de faim ou de soif, il va fouiller les coffres de ravitaillement qu'il connaît autour de la base, comme le font déjà les gardes en poste."
+   "title": "Un habitant affamé cherche vraiment à manger",
+   "text": "Mod fait maison. Un habitant affamé ne mangeait que dans les coffres dont il se souvenait. Un garde pouvait mourir de faim à côté d'un coffre plein de pain qu'il n'avait jamais ouvert. Maintenant, quand il ne sait pas où trouver à manger, il demande aux autres habitants de la base où ils ont vu de la nourriture. Si personne ne sait, il ouvre un à un les coffres de la base qu'il n'a jamais fouillés. À 6 de faim ou de soif, il va aussi fouiller les coffres de ravitaillement qu'il connaît autour de la base."
   },
   {
    "date": "26 novembre 2026",
@@ -221,9 +221,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/5ce0607c4327-aiguardian-1.0.0.jar",
-   "sha1": "5ce0607c43270b0df310ef2bc42bd442da5825d0",
-   "size": 38317607
+   "url": "mods/f1faddc58796-aiguardian-1.0.0.jar",
+   "sha1": "f1faddc587968b783cd9ccaf5ce0b03cba123096",
+   "size": 38318992
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
