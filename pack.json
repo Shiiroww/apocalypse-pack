@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 02:40",
+ "packVersion": "2026-11-26 02:42",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Mourir, c'est vraiment repartir de zéro",
-   "text": "Un survivant qui se vide de son sang après une mise à terre finit bien par mourir : à la réapparition, on crée un nouveau personnage, avec un autre nom. Les colonies retirent les morts de leurs avis de recherche, et elles oublient un recherché que personne n'a vu depuis une heure de jeu. Le classement n'affiche plus les ennemis, les suspects ni les morts, et rôder dans une base ennemie ne rapporte plus de points de rang."
+   "title": "Prisonnier, enfin tranquille",
+   "text": "Une fois menotté, en procès ou en cellule, vous n'êtes plus un intrus : la sirène s'arrête et plus aucun garde ne vous tire dessus, même sur ordre de l'IA. Les gardes ne parlent plus en double non plus. Si vous enchaînez les questions, ils répondent à tout d'un coup, une réponse après l'autre, et ils ne répondent plus à leur propre voix captée par votre micro."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Mourir, c'est vraiment repartir de zéro",
+   "text": "Un survivant qui se vide de son sang après une mise à terre finit bien par mourir : à la réapparition, on crée un nouveau personnage, avec un autre nom. Les colonies retirent les morts de leurs avis de recherche, et elles oublient un recherché que personne n'a vu depuis une heure de jeu. Le classement n'affiche plus les ennemis, les suspects ni les morts, et rôder dans une base ennemie ne rapporte plus de points de rang."
   },
   {
    "date": "26 novembre 2026",
@@ -271,9 +276,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/43b0116ba0e1-aiguardian-1.0.0.jar",
-   "sha1": "43b0116ba0e1c9238dd13d0d8d758ceb4eb87980",
-   "size": 38351877
+   "url": "mods/db3f0d6e34b8-aiguardian-1.0.0.jar",
+   "sha1": "db3f0d6e34b8cf3c5f838e48bec47ca790ab8f04",
+   "size": 38353708
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
