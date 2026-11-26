@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 19:32",
+ "packVersion": "2026-11-26 19:35",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "AI Guardian : plus d'attente sans fin, menotté devant un mur",
-   "text": "Un garde qui ne trouvait pas le chemin du Bridge ou de la cellule restait planté avec son prisonnier pendant trois minutes. Au bout de 30 secondes sans avancer, il fouille maintenant le prisonnier sur place et le procès commence là. Sans cellule, le garde vise le sol devant le Bridge. Un habitant immobile devant un mur parce qu'il n'a aucun chemin est enfin repéré comme coincé : il laisse tomber et repart."
+   "title": "AI Guardian : face à un Devastador, la base ne meurt plus un par un",
+   "text": "Quand un habitant criait à l'aide contre un Devastador, les deux plus proches accouraient, ouvriers compris, et mouraient l'un après l'autre. Contre un monstre de 40 points de vie ou plus, seuls les gardes répondent maintenant à l'appel, jusqu'à quatre ensemble. Un ouvrier qui en voit un s'en écarte, même une arme à la main. Plus personne ne va fouiller le corps d'un mort tant qu'un monstre se tient à côté."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "AI Guardian : plus d'attente sans fin, menotté devant un mur",
+   "text": "Un garde qui ne trouvait pas le chemin du Bridge ou de la cellule restait planté avec son prisonnier pendant trois minutes. Au bout de 30 secondes sans avancer, il fouille maintenant le prisonnier sur place et le procès commence là. Sans cellule, le garde vise le sol devant le Bridge. Un habitant immobile devant un mur parce qu'il n'a aucun chemin est enfin repéré comme coincé : il laisse tomber et repart."
   },
   {
    "date": "26 novembre 2026",
@@ -406,9 +411,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/3b20124c7606-aiguardian-1.0.0.jar",
-   "sha1": "3b20124c760613c5e7e50e75a1fa4a8e11ba418a",
-   "size": 38440252
+   "url": "mods/3d636ef5fb6d-aiguardian-1.0.0.jar",
+   "sha1": "3d636ef5fb6dba827eb2645e3b599244ecb2492e",
+   "size": 38440761
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
