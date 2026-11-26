@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 06:20",
+ "packVersion": "2026-11-26 10:59",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "AI Guardian : des voix qui se tiennent",
-   "text": "Mod fait maison. L'opératrice ne répète plus la même consigne à chaque réponse, garde le « tu » ou le « vous » jusqu'au bout et accorde selon votre voix. Les gardes reconnaissent un membre de la base et ne le braquent plus. Les ordres à la radio parlent de « la porte nord », plus de numéros lus chiffre par chiffre, et les longues phrases ne sont plus coupées au milieu d'un mot. Les habitants ne tournent plus sur place dans l'embrasure d'une porte ni en cherchant un coffre."
+   "title": "AI Guardian : toute la base suit la même règle",
+   "text": "Mod fait maison. Gardes, portes, caméras, détecteurs, sirènes et coffres jugent maintenant de la même façon qui est de la base : un joueur de confiance n'est plus interpellé par un garde alors que les portes s'ouvraient pour lui, et un traître n'est plus servi par les commerçants. Pendant un siège ou un verrouillage, les habitants ne partent plus dîner, dormir ou tirer au stand ; caravanes et messagers attendent à l'écart, et l'écran de l'IA comme le téléphone d'alerte affichent l'état de la base. Un pavé à code cassé par un tir n'ouvre plus pour personne tant qu'il n'est pas réparé, et un câble coupé sans témoin n'est découvert qu'au bout de trente secondes. Le guide gagne quatre pages : porte principale, rideau de garage, papiers d'identité, papiers vierges."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "AI Guardian : des voix qui se tiennent",
+   "text": "Mod fait maison. L'opératrice ne répète plus la même consigne à chaque réponse, garde le « tu » ou le « vous » jusqu'au bout et accorde selon votre voix. Les gardes reconnaissent un membre de la base et ne le braquent plus. Les ordres à la radio parlent de « la porte nord », plus de numéros lus chiffre par chiffre, et les longues phrases ne sont plus coupées au milieu d'un mot. Les habitants ne tournent plus sur place dans l'embrasure d'une porte ni en cherchant un coffre."
   },
   {
    "date": "26 novembre 2026",
@@ -366,9 +371,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/08fe80aab461-aiguardian-1.0.0.jar",
-   "sha1": "08fe80aab4613804fe2910246c28be6d9990ae95",
-   "size": 38423239
+   "url": "mods/180fa82ceb72-aiguardian-1.0.0.jar",
+   "sha1": "180fa82ceb7202d55396ab2c4b470386c4000a62",
+   "size": 38435517
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
