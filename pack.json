@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 05:40",
+ "packVersion": "2026-11-26 05:57",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "La base se souvient de vous",
-   "text": "Réanimer un habitant, réparer la porte qu'on a enfoncée, laisser des vivres dans un coffre, frapper un garde : tout ce que les caméras et les habitants voient compte. L'opératrice vous reconnaît d'un jour à l'autre, à votre voix comme à votre visage sur ses caméras (un masque à gaz la laisse dans le doute), et se rappelle ce qu'elle vous a promis. Sauvez une base envahie : elle vous remercie, vous laisse vous servir dans ses coffres, vous confie un travail ou vous propose d'en être."
+   "title": "Talkies : deux fréquences et des sous-titres",
+   "text": "Les gardes ont leur propre fréquence, 102.00 : les ordres du Bridge, leurs réponses et leurs rapports y passent, et la 101.00 reste pour parler avec l'opératrice. Ce qui se dit s'affiche en sous-titres, aussi longtemps que dure la voix. L'opératrice ne laisse plus de blanc quand elle réfléchit, se tait quand vous prenez la parole, porte le deuil de ses morts et vous appelle parfois d'elle-même. Son écran garde le fil de la conversation."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "La base se souvient de vous",
+   "text": "Réanimer un habitant, réparer la porte qu'on a enfoncée, laisser des vivres dans un coffre, frapper un garde : tout ce que les caméras et les habitants voient compte. L'opératrice vous reconnaît d'un jour à l'autre, à votre voix comme à votre visage sur ses caméras (un masque à gaz la laisse dans le doute), et se rappelle ce qu'elle vous a promis. Sauvez une base envahie : elle vous remercie, vous laisse vous servir dans ses coffres, vous confie un travail ou vous propose d'en être."
   },
   {
    "date": "26 novembre 2026",
@@ -351,9 +356,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/b8cd0c9ec024-aiguardian-1.0.0.jar",
-   "sha1": "b8cd0c9ec024f680ceb1627fc89217bb8266b335",
-   "size": 38405647
+   "url": "mods/8bcb39be9f92-aiguardian-1.0.0.jar",
+   "sha1": "8bcb39be9f92ae382ca03127792caa784ab93e43",
+   "size": 38418363
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
