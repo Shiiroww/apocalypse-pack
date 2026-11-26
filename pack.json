@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 10:59",
+ "packVersion": "2026-11-26 11:23",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "AI Guardian : toute la base suit la même règle",
-   "text": "Mod fait maison. Gardes, portes, caméras, détecteurs, sirènes et coffres jugent maintenant de la même façon qui est de la base : un joueur de confiance n'est plus interpellé par un garde alors que les portes s'ouvraient pour lui, et un traître n'est plus servi par les commerçants. Pendant un siège ou un verrouillage, les habitants ne partent plus dîner, dormir ou tirer au stand ; caravanes et messagers attendent à l'écart, et l'écran de l'IA comme le téléphone d'alerte affichent l'état de la base. Un pavé à code cassé par un tir n'ouvre plus pour personne tant qu'il n'est pas réparé, et un câble coupé sans témoin n'est découvert qu'au bout de trente secondes. Le guide gagne quatre pages : porte principale, rideau de garage, papiers d'identité, papiers vierges."
+   "title": "AI Guardian : une explosion réveille la base",
+   "text": "Mod fait maison. Un habitant endormi n'entendait rien, même une explosion à vingt blocs. Une explosion ou le coup de feu d'un inconnu le réveille maintenant : de près s'il est dans un lit, de plus loin s'il dort par terre ou somnole à son poste. Il se lève, puis va voir ou se met à l'abri selon son caractère. Le tir d'un garde de nuit sur un zombie laisse les autres dormir."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "AI Guardian : toute la base suit la même règle",
+   "text": "Mod fait maison. Gardes, portes, caméras, détecteurs, sirènes et coffres jugent maintenant de la même façon qui est de la base : un joueur de confiance n'est plus interpellé par un garde alors que les portes s'ouvraient pour lui, et un traître n'est plus servi par les commerçants. Pendant un siège ou un verrouillage, les habitants ne partent plus dîner, dormir ou tirer au stand ; caravanes et messagers attendent à l'écart, et l'écran de l'IA comme le téléphone d'alerte affichent l'état de la base. Un pavé à code cassé par un tir n'ouvre plus pour personne tant qu'il n'est pas réparé, et un câble coupé sans témoin n'est découvert qu'au bout de trente secondes. Le guide gagne quatre pages : porte principale, rideau de garage, papiers d'identité, papiers vierges."
   },
   {
    "date": "26 novembre 2026",
@@ -371,9 +376,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/180fa82ceb72-aiguardian-1.0.0.jar",
-   "sha1": "180fa82ceb7202d55396ab2c4b470386c4000a62",
-   "size": 38435517
+   "url": "mods/9fc21d13b09a-aiguardian-1.0.0.jar",
+   "sha1": "9fc21d13b09a0d10ee2de118f8ec451938e4a055",
+   "size": 38435811
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
