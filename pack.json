@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 04:21",
+ "packVersion": "2026-11-26 04:26",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Une porte enfoncée reste ouverte",
-   "text": "Une porte enfoncée ne cherche plus à se refermer toute seule : elle reste grande ouverte jusqu'à ce qu'on la répare avec un lingot de fer. Les deux battants d'une porte principale et toutes les colonnes d'une porte de garage le savent, et un clic droit ne la ferme plus."
+   "title": "La voix du talkie vous écoute mieux",
+   "text": "L'opératrice de la base sait l'heure qu'il est, combien de gardes elle peut envoyer et ce que ses caméras voient devant la porte. Elle ne prend plus un mot mal entendu pour votre nom, ne vous appelle plus par celui d'un habitant, et arrête de répéter la même consigne à chaque réponse. Quand la base est débordée, elle peut accepter votre aide."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Une porte enfoncée reste ouverte",
+   "text": "Une porte enfoncée ne cherche plus à se refermer toute seule : elle reste grande ouverte jusqu'à ce qu'on la répare avec un lingot de fer. Les deux battants d'une porte principale et toutes les colonnes d'une porte de garage le savent, et un clic droit ne la ferme plus."
   },
   {
    "date": "26 novembre 2026",
