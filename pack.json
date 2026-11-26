@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 17:37",
+ "packVersion": "2026-11-26 18:00",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "AI Guardian : quatre défauts trouvés par les tests",
-   "text": "Mod fait maison. Les tests automatiques ont été réécrits pour le jeu actuel et ont trouvé quatre défauts, tous corrigés. Un habitant posté pendant ses premières minutes restait bloqué en visite de la base et ne faisait plus jamais son métier : il finit sa visite, puis travaille. Un garde en ronde ne mangeait ni ne buvait plus : entre deux étapes de sa ronde, il va à la réserve ou au point d'eau, puis reprend. Un habitant inscrit sur la liste d'alliés du tableau de bord se faisait tirer dessus comme un étranger. Dans un pack sans le mod de radio, les gardes loin du Bridge ne recevaient aucun ordre."
+   "title": "Le monde n'appartient plus qu'aux zombies",
+   "text": "Dans le monde normal, seuls les zombies apparaissent encore la nuit : zombies, husks, noyés, villageois zombies, chevaux zombies, et les infectés de Zombie Extinction (Devastador, Resonante, Velociraptor Z, Rompe Muros). Fini les squelettes, creepers, araignées, enderman, sorcières et phantoms. Pour que le monde ne se vide pas, des groupes de deux à quatre zombies arrivent plus souvent dans le noir, jusqu'à soixante en même temps. Les animaux, le Nether et l'End ne changent pas."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "AI Guardian : quatre défauts trouvés par les tests",
+   "text": "Mod fait maison. Les tests automatiques ont été réécrits pour le jeu actuel et ont trouvé quatre défauts, tous corrigés. Un habitant posté pendant ses premières minutes restait bloqué en visite de la base et ne faisait plus jamais son métier : il finit sa visite, puis travaille. Un garde en ronde ne mangeait ni ne buvait plus : entre deux étapes de sa ronde, il va à la réserve ou au point d'eau, puis reprend. Un habitant inscrit sur la liste d'alliés du tableau de bord se faisait tirer dessus comme un étranger. Dans un pack sans le mod de radio, les gardes loin du Bridge ne recevaient aucun ordre."
   },
   {
    "date": "26 novembre 2026",
@@ -368,8 +373,8 @@
   }
  ],
  "overrides": {
-  "url": "overrides/94e06a16a58c.zip",
-  "sha1": "94e06a16a58cfb44c14ee21787d449d142ac366d"
+  "url": "overrides/1729f8fa4a00.zip",
+  "sha1": "1729f8fa4a002c5de8fc82b1d75bde451b82ac9a"
  },
  "files": [
   {
