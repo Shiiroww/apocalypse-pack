@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 01:34",
+ "packVersion": "2026-11-26 01:35",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Un habitant affamé cherche vraiment à manger",
-   "text": "Mod fait maison. Un habitant affamé ne mangeait que dans les coffres dont il se souvenait. Un garde pouvait mourir de faim à côté d'un coffre plein de pain qu'il n'avait jamais ouvert. Maintenant, quand il ne sait pas où trouver à manger, il demande aux autres habitants de la base où ils ont vu de la nourriture. Si personne ne sait, il ouvre un à un les coffres de la base qu'il n'a jamais fouillés. À 6 de faim ou de soif, il va aussi fouiller les coffres de ravitaillement qu'il connaît autour de la base."
+   "title": "Les habitants sentent le danger et savent quoi faire d'abord",
+   "text": "Mod fait maison. Chaque habitant juge maintenant le danger autour de lui, sur quatre niveaux : calme, vigilant, menace, combat. Il ne compte que ce qu'il voit ou entend, et un creeper ou un joueur armé pèse plus lourd qu'un zombie. Avec des ennemis en vue, plus personne ne se balade ni ne discute au coin du feu : les gardes restent sur leurs gardes, les autres rentrent à l'abri. La faim, la soif et l'épuisement passent avant le deuil ou un bruit à aller voir, et un habitant qui meurt de faim va demander à manger à un collègue qui a des provisions sur lui. Un tireur lâche sa tourelle 30 secondes après le retour au calme, ou plus tôt s'il a faim, soif ou s'il tombe de fatigue, sauf si l'ennemi est à la porte. Enfin, un habitant qui force contre un obstacle sans avancer change de chemin, abandonne ce qu'il faisait puis se dégage."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Un habitant affamé cherche vraiment à manger",
+   "text": "Mod fait maison. Un habitant affamé ne mangeait que dans les coffres dont il se souvenait. Un garde pouvait mourir de faim à côté d'un coffre plein de pain qu'il n'avait jamais ouvert. Maintenant, quand il ne sait pas où trouver à manger, il demande aux autres habitants de la base où ils ont vu de la nourriture. Si personne ne sait, il ouvre un à un les coffres de la base qu'il n'a jamais fouillés. À 6 de faim ou de soif, il va aussi fouiller les coffres de ravitaillement qu'il connaît autour de la base."
   },
   {
    "date": "26 novembre 2026",
@@ -221,9 +226,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/149ff9b1135e-aiguardian-1.0.0.jar",
-   "sha1": "149ff9b1135e7ddcdda0c1887cb8cc2fd13a82bc",
-   "size": 38287680
+   "url": "mods/7c9d5a427916-aiguardian-1.0.0.jar",
+   "sha1": "7c9d5a4279162855e682ab21dd775d1657c22820",
+   "size": 38330692
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
