@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 13:04",
+ "packVersion": "2026-11-26 17:37",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "AI Guardian : un verrouillage se sait de bouche à oreille",
-   "text": "Mod fait maison. Quand la base se verrouille, un habitant ne l'apprend plus par magie. Il le sait par son talkie, par une sirène, en voyant l'intrus, ou parce qu'un voisin déjà au courant est à portée de voix. Les autres continuent leur journée jusqu'à ce que la nouvelle leur arrive. Autre changement : un opérateur en survie n'a plus les pouvoirs du chef au Poste de commandement, sur les caméras, les pavés ni la recherche. Il faut pirater le Bridge, ou passer en créatif. Le journal ne demande plus de taper une commande pour répondre à une demande d'exploration : la réponse se donne sur un écran de la base."
+   "title": "AI Guardian : quatre défauts trouvés par les tests",
+   "text": "Mod fait maison. Les tests automatiques ont été réécrits pour le jeu actuel et ont trouvé quatre défauts, tous corrigés. Un habitant posté pendant ses premières minutes restait bloqué en visite de la base et ne faisait plus jamais son métier : il finit sa visite, puis travaille. Un garde en ronde ne mangeait ni ne buvait plus : entre deux étapes de sa ronde, il va à la réserve ou au point d'eau, puis reprend. Un habitant inscrit sur la liste d'alliés du tableau de bord se faisait tirer dessus comme un étranger. Dans un pack sans le mod de radio, les gardes loin du Bridge ne recevaient aucun ordre."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "AI Guardian : un verrouillage se sait de bouche à oreille",
+   "text": "Mod fait maison. Quand la base se verrouille, un habitant ne l'apprend plus par magie. Il le sait par son talkie, par une sirène, en voyant l'intrus, ou parce qu'un voisin déjà au courant est à portée de voix. Les autres continuent leur journée jusqu'à ce que la nouvelle leur arrive. Autre changement : un opérateur en survie n'a plus les pouvoirs du chef au Poste de commandement, sur les caméras, les pavés ni la recherche. Il faut pirater le Bridge, ou passer en créatif. Le journal ne demande plus de taper une commande pour répondre à une demande d'exploration : la réponse se donne sur un écran de la base."
   },
   {
    "date": "26 novembre 2026",
@@ -381,9 +386,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/072e93923617-aiguardian-1.0.0.jar",
-   "sha1": "072e93923617c015cd349d4d142c328c9c18acfa",
-   "size": 38436749
+   "url": "mods/e370139ca9cc-aiguardian-1.0.0.jar",
+   "sha1": "e370139ca9cc93774646e142d9cb610a2512e014",
+   "size": 38437322
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
