@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 02:29",
+ "packVersion": "2026-11-26 02:30",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Un tueur dans la base ne s'en tire plus si facilement",
-   "text": "Quand quelqu'un blesse ou tue un habitant, la base le traque pendant 10 minutes. Personne ne range son arme, les gardes désarmés retournent en chercher une, le verrouillage tient 3 minutes après la dernière fois qu'on l'a vu au lieu de 30 secondes, et les ouvriers lâchent leur travail pour rester à l'abri. Les renforts ne repartent plus à leur poste en pleine poursuite, et le chef garde son casque dès qu'il y a du danger. Pour que les gardes portent une armure, il faut des gilets et des casques dans les coffres de la base : ils les prennent d'eux-mêmes."
+   "title": "L'IA vous entend bien mieux au talkie",
+   "text": "La transcription de la radio passe sur un modèle bien plus précis, et elle connaît maintenant les prénoms des habitants, le Bridge et les noms d'armes. Les longues phrases ne sont plus coupées en route, et une courte pause ne coupe plus votre phrase en deux. Pas besoin d'antenne : il suffit d'être à portée du Bridge avec un talkie réglé sur la fréquence de la base."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Un tueur dans la base ne s'en tire plus si facilement",
+   "text": "Quand quelqu'un blesse ou tue un habitant, la base le traque pendant 10 minutes. Personne ne range son arme, les gardes désarmés retournent en chercher une, le verrouillage tient 3 minutes après la dernière fois qu'on l'a vu au lieu de 30 secondes, et les ouvriers lâchent leur travail pour rester à l'abri. Les renforts ne repartent plus à leur poste en pleine poursuite, et le chef garde son casque dès qu'il y a du danger. Pour que les gardes portent une armure, il faut des gilets et des casques dans les coffres de la base : ils les prennent d'eux-mêmes."
   },
   {
    "date": "26 novembre 2026",
