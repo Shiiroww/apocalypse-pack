@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 02:30",
+ "packVersion": "2026-11-26 02:40",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "L'IA vous entend bien mieux au talkie",
-   "text": "La transcription de la radio passe sur un modèle bien plus précis, et elle connaît maintenant les prénoms des habitants, le Bridge et les noms d'armes. Les longues phrases ne sont plus coupées en route, et une courte pause ne coupe plus votre phrase en deux. Pas besoin d'antenne : il suffit d'être à portée du Bridge avec un talkie réglé sur la fréquence de la base."
+   "title": "Mourir, c'est vraiment repartir de zéro",
+   "text": "Un survivant qui se vide de son sang après une mise à terre finit bien par mourir : à la réapparition, on crée un nouveau personnage, avec un autre nom. Les colonies retirent les morts de leurs avis de recherche, et elles oublient un recherché que personne n'a vu depuis une heure de jeu. Le classement n'affiche plus les ennemis, les suspects ni les morts, et rôder dans une base ennemie ne rapporte plus de points de rang."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "L'IA vous entend bien mieux au talkie",
+   "text": "La transcription de la radio passe sur un modèle bien plus précis, et elle connaît maintenant les prénoms des habitants, le Bridge et les noms d'armes. Les longues phrases ne sont plus coupées en route, et une courte pause ne coupe plus votre phrase en deux. Pas besoin d'antenne : il suffit d'être à portée du Bridge avec un talkie réglé sur la fréquence de la base."
   },
   {
    "date": "26 novembre 2026",
@@ -266,9 +271,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/281d92b52d56-aiguardian-1.0.0.jar",
-   "sha1": "281d92b52d563c8118067331bc51086a5a0f8d15",
-   "size": 38350812
+   "url": "mods/43b0116ba0e1-aiguardian-1.0.0.jar",
+   "sha1": "43b0116ba0e1c9238dd13d0d8d758ceb4eb87980",
+   "size": 38351877
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
