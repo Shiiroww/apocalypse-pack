@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 06:04",
+ "packVersion": "2026-11-26 06:20",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Ce que la base voit vraiment",
-   "text": "Une caméra ne voit plus que ce qui est devant son objectif : l'opératrice ne prétend plus vous voir quand la caméra regarde ailleurs, et elle reconnaît ses propres habitants à l'écran. Un habitant achevé par un zombie n'est plus mis sur votre compte, et abattre quelqu'un d'infecté n'est pas un meurtre. Accusé, vous pouvez vous expliquer au talkie : elle vous écoute et peut vous accorder le bénéfice du doute."
+   "title": "AI Guardian : des voix qui se tiennent",
+   "text": "Mod fait maison. L'opératrice ne répète plus la même consigne à chaque réponse, garde le « tu » ou le « vous » jusqu'au bout et accorde selon votre voix. Les gardes reconnaissent un membre de la base et ne le braquent plus. Les ordres à la radio parlent de « la porte nord », plus de numéros lus chiffre par chiffre, et les longues phrases ne sont plus coupées au milieu d'un mot. Les habitants ne tournent plus sur place dans l'embrasure d'une porte ni en cherchant un coffre."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Ce que la base voit vraiment",
+   "text": "Une caméra ne voit plus que ce qui est devant son objectif : l'opératrice ne prétend plus vous voir quand la caméra regarde ailleurs, et elle reconnaît ses propres habitants à l'écran. Un habitant achevé par un zombie n'est plus mis sur votre compte, et abattre quelqu'un d'infecté n'est pas un meurtre. Accusé, vous pouvez vous expliquer au talkie : elle vous écoute et peut vous accorder le bénéfice du doute."
   },
   {
    "date": "26 novembre 2026",
@@ -361,9 +366,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/e16a91c446e4-aiguardian-1.0.0.jar",
-   "sha1": "e16a91c446e4373486502839ad7c30854a95e003",
-   "size": 38419931
+   "url": "mods/08fe80aab461-aiguardian-1.0.0.jar",
+   "sha1": "08fe80aab4613804fe2910246c28be6d9990ae95",
+   "size": 38423239
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
