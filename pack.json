@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 04:52",
+ "packVersion": "2026-11-26 05:04",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "La voix du Bridge voit ce que vous faites",
-   "text": "Les caméras, le Bridge et les habitants retiennent ce qu'ils vous voient faire : une porte enfoncée, chaque monstre abattu. Venu nettoyer une base envahie, vous serez reconnu comme un sauveur plutôt qu'un casseur. Sans plus aucun garde, l'opératrice ne promet plus de renforts qu'elle n'a pas et finit par vous ouvrir. Elle ne vous coupe plus avec ses annonces et ne répète plus la même chose."
+   "title": "La base se souvient de vous",
+   "text": "Réanimer un habitant, réparer la porte qu'on a enfoncée, laisser des vivres dans un coffre, frapper un garde : tout ce que les caméras et les habitants voient compte. L'opératrice vous reconnaît d'un jour à l'autre, à votre voix comme à votre visage sur ses caméras (un masque à gaz la laisse dans le doute), et se rappelle ce qu'elle vous a promis. Sauvez une base envahie : elle vous remercie, vous laisse vous servir dans ses coffres, vous confie un travail ou vous propose d'en être."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "La voix du Bridge voit ce que vous faites",
+   "text": "Les caméras, le Bridge et les habitants retiennent ce qu'ils vous voient faire : une porte enfoncée, chaque monstre abattu. Venu nettoyer une base envahie, vous serez reconnu comme un sauveur plutôt qu'un casseur. Sans plus aucun garde, l'opératrice ne promet plus de renforts qu'elle n'a pas et finit par vous ouvrir. Elle ne vous coupe plus avec ses annonces et ne répète plus la même chose."
   },
   {
    "date": "26 novembre 2026",
@@ -346,9 +351,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/140f65ef3829-aiguardian-1.0.0.jar",
-   "sha1": "140f65ef382920c5b8998bbc4ea55d712f564469",
-   "size": 38401212
+   "url": "mods/b013ea100168-aiguardian-1.0.0.jar",
+   "sha1": "b013ea10016881c63b874372bcbd3f4e1fe8376e",
+   "size": 38403493
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
