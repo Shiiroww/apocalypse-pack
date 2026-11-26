@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 01:35",
+ "packVersion": "2026-11-26 01:46",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Les habitants sentent le danger et savent quoi faire d'abord",
-   "text": "Mod fait maison. Chaque habitant juge maintenant le danger autour de lui, sur quatre niveaux : calme, vigilant, menace, combat. Il ne compte que ce qu'il voit ou entend, et un creeper ou un joueur armé pèse plus lourd qu'un zombie. Avec des ennemis en vue, plus personne ne se balade ni ne discute au coin du feu : les gardes restent sur leurs gardes, les autres rentrent à l'abri. La faim, la soif et l'épuisement passent avant le deuil ou un bruit à aller voir, et un habitant qui meurt de faim va demander à manger à un collègue qui a des provisions sur lui. Un tireur lâche sa tourelle 30 secondes après le retour au calme, ou plus tôt s'il a faim, soif ou s'il tombe de fatigue, sauf si l'ennemi est à la porte. Enfin, un habitant qui force contre un obstacle sans avancer change de chemin, abandonne ce qu'il faisait puis se dégage."
+   "title": "Fini le grésillement de feu qui s'éteint",
+   "text": "Les néons ne grésillent plus quand la batterie passe sous 10 %, et un appareil détruit fume et lance des étincelles sans faire ce bruit en boucle. Le crépitement juste après le tir reste."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Les habitants sentent le danger et savent quoi faire d'abord",
+   "text": "Mod fait maison. Chaque habitant juge maintenant le danger autour de lui, sur quatre niveaux : calme, vigilant, menace, combat. Il ne compte que ce qu'il voit ou entend, et un creeper ou un joueur armé pèse plus lourd qu'un zombie. Avec des ennemis en vue, plus personne ne se balade ni ne discute au coin du feu : les gardes restent sur leurs gardes, les autres rentrent à l'abri. La faim, la soif et l'épuisement passent avant le deuil ou un bruit à aller voir, et un habitant qui meurt de faim va demander à manger à un collègue qui a des provisions sur lui. Un tireur lâche sa tourelle 30 secondes après le retour au calme, ou plus tôt s'il a faim, soif ou s'il tombe de fatigue, sauf si l'ennemi est à la porte. Enfin, un habitant qui force contre un obstacle sans avancer change de chemin, abandonne ce qu'il faisait puis se dégage."
   },
   {
    "date": "26 novembre 2026",
@@ -226,9 +231,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/7c9d5a427916-aiguardian-1.0.0.jar",
-   "sha1": "7c9d5a4279162855e682ab21dd775d1657c22820",
-   "size": 38330692
+   "url": "mods/a81f9b451927-aiguardian-1.0.0.jar",
+   "sha1": "a81f9b4519276ce0579d3633396797f564040a4f",
+   "size": 38330379
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
