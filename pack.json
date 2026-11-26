@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 02:54",
+ "packVersion": "2026-11-26 03:01",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Membre de la base, pour de vrai",
-   "text": "Traîner dans la zone ne fait plus de vous un « membre » : la base sans colonie ne vous accepte qu'une fois en confiance. Et une fois membre, les gardes vous reconnaissent et la sirène ne sonne plus pour vous. Un procès réglé (pardon, amende, peine finie) clôt l'affaire : plus de traque ni de riposte en sortant. Mais celui qui a tué des habitants n'est plus jamais gracié d'office."
+   "title": "Venir les mains vides, c'est venir parler",
+   "text": "Un inconnu qui s'approche sans arme d'une caméra ou d'un garde n'est plus abattu à vue et ne déclenche plus la sirène. Les gardes l'ont à l'œil, rien de plus. Une arme sortie, une entrée dans les bâtiments de la base ou un nom sur les avis de recherche, et tout change."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Membre de la base, pour de vrai",
+   "text": "Traîner dans la zone ne fait plus de vous un « membre » : la base sans colonie ne vous accepte qu'une fois en confiance. Et une fois membre, les gardes vous reconnaissent et la sirène ne sonne plus pour vous. Un procès réglé (pardon, amende, peine finie) clôt l'affaire : plus de traque ni de riposte en sortant. Mais celui qui a tué des habitants n'est plus jamais gracié d'office."
   },
   {
    "date": "26 novembre 2026",
@@ -281,9 +286,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/b685fc72fc63-aiguardian-1.0.0.jar",
-   "sha1": "b685fc72fc637469730e1693b206d441d9c6d76b",
-   "size": 38355370
+   "url": "mods/ea23a100d77e-aiguardian-1.0.0.jar",
+   "sha1": "ea23a100d77e89eb4be256864508b00c18c125c9",
+   "size": 38355840
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
