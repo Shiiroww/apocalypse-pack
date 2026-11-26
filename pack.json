@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 02:19",
+ "packVersion": "2026-11-26 02:23",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Parler aux gardes de vive voix",
-   "text": "Avec le voice chat, approche-toi d'un garde et parle-lui. Dis son prénom et c'est lui qui répond, même au milieu des autres. Un « Hé, garde ! » fait répondre celui que tu regardes ; si tu ne regardes personne, le plus proche se retourne et demande si c'est à lui que tu parles. Les gardes te regardent dès que tu commences à parler, puis répondent avec leur propre voix, qu'on entend autour d'eux. Ils connaissent les membres de la base par leur nom, se méfient des inconnus, reconnaissent les recherchés, et un masque à gaz cache ton visage. Sans micro, écrire dans le chat près d'un garde marche aussi. Un garde de confiance peut accepter de te suivre."
+   "title": "Un tueur dans la base ne s'en tire plus si facilement",
+   "text": "Quand quelqu'un blesse ou tue un habitant, la base le traque pendant 10 minutes. Personne ne range son arme, les gardes désarmés retournent en chercher une, le verrouillage tient 3 minutes après la dernière fois qu'on l'a vu au lieu de 30 secondes, et les ouvriers lâchent leur travail pour rester à l'abri. Les renforts ne repartent plus à leur poste en pleine poursuite, et le chef garde son casque dès qu'il y a du danger. Pour que les gardes portent une armure, il faut des gilets et des casques dans les coffres de la base : ils les prennent d'eux-mêmes."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Parler aux gardes de vive voix",
+   "text": "Avec le voice chat, approche-toi d'un garde et parle-lui. Dis son prénom et c'est lui qui répond, même au milieu des autres. Un « Hé, garde ! » fait répondre celui que tu regardes ; si tu ne regardes personne, le plus proche se retourne et demande si c'est à lui que tu parles. Les gardes te regardent dès que tu commences à parler, puis répondent avec leur propre voix, qu'on entend autour d'eux. Ils connaissent les membres de la base par leur nom, se méfient des inconnus, reconnaissent les recherchés, et un masque à gaz cache ton visage. Sans micro, écrire dans le chat près d'un garde marche aussi. Un garde de confiance peut accepter de te suivre."
   },
   {
    "date": "26 novembre 2026",
@@ -256,9 +261,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/f60728d42208-aiguardian-1.0.0.jar",
-   "sha1": "f60728d42208328dfb790576c9d9b14c380c8b87",
-   "size": 38346621
+   "url": "mods/4ae7d52aed5d-aiguardian-1.0.0.jar",
+   "sha1": "4ae7d52aed5dd45bb3f548400c546409e41c4a77",
+   "size": 38350147
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
