@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 03:38",
+ "packVersion": "2026-11-26 03:51",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Prendre un otage, pour de vrai",
-   "text": "Arme en main, collez-vous à un habitant (un bloc et demi) et appuyez sur O, la touche « interagir » des armes : vous le tenez devant vous, mains en l'air. Les gardes ne tirent plus et négocient, mais vous voilà recherché. O à nouveau sur lui pour le relâcher. Ranger l'arme ou le blesser le libère, et là, plus personne ne retient son tir. Sans arme, O et le clic droit servent comme avant : commerce, papiers et le reste."
+   "title": "Les gardes tiennent parole",
+   "text": "Un garde qui promet quelque chose le fait : s'il accepte de vous faire entrer, il vous ouvre et marche derrière vous ; s'il dit qu'il vous suit, il vous suit. S'il ne peut pas, il vous le dit. Plus de « qui va là ? » au milieu d'une conversation, et les gardes finissent enfin leurs phrases."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Prendre un otage, pour de vrai",
+   "text": "Arme en main, collez-vous à un habitant (un bloc et demi) et appuyez sur O, la touche « interagir » des armes : vous le tenez devant vous, mains en l'air. Les gardes ne tirent plus et négocient, mais vous voilà recherché. O à nouveau sur lui pour le relâcher. Ranger l'arme ou le blesser le libère, et là, plus personne ne retient son tir. Sans arme, O et le clic droit servent comme avant : commerce, papiers et le reste."
   },
   {
    "date": "26 novembre 2026",
@@ -311,9 +316,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/d8b4879e4c3b-aiguardian-1.0.0.jar",
-   "sha1": "d8b4879e4c3b71997d84e7fdb6a4be88b945c01f",
-   "size": 38393545
+   "url": "mods/052c2a28ddfb-aiguardian-1.0.0.jar",
+   "sha1": "052c2a28ddfbca033136e652b538a66178e46fe1",
+   "size": 38394400
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
