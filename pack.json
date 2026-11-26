@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 04:03",
+ "packVersion": "2026-11-26 04:21",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "À terre, vous êtes presque mort",
-   "text": "Pour l'IA de la base, un survivant à terre est à deux doigts de mourir : elle connaît le temps qu'il lui reste et envoie quelqu'un tout de suite. Mort, il l'est aussi pour elle : plus personne ne court le relever ni le protéger."
+   "title": "Une porte enfoncée reste ouverte",
+   "text": "Une porte enfoncée ne cherche plus à se refermer toute seule : elle reste grande ouverte jusqu'à ce qu'on la répare avec un lingot de fer. Les deux battants d'une porte principale et toutes les colonnes d'une porte de garage le savent, et un clic droit ne la ferme plus."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "À terre, vous êtes presque mort",
+   "text": "Pour l'IA de la base, un survivant à terre est à deux doigts de mourir : elle connaît le temps qu'il lui reste et envoie quelqu'un tout de suite. Mort, il l'est aussi pour elle : plus personne ne court le relever ni le protéger."
   },
   {
    "date": "26 novembre 2026",
@@ -326,9 +331,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/f35cffaf16b3-aiguardian-1.0.0.jar",
-   "sha1": "f35cffaf16b31e29c9c0115079a0ceb7efcc5e0e",
-   "size": 38395183
+   "url": "mods/1985d0ce6810-aiguardian-1.0.0.jar",
+   "sha1": "1985d0ce6810f57f07d0dc9a18821322d9e24f81",
+   "size": 38395601
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
