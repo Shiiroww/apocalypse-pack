@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 03:51",
+ "packVersion": "2026-11-26 04:01",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Les gardes tiennent parole",
-   "text": "Un garde qui promet quelque chose le fait : s'il accepte de vous faire entrer, il vous ouvre et marche derrière vous ; s'il dit qu'il vous suit, il vous suit. S'il ne peut pas, il vous le dit. Plus de « qui va là ? » au milieu d'une conversation, et les gardes finissent enfin leurs phrases."
+   "title": "À terre, vous êtes presque mort",
+   "text": "Pour l'IA de la base, un survivant à terre est à deux doigts de mourir : elle connaît le temps qu'il lui reste et envoie quelqu'un tout de suite. Mort, il l'est aussi pour elle : plus personne ne court le relever ni le protéger."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,16 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Libéré, on vous laisse sortir",
+   "text": "À la sortie de détention, on vous rend vos affaires, armes comprises, et vous avez cinq minutes pour quitter la base tranquillement : ni sirène, ni tir. Pareil quand un garde vous escorte, ou avec un laissez-passer. Frappez quelqu'un, et la trêve s'arrête là."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Les gardes tiennent parole",
+   "text": "Un garde qui promet quelque chose le fait : s'il accepte de vous faire entrer, il vous ouvre et marche derrière vous ; s'il dit qu'il vous suit, il vous suit. S'il ne peut pas, il vous le dit. Plus de « qui va là ? » au milieu d'une conversation, et les gardes finissent enfin leurs phrases."
   },
   {
    "date": "26 novembre 2026",
@@ -316,9 +326,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/052c2a28ddfb-aiguardian-1.0.0.jar",
-   "sha1": "052c2a28ddfbca033136e652b538a66178e46fe1",
-   "size": 38394400
+   "url": "mods/12a78d6c7487-aiguardian-1.0.0.jar",
+   "sha1": "12a78d6c748710579a5c45cc1505f12c0216c294",
+   "size": 38395170
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
