@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 03:18",
+ "packVersion": "2026-11-26 03:27",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Laissez-passer, mot de passe et pots-de-vin",
-   "text": "Convainquez l'IA au talkie et elle peut vous accorder un laissez-passer : un garde vous le remet à votre arrivée, gardez-le sur vous. Les membres reçoivent chaque matin le mot de passe du jour, à souffler aux gardes. Certains gardes se laissent acheter (tendez-leur quelque chose), d'autres vous dénoncent. Pour entrer, les armes restent dehors : on vous fouille. Et les gardes parlent entre eux : ce que vous dites à l'un, les autres le savent."
+   "title": "Des gardes qui se souviennent de vous",
+   "text": "Chaque garde reconnaît les visages et se fait son avis : aidez-le, il sera chaleureux ; insultez-le, il vous repoussera. La nuit, c'est le couvre-feu, et les gardes épuisés voient moins loin. Un habitant blessé vous appellera à l'aide. Prenez quelqu'un en otage et les gardes négocient au lieu de tirer. Au procès, on vous interroge, et vos réponses comptent. Nouvelles peines : des travaux à faire, une caution à payer, voire un garde corrompu qui laisse votre cellule ouverte la nuit. On peut aussi se rendre à la voix, ou demander du travail. Et tout le monde parle enfin comme des gens."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Laissez-passer, mot de passe et pots-de-vin",
+   "text": "Convainquez l'IA au talkie et elle peut vous accorder un laissez-passer : un garde vous le remet à votre arrivée, gardez-le sur vous. Les membres reçoivent chaque matin le mot de passe du jour, à souffler aux gardes. Certains gardes se laissent acheter (tendez-leur quelque chose), d'autres vous dénoncent. Pour entrer, les armes restent dehors : on vous fouille. Et les gardes parlent entre eux : ce que vous dites à l'un, les autres le savent."
   },
   {
    "date": "26 novembre 2026",
@@ -301,9 +306,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/3f5dd8efa6a4-aiguardian-1.0.0.jar",
-   "sha1": "3f5dd8efa6a48fba6e13f5c5b0ba4527858b8276",
-   "size": 38374364
+   "url": "mods/80a12713a289-aiguardian-1.0.0.jar",
+   "sha1": "80a12713a289ae2d386fb259e12c878092bded82",
+   "size": 38387317
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
