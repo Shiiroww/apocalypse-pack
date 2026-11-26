@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 03:01",
+ "packVersion": "2026-11-26 03:02",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Venir les mains vides, c'est venir parler",
-   "text": "Un inconnu qui s'approche sans arme d'une caméra ou d'un garde n'est plus abattu à vue et ne déclenche plus la sirène. Les gardes l'ont à l'œil, rien de plus. Une arme sortie, une entrée dans les bâtiments de la base ou un nom sur les avis de recherche, et tout change."
+   "title": "Les gardes lisent vos papiers",
+   "text": "Un clic droit sur un garde avec vos papiers en main, et il se tourne vers vous pour les lire. Il répond à voix haute : papiers en règle, faux papiers repérés ou nom sur les avis de recherche."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Venir les mains vides, c'est venir parler",
+   "text": "Un inconnu qui s'approche sans arme d'une caméra ou d'un garde n'est plus abattu à vue et ne déclenche plus la sirène. Les gardes l'ont à l'œil, rien de plus. Une arme sortie, une entrée dans les bâtiments de la base ou un nom sur les avis de recherche, et tout change."
   },
   {
    "date": "26 novembre 2026",
@@ -286,9 +291,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/ea23a100d77e-aiguardian-1.0.0.jar",
-   "sha1": "ea23a100d77e89eb4be256864508b00c18c125c9",
-   "size": 38355840
+   "url": "mods/144434f1fcb9-aiguardian-1.0.0.jar",
+   "sha1": "144434f1fcb92d849726a048004d4e5756b5b956",
+   "size": 38356336
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
