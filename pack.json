@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 01:46",
+ "packVersion": "2026-11-26 02:06",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Fini le grésillement de feu qui s'éteint",
-   "text": "Les néons ne grésillent plus quand la batterie passe sous 10 %, et un appareil détruit fume et lance des étincelles sans faire ce bruit en boucle. Le crépitement juste après le tir reste."
+   "title": "Les portes ne se cassent plus, même en OP",
+   "text": "En survie, une porte de base ou une porte du mod ne se mine plus d'un coup, même avec une pioche en netherite et les droits d'opérateur : chaque coup l'enfonce un peu plus. Dans une base, plus aucun bloc ne se casse ni ne se pose hors du mode créatif."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Fini le grésillement de feu qui s'éteint",
+   "text": "Les néons ne grésillent plus quand la batterie passe sous 10 %, et un appareil détruit fume et lance des étincelles sans faire ce bruit en boucle. Le crépitement juste après le tir reste."
   },
   {
    "date": "26 novembre 2026",
@@ -231,9 +236,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/a81f9b451927-aiguardian-1.0.0.jar",
-   "sha1": "a81f9b4519276ce0579d3633396797f564040a4f",
-   "size": 38330379
+   "url": "mods/ec6f64cb3a11-aiguardian-1.0.0.jar",
+   "sha1": "ec6f64cb3a1199239723208e899ffa01c9fe8510",
+   "size": 38330348
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
