@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 04:46",
+ "packVersion": "2026-11-26 04:52",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Plus de tir ami entre gardes",
-   "text": "Une balle perdue d'un garde ne blesse plus un camarade : deux gardes qui tirent sur le même monstre ne s'entretuent plus. Un infecté condamné reste une cible. Un garde à qui l'IA ordonne de se replier sans lui dire où file au point de soin au lieu de rester sous le feu, et les monstres des autres mods ont un vrai nom dans le journal."
+   "title": "La voix du Bridge voit ce que vous faites",
+   "text": "Les caméras, le Bridge et les habitants retiennent ce qu'ils vous voient faire : une porte enfoncée, chaque monstre abattu. Venu nettoyer une base envahie, vous serez reconnu comme un sauveur plutôt qu'un casseur. Sans plus aucun garde, l'opératrice ne promet plus de renforts qu'elle n'a pas et finit par vous ouvrir. Elle ne vous coupe plus avec ses annonces et ne répète plus la même chose."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Plus de tir ami entre gardes",
+   "text": "Une balle perdue d'un garde ne blesse plus un camarade : deux gardes qui tirent sur le même monstre ne s'entretuent plus. Un infecté condamné reste une cible. Un garde à qui l'IA ordonne de se replier sans lui dire où file au point de soin au lieu de rester sous le feu, et les monstres des autres mods ont un vrai nom dans le journal."
   },
   {
    "date": "26 novembre 2026",
@@ -341,9 +346,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/c47a419c849b-aiguardian-1.0.0.jar",
-   "sha1": "c47a419c849b2ac1a8d1c64ce2a42c20f609bf5f",
-   "size": 38396627
+   "url": "mods/140f65ef3829-aiguardian-1.0.0.jar",
+   "sha1": "140f65ef382920c5b8998bbc4ea55d712f564469",
+   "size": 38401212
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
