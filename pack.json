@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 04:43",
+ "packVersion": "2026-11-26 04:46",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "La voix du talkie vous écoute mieux",
-   "text": "L'opératrice de la base sait l'heure qu'il est, combien de gardes elle peut envoyer et ce que ses caméras voient devant la porte. Elle ne prend plus un mot mal entendu pour votre nom, ne vous appelle plus par celui d'un habitant, et arrête de répéter la même consigne à chaque réponse. Quand la base est débordée, elle peut accepter votre aide."
+   "title": "Plus de tir ami entre gardes",
+   "text": "Une balle perdue d'un garde ne blesse plus un camarade : deux gardes qui tirent sur le même monstre ne s'entretuent plus. Un infecté condamné reste une cible. Un garde à qui l'IA ordonne de se replier sans lui dire où file au point de soin au lieu de rester sous le feu, et les monstres des autres mods ont un vrai nom dans le journal."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "La voix du talkie vous écoute mieux",
+   "text": "L'opératrice de la base sait l'heure qu'il est, combien de gardes elle peut envoyer et ce que ses caméras voient devant la porte. Elle ne prend plus un mot mal entendu pour votre nom, ne vous appelle plus par celui d'un habitant, et arrête de répéter la même consigne à chaque réponse. Quand la base est débordée, elle peut accepter votre aide."
   },
   {
    "date": "26 novembre 2026",
@@ -336,8 +341,8 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/2fade2e23abb-aiguardian-1.0.0.jar",
-   "sha1": "2fade2e23abbb418cfaa174a774ac47906be50d3",
+   "url": "mods/c47a419c849b-aiguardian-1.0.0.jar",
+   "sha1": "c47a419c849b2ac1a8d1c64ce2a42c20f609bf5f",
    "size": 38396627
   },
   {
