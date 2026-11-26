@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 18:00",
+ "packVersion": "2026-11-26 18:09",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Le monde n'appartient plus qu'aux zombies",
-   "text": "Dans le monde normal, seuls les zombies apparaissent encore la nuit : zombies, husks, noyés, villageois zombies, chevaux zombies, et les infectés de Zombie Extinction (Devastador, Resonante, Velociraptor Z, Rompe Muros). Fini les squelettes, creepers, araignées, enderman, sorcières et phantoms. Pour que le monde ne se vide pas, des groupes de deux à quatre zombies arrivent plus souvent dans le noir, jusqu'à soixante en même temps. Les animaux, le Nether et l'End ne changent pas."
+   "title": "Faune : plus de vrais animaux, plus de créatures inventées",
+   "text": "Les créatures d'Alex's Mobs qui n'existent pas dans la vraie vie disparaissent du jeu, partout : centipède géant des grottes, guster, rocky roller, skelewag, farseer, underminer, skreecher, murmur, froststalker, tusklin, flutter, bunfungus, mungus, sunbird, et toutes celles du Nether et de l'End. Celles déjà présentes dans un monde s'effacent au chargement et ne reviennent plus. Les vrais animaux (ours, tigres, crocodiles, élans, éléphants, requins, oiseaux...) apparaissent à peu près une fois et demie plus souvent. Les nouveaux animaux se voient surtout dans les zones pas encore explorées."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Le monde n'appartient plus qu'aux zombies",
+   "text": "Dans le monde normal, seuls les zombies apparaissent encore la nuit : zombies, husks, noyés, villageois zombies, chevaux zombies, et les infectés de Zombie Extinction (Devastador, Resonante, Velociraptor Z, Rompe Muros). Fini les squelettes, creepers, araignées, enderman, sorcières et phantoms. Pour que le monde ne se vide pas, des groupes de deux à quatre zombies arrivent plus souvent dans le noir, jusqu'à soixante en même temps. Les animaux, le Nether et l'End ne changent pas."
   },
   {
    "date": "26 novembre 2026",
@@ -373,8 +378,8 @@
   }
  ],
  "overrides": {
-  "url": "overrides/1729f8fa4a00.zip",
-  "sha1": "1729f8fa4a002c5de8fc82b1d75bde451b82ac9a"
+  "url": "overrides/c662afa58249.zip",
+  "sha1": "c662afa5824922eb87d5c8091ed50a51485ae1df"
  },
  "files": [
   {
