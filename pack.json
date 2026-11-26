@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 02:06",
+ "packVersion": "2026-11-26 02:15",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Les portes ne se cassent plus, même en OP",
-   "text": "En survie, une porte de base ou une porte du mod ne se mine plus d'un coup, même avec une pioche en netherite et les droits d'opérateur : chaque coup l'enfonce un peu plus. Dans une base, plus aucun bloc ne se casse ni ne se pose hors du mode créatif."
+   "title": "Les gardes réfléchissent avant d'attaquer un homme armé",
+   "text": "Un garde sans arme à feu ne fonce plus à mains nues sur quelqu'un qui tient un fusil : il crie « Il est armé ! À couvert ! », se cache et attend qu'on approche ou qu'on tourne le dos. Les gardes armés tirent par courtes rafales puis repassent derrière un mur, plus longtemps quand ils sont blessés. Seul et loin, un garde attend des renforts à couvert avant d'engager. Le deuxième arrivé prend le tireur par le côté au lieu de passer dans sa ligne de tir, et l'IA n'envoie jamais un garde seul contre un homme armé : deux au moins, trois si possible."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,21 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Les avis de recherche comptent vraiment",
+   "text": "Un nom sur les avis de recherche de la base est traqué par les gardes, comme un traître. Montrer ses vrais papiers à un garde quand on est recherché, c'est se faire reconnaître sur-le-champ. Au talkie, l'IA consulte ses registres dès qu'on lui donne un nom : avis de recherche, réputation, alliés. Elle reconnaît un recherché et met les gardes en alerte, ou déclenche l'alarme s'il dit être devant la base. Elle est aussi plus méfiante avec les inconnus, et elle peut accepter une rencontre : des gardes armés vont alors attendre devant le Bridge, jamais pour un recherché ou un ennemi."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Zombies plus coriaces",
+   "text": "Les zombies ont 35 points de vie au lieu de 20, 4 d'armure, frappent plus fort, courent un peu plus vite, repèrent de plus loin et ne reculent presque plus sous les coups. Les boss des autres mods ne changent pas."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Les portes ne se cassent plus, même en OP",
+   "text": "En survie, une porte de base ou une porte du mod ne se mine plus d'un coup, même avec une pioche en netherite et les droits d'opérateur : chaque coup l'enfonce un peu plus. Dans une base, plus aucun bloc ne se casse ni ne se pose hors du mode créatif."
   },
   {
    "date": "26 novembre 2026",
@@ -236,9 +251,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/ec6f64cb3a11-aiguardian-1.0.0.jar",
-   "sha1": "ec6f64cb3a1199239723208e899ffa01c9fe8510",
-   "size": 38330348
+   "url": "mods/e24a8cdaa534-aiguardian-1.0.0.jar",
+   "sha1": "e24a8cdaa5340c485901c20d1c00494c55585939",
+   "size": 38334614
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
