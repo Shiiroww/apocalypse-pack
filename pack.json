@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 01:08",
+ "packVersion": "2026-11-26 01:11",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Plus de zombies qui naissent dans la base",
-   "text": "Mod fait maison. Un coin sombre de la base suffisait pour qu'un zombie apparaisse au milieu des habitants. C'est fini : dans toute la zone d'une base (le rayon de la colonie, ou 48 blocs autour du Bridge), aucun monstre n'apparaît plus tout seul, même dans le noir. Les monstres de l'extérieur peuvent toujours entrer, et les hordes viennent toujours assiéger la base."
+   "title": "Un habitant affamé va chercher à manger dehors",
+   "text": "Mod fait maison. Un habitant qui vivait sa vie ne cherchait à manger et à boire que dans la base. Quand les coffres étaient vides, il attendait sans rien faire, même en train de mourir de faim. Maintenant, à 6 de faim ou de soif, il va fouiller les coffres de ravitaillement qu'il connaît autour de la base, comme le font déjà les gardes en poste."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Plus de zombies qui naissent dans la base",
+   "text": "Mod fait maison. Un coin sombre de la base suffisait pour qu'un zombie apparaisse au milieu des habitants. C'est fini : dans toute la zone d'une base (le rayon de la colonie, ou 48 blocs autour du Bridge), aucun monstre n'apparaît plus tout seul, même dans le noir. Les monstres de l'extérieur peuvent toujours entrer, et les hordes viennent toujours assiéger la base."
   },
   {
    "date": "26 novembre 2026",
@@ -216,9 +221,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/29b8bbf59faa-aiguardian-1.0.0.jar",
-   "sha1": "29b8bbf59faa4a25b282c1b3186d8d7d2536ec27",
-   "size": 38317590
+   "url": "mods/5ce0607c4327-aiguardian-1.0.0.jar",
+   "sha1": "5ce0607c43270b0df310ef2bc42bd442da5825d0",
+   "size": 38317607
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
