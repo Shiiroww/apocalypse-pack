@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 19:35",
+ "packVersion": "2026-11-26 19:38",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -37,7 +37,7 @@
   {
    "date": "26 novembre 2026",
    "title": "AI Guardian : plus d'attente sans fin, menotté devant un mur",
-   "text": "Un garde qui ne trouvait pas le chemin du Bridge ou de la cellule restait planté avec son prisonnier pendant trois minutes. Au bout de 30 secondes sans avancer, il fouille maintenant le prisonnier sur place et le procès commence là. Sans cellule, le garde vise le sol devant le Bridge. Un habitant immobile devant un mur parce qu'il n'a aucun chemin est enfin repéré comme coincé : il laisse tomber et repart."
+   "text": "Un garde qui ne trouvait pas le chemin du Bridge ou de la cellule restait planté avec son prisonnier pendant trois minutes. Il allait se coller au mur le plus proche du Bridge à vol d'oiseau, du mauvais côté. Un habitant ne marche plus vers un mur quand son but est juste derrière. Le garde qui n'a aucun chemin fouille le prisonnier sur place au bout de quelques secondes, et le procès commence là. Sans cellule, il vise le sol devant le Bridge. Un habitant immobile devant un mur parce qu'il n'a aucun chemin est enfin repéré comme coincé : il laisse tomber et repart."
   },
   {
    "date": "26 novembre 2026",
@@ -411,9 +411,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/3d636ef5fb6d-aiguardian-1.0.0.jar",
-   "sha1": "3d636ef5fb6dba827eb2645e3b599244ecb2492e",
-   "size": 38440761
+   "url": "mods/ad7d93c6f05d-aiguardian-1.0.0.jar",
+   "sha1": "ad7d93c6f05d3c710ae4bc43db2ce1518c390f76",
+   "size": 38441102
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
