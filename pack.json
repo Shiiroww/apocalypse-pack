@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 03:02",
+ "packVersion": "2026-11-26 03:09",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -17,7 +17,7 @@
   {
    "date": "26 novembre 2026",
    "title": "Les gardes lisent vos papiers",
-   "text": "Un clic droit sur un garde avec vos papiers en main, et il se tourne vers vous pour les lire. Il répond à voix haute : papiers en règle, faux papiers repérés ou nom sur les avis de recherche."
+   "text": "Un clic droit sur un garde avec vos papiers en main, et il se tourne vers vous pour les lire. Il répond à voix haute : papiers en règle, faux papiers repérés ou nom sur les avis de recherche. Une fois vos papiers lus, toute la colonie connaît votre nom : les gardes vous appellent par votre nom, même si vous n'êtes ni ami ni ennemi."
   },
   {
    "date": "26 novembre 2026",
@@ -291,9 +291,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/144434f1fcb9-aiguardian-1.0.0.jar",
-   "sha1": "144434f1fcb92d849726a048004d4e5756b5b956",
-   "size": 38356336
+   "url": "mods/390ca50613cc-aiguardian-1.0.0.jar",
+   "sha1": "390ca50613cc9e58c66ae1867579690295b19737",
+   "size": 38366163
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
