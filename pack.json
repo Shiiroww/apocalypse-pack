@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 19:30",
+ "packVersion": "2026-11-26 19:32",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "AI Guardian : la sirène ne hurle plus sans fin",
-   "text": "Quand un monstre restait dans les bâtiments sans que les gardes arrivent à le tuer, la sirène sonnait pendant toute la partie. Le klaxon dure maintenant 45 secondes par alerte. Ensuite le gyrophare continue de tourner et la base reste en alerte, en silence, tant que le danger est là. Le klaxon reprend si l'alerte s'aggrave, si une alarme est déclenchée à la main, ou pour une nouvelle alerte après une minute et demie de calme. Une sirène branchée sur de la redstone sonne tant qu'elle reçoit le signal."
+   "title": "AI Guardian : plus d'attente sans fin, menotté devant un mur",
+   "text": "Un garde qui ne trouvait pas le chemin du Bridge ou de la cellule restait planté avec son prisonnier pendant trois minutes. Au bout de 30 secondes sans avancer, il fouille maintenant le prisonnier sur place et le procès commence là. Sans cellule, le garde vise le sol devant le Bridge. Un habitant immobile devant un mur parce qu'il n'a aucun chemin est enfin repéré comme coincé : il laisse tomber et repart."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "AI Guardian : la sirène ne hurle plus sans fin",
+   "text": "Quand un monstre restait dans les bâtiments sans que les gardes arrivent à le tuer, la sirène sonnait pendant toute la partie. Le klaxon dure maintenant 45 secondes par alerte. Ensuite le gyrophare continue de tourner et la base reste en alerte, en silence, tant que le danger est là. Le klaxon reprend si l'alerte s'aggrave, si une alarme est déclenchée à la main, ou pour une nouvelle alerte après une minute et demie de calme. Une sirène branchée sur de la redstone sonne tant qu'elle reçoit le signal."
   },
   {
    "date": "26 novembre 2026",
@@ -401,9 +406,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/31b824d60297-aiguardian-1.0.0.jar",
-   "sha1": "31b824d60297c2055a41ff109678e65b56868cc4",
-   "size": 38438744
+   "url": "mods/3b20124c7606-aiguardian-1.0.0.jar",
+   "sha1": "3b20124c760613c5e7e50e75a1fa4a8e11ba418a",
+   "size": 38440252
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
