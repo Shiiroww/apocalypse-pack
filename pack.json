@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 01:06",
+ "packVersion": "2026-11-26 01:08",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Le tireur de tourelle sauve sa peau",
-   "text": "Mod fait maison. Un garde à la tourelle restait collé aux poignées quoi qu'il arrive : un zombie dans le dos, un ennemi sous le canon, presque plus de vie, il ne bougeait pas. C'est fini. S'il est trop blessé, il lâche la tourelle et se replie pour se soigner. Si un ennemi arrive au contact là où le canon ne peut pas tirer, ou s'il se fait toucher par quelqu'un hors de son angle de tir, il lâche la tourelle et se défend avec son arme. Il attend ensuite 10 secondes avant de reprendre une tourelle."
+   "title": "Plus de zombies qui naissent dans la base",
+   "text": "Mod fait maison. Un coin sombre de la base suffisait pour qu'un zombie apparaisse au milieu des habitants. C'est fini : dans toute la zone d'une base (le rayon de la colonie, ou 48 blocs autour du Bridge), aucun monstre n'apparaît plus tout seul, même dans le noir. Les monstres de l'extérieur peuvent toujours entrer, et les hordes viennent toujours assiéger la base."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Le tireur de tourelle sauve sa peau",
+   "text": "Mod fait maison. Un garde à la tourelle restait collé aux poignées quoi qu'il arrive : un zombie dans le dos, un ennemi sous le canon, presque plus de vie, il ne bougeait pas. C'est fini. S'il est trop blessé, il lâche la tourelle et se replie pour se soigner. Si un ennemi arrive au contact là où le canon ne peut pas tirer, ou s'il se fait toucher par quelqu'un hors de son angle de tir, il lâche la tourelle et se défend avec son arme. Il attend ensuite 10 secondes avant de reprendre une tourelle."
   },
   {
    "date": "26 novembre 2026",
@@ -211,9 +216,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/c7f9c6fb21ed-aiguardian-1.0.0.jar",
-   "sha1": "c7f9c6fb21edd0832a984a7c3515aaf316556074",
-   "size": 38316853
+   "url": "mods/29b8bbf59faa-aiguardian-1.0.0.jar",
+   "sha1": "29b8bbf59faa4a25b282c1b3186d8d7d2536ec27",
+   "size": 38317590
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
