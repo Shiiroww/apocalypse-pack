@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 19:28",
+ "packVersion": "2026-11-26 19:30",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Faune : plus de vrais animaux, plus de créatures inventées",
-   "text": "Les créatures d'Alex's Mobs qui n'existent pas dans la vraie vie disparaissent du jeu, partout : centipède géant des grottes, guster, rocky roller, skelewag, farseer, underminer, skreecher, murmur, froststalker, tusklin, sunbird, et toutes celles du Nether et de l'End. Celles déjà présentes dans un monde s'effacent au chargement et ne reviennent plus. Flutter, bunfungus et mungus, inoffensifs, restent. Les vrais animaux (ours, tigres, crocodiles, élans, éléphants, corbeaux, aigles, vaches...) apparaissent une fois et demie plus souvent et reviennent maintenant en continu, même dans les zones déjà explorées : de petits groupes arrivent à l'écart du joueur, selon le biome, jusqu'à une douzaine de chaque espèce. Requins, dauphins et autres bêtes de la mer reviennent aussi, plus lentement."
+   "title": "AI Guardian : la sirène ne hurle plus sans fin",
+   "text": "Quand un monstre restait dans les bâtiments sans que les gardes arrivent à le tuer, la sirène sonnait pendant toute la partie. Le klaxon dure maintenant 45 secondes par alerte. Ensuite le gyrophare continue de tourner et la base reste en alerte, en silence, tant que le danger est là. Le klaxon reprend si l'alerte s'aggrave, si une alarme est déclenchée à la main, ou pour une nouvelle alerte après une minute et demie de calme. Une sirène branchée sur de la redstone sonne tant qu'elle reçoit le signal."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Faune : plus de vrais animaux, plus de créatures inventées",
+   "text": "Les créatures d'Alex's Mobs qui n'existent pas dans la vraie vie disparaissent du jeu, partout : centipède géant des grottes, guster, rocky roller, skelewag, farseer, underminer, skreecher, murmur, froststalker, tusklin, sunbird, et toutes celles du Nether et de l'End. Celles déjà présentes dans un monde s'effacent au chargement et ne reviennent plus. Flutter, bunfungus et mungus, inoffensifs, restent. Les vrais animaux (ours, tigres, crocodiles, élans, éléphants, corbeaux, aigles, vaches...) apparaissent une fois et demie plus souvent et reviennent maintenant en continu, même dans les zones déjà explorées : de petits groupes arrivent à l'écart du joueur, selon le biome, jusqu'à une douzaine de chaque espèce. Requins, dauphins et autres bêtes de la mer reviennent aussi, plus lentement."
   },
   {
    "date": "26 novembre 2026",
@@ -396,9 +401,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/f09890115e25-aiguardian-1.0.0.jar",
-   "sha1": "f09890115e25e1dd9979fb4c89f05ffc765e0a70",
-   "size": 38437896
+   "url": "mods/31b824d60297-aiguardian-1.0.0.jar",
+   "sha1": "31b824d60297c2055a41ff109678e65b56868cc4",
+   "size": 38438744
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
