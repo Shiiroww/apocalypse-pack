@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 03:10",
+ "packVersion": "2026-11-26 03:18",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "Les gardes parlent avant de tirer",
-   "text": "Chaque garde a sa façon de parler, selon son caractère : le bavard s'étale, le solitaire grogne trois mots, le peureux bafouille. Demandez-leur d'ouvrir une porte pour sortir : ils peuvent accepter ou refuser. Un inconnu sans arme se fait interpeller, puis sommer de sortir d'un bâtiment, et arrêter s'il reste. Une arme sortie, et c'est le tir. À terre dans la zone, vous êtes relevé : jugé si vous aviez quelque chose à vous reprocher, sinon simplement soigné."
+   "title": "Laissez-passer, mot de passe et pots-de-vin",
+   "text": "Convainquez l'IA au talkie et elle peut vous accorder un laissez-passer : un garde vous le remet à votre arrivée, gardez-le sur vous. Les membres reçoivent chaque matin le mot de passe du jour, à souffler aux gardes. Certains gardes se laissent acheter (tendez-leur quelque chose), d'autres vous dénoncent. Pour entrer, les armes restent dehors : on vous fouille. Et les gardes parlent entre eux : ce que vous dites à l'un, les autres le savent."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "Les gardes parlent avant de tirer",
+   "text": "Chaque garde a sa façon de parler, selon son caractère : le bavard s'étale, le solitaire grogne trois mots, le peureux bafouille. Demandez-leur d'ouvrir une porte pour sortir : ils peuvent accepter ou refuser. Un inconnu sans arme se fait interpeller, puis sommer de sortir d'un bâtiment, et arrêter s'il reste. Une arme sortie, et c'est le tir. À terre dans la zone, vous êtes relevé : jugé si vous aviez quelque chose à vous reprocher, sinon simplement soigné."
   },
   {
    "date": "26 novembre 2026",
@@ -296,9 +301,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/9c6bbe06fd28-aiguardian-1.0.0.jar",
-   "sha1": "9c6bbe06fd287a59790783b7d8420e2fa901cf85",
-   "size": 38366216
+   "url": "mods/3f5dd8efa6a4-aiguardian-1.0.0.jar",
+   "sha1": "3f5dd8efa6a48fba6e13f5c5b0ba4527858b8276",
+   "size": 38374364
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
