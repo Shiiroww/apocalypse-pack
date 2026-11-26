@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 11:23",
+ "packVersion": "2026-11-26 13:04",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "AI Guardian : une explosion réveille la base",
-   "text": "Mod fait maison. Un habitant endormi n'entendait rien, même une explosion à vingt blocs. Une explosion ou le coup de feu d'un inconnu le réveille maintenant : de près s'il est dans un lit, de plus loin s'il dort par terre ou somnole à son poste. Il se lève, puis va voir ou se met à l'abri selon son caractère. Le tir d'un garde de nuit sur un zombie laisse les autres dormir."
+   "title": "AI Guardian : un verrouillage se sait de bouche à oreille",
+   "text": "Mod fait maison. Quand la base se verrouille, un habitant ne l'apprend plus par magie. Il le sait par son talkie, par une sirène, en voyant l'intrus, ou parce qu'un voisin déjà au courant est à portée de voix. Les autres continuent leur journée jusqu'à ce que la nouvelle leur arrive. Autre changement : un opérateur en survie n'a plus les pouvoirs du chef au Poste de commandement, sur les caméras, les pavés ni la recherche. Il faut pirater le Bridge, ou passer en créatif. Le journal ne demande plus de taper une commande pour répondre à une demande d'exploration : la réponse se donne sur un écran de la base."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "AI Guardian : une explosion réveille la base",
+   "text": "Mod fait maison. Un habitant endormi n'entendait rien, même une explosion à vingt blocs. Une explosion ou le coup de feu d'un inconnu le réveille maintenant : de près s'il est dans un lit, de plus loin s'il dort par terre ou somnole à son poste. Il se lève, puis va voir ou se met à l'abri selon son caractère. Le tir d'un garde de nuit sur un zombie laisse les autres dormir."
   },
   {
    "date": "26 novembre 2026",
@@ -376,9 +381,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/9fc21d13b09a-aiguardian-1.0.0.jar",
-   "sha1": "9fc21d13b09a0d10ee2de118f8ec451938e4a055",
-   "size": 38435811
+   "url": "mods/072e93923617-aiguardian-1.0.0.jar",
+   "sha1": "072e93923617c015cd349d4d142c328c9c18acfa",
+   "size": 38436749
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
