@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 19:38",
+ "packVersion": "2026-11-26 19:51",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "AI Guardian : face à un Devastador, la base ne meurt plus un par un",
-   "text": "Quand un habitant criait à l'aide contre un Devastador, les deux plus proches accouraient, ouvriers compris, et mouraient l'un après l'autre. Contre un monstre de 40 points de vie ou plus, seuls les gardes répondent maintenant à l'appel, jusqu'à quatre ensemble. Un ouvrier qui en voit un s'en écarte, même une arme à la main. Plus personne ne va fouiller le corps d'un mort tant qu'un monstre se tient à côté."
+   "title": "AI Guardian : l'IA arrête de radoter au talkie",
+   "text": "L'IA ressortait la même chose à chaque réponse : ce que vous aviez fait le matin, un mort de la base, votre prénom. Elle garde tout en mémoire, mais un fait se dit une fois. Ensuite elle n'y revient que si vous en reparlez. Une affaire jugée est close : après le procès et la prison, elle ne redemande plus votre version. Les gardes ne répètent plus le même ordre à chaque phrase, et un garde entouré de zombies ne crie plus « À moi ! Zombie ! » pour chacun : un cri toutes les vingt secondes au plus, les renforts viennent quand même."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +33,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "AI Guardian : face à un Devastador, la base ne meurt plus un par un",
+   "text": "Quand un habitant criait à l'aide contre un Devastador, les deux plus proches accouraient, ouvriers compris, et mouraient l'un après l'autre. Contre un monstre de 40 points de vie ou plus, seuls les gardes répondent maintenant à l'appel, jusqu'à quatre ensemble. Un ouvrier qui en voit un s'en écarte, même une arme à la main. Plus personne ne va fouiller le corps d'un mort tant qu'un monstre se tient à côté."
   },
   {
    "date": "26 novembre 2026",
@@ -411,9 +416,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/ad7d93c6f05d-aiguardian-1.0.0.jar",
-   "sha1": "ad7d93c6f05d3c710ae4bc43db2ce1518c390f76",
-   "size": 38441102
+   "url": "mods/b68150e6a704-aiguardian-1.0.0.jar",
+   "sha1": "b68150e6a704696ed8af07ea5b983565da4108bd",
+   "size": 38441304
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
