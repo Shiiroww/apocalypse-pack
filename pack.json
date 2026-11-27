@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 20:33",
+ "packVersion": "2026-11-27 20:56",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Une IA qui monte en alerte et qui retient",
-   "text": "Mod fait maison. La base a maintenant un palier d'alerte : calme, vigilance, menace, combat, dernier carré. Il monte à chaque mort, chaque menace au talkie, chaque caméra cassée, et ne redescend qu'après plusieurs minutes de calme. Plus il est haut, moins l'IA donne : passé « menace », plus de porte ni de vivres sans une condition qu'elle vérifie à la caméra (arme posée, sortir). Dès qu'un étranger est dans les murs, un garde tient la salle du Bridge. Pendant une alerte personne ne dort, les civils sont regroupés dans une pièce, les gardes n'y vont plus jamais seuls contre une arme, et une tourelle chargée est servie même hors siège. La nuit, un tour de garde est fixé. Chaque matin la base se donne un plan du jour d'après ses réserves, et après une attaque elle en tire des leçons : un garde posté la nuit à la porte par où vous êtes entré, par exemple."
+   "title": "L'intendant ne tourne plus en rond à la réserve",
+   "text": "Mod fait maison. Quand la réserve était un grand coffre, l'intendant prenait sa deuxième moitié pour un autre coffre : il y prenait 32 vivres et les remettait aussitôt dans la réserve, sans fin. Il range maintenant pour de vrai : il va chercher les vivres dans les autres coffres de la base, puis passe au rangement de l'armurerie et des matériaux."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Une IA qui monte en alerte et qui retient",
+   "text": "Mod fait maison. La base a maintenant un palier d'alerte : calme, vigilance, menace, combat, dernier carré. Il monte à chaque mort, chaque menace au talkie, chaque caméra cassée, et ne redescend qu'après plusieurs minutes de calme. Plus il est haut, moins l'IA donne : passé « menace », plus de porte ni de vivres sans une condition qu'elle vérifie à la caméra (arme posée, sortir). Dès qu'un étranger est dans les murs, un garde tient la salle du Bridge. Pendant une alerte personne ne dort, les civils sont regroupés dans une pièce, les gardes n'y vont plus jamais seuls contre une arme, et une tourelle chargée est servie même hors siège. La nuit, un tour de garde est fixé. Chaque matin la base se donne un plan du jour d'après ses réserves, et après une attaque elle en tire des leçons : un garde posté la nuit à la porte par où vous êtes entré, par exemple."
   },
   {
    "date": "27 novembre 2026",
@@ -476,9 +481,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/cdb44e056f9c-aiguardian-1.0.0.jar",
-   "sha1": "cdb44e056f9cc252c9ed7a5ba06e23a7eb0e23bc",
-   "size": 38489727
+   "url": "mods/99127d3d40a7-aiguardian-1.0.0.jar",
+   "sha1": "99127d3d40a7e392a1a3982cee11e0716660cd86",
+   "size": 38489788
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
