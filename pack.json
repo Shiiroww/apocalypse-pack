@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 22:14",
+ "packVersion": "2026-11-27 22:17",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -523,8 +523,8 @@
   }
  ],
  "overrides": {
-  "url": "overrides/1e41b75b273f.zip",
-  "sha1": "1e41b75b273f4c152c29a61910be170815407e97"
+  "url": "overrides/4e99cd34a889.zip",
+  "sha1": "4e99cd34a8895b89bc53efcd7c2f73542048f21c"
  },
  "files": [
   {
