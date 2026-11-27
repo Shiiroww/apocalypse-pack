@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 18:23",
+ "packVersion": "2026-11-27 19:06",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Correctif : les PNJ ne gardent plus toutes les armures pour eux",
-   "text": "Mod fait maison. Un PNJ qui fouillait le corps d'un garde enfilait toutes les armures et gardait le reste dans son sac, et les autres gardes restaient sans rien. Maintenant, il porte tout ce qu'il trouve sur un corps jusqu'à un coffre de la base (l'armurerie, près d'un râtelier, s'il y en a une). Une armure ramassée ailleurs part aussi au coffre. Chaque PNJ vient ensuite y prendre la pièce qui l'équipe le mieux, une par emplacement. Il remet toujours ses propres pièces, celles qu'il a enlevées pour dormir ou parce qu'il avait trop chaud."
+   "title": "Une base qui se relève après un massacre",
+   "text": "Mod fait maison. Bridge éteint, les gardes vont le rallumer tout seuls, sans réglage à faire. Un nouveau venu ou un PNJ qui revient s'en occupe avant tout le reste, mais pas sous les yeux d'un ennemi : il attend à couvert qu'on ne l'ait plus vu depuis un moment. Un intrus ne peut plus interdire cette réactivation. Les armuriers ne donnent plus de munitions à un étranger, personne ne réanime celui qui vient de tuer des leurs, et une sirène cassée ne lève plus l'alerte tant que l'intrus est là. Les meurtres commis juste sous les yeux des PNJ ne restent plus « sans témoin ». Au talkie, l'IA sait qui lui parle quand une caméra ou un PNJ vous voit, prend une menace au sérieux (alerte, gardes armés) et ne promet plus de porte ni de vivres à un tueur. Après une mort, votre nouvelle voix lui est inconnue."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,21 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Les gardes savent se battre",
+   "text": "Mod fait maison. Attaquer une base seul devient dangereux. Les gardes tirent mieux, surtout immobiles et après une seconde sur leur cible, et ils tirent de loin : un fusil porte à 44 blocs, un fusil de précision à 72. Courir et rester à couvert vous protège encore. Un coup de feu les fait se retourner, une balle reçue aussi. Plus personne ne charge à mains nues un joueur armé : sans arme, un PNJ se cache et appelle les autres. Un garde blessé se met à l'abri avant de sortir un bandage. Personne ne part dormir pendant une attaque. Casser une caméra ou la sirène attire les gardes."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Correctif : les sirènes d'alarme s'entendent enfin",
+   "text": "Mod fait maison. Une sirène placée deux pièces plus loin était étouffée par les murs, et le son tombait à moitié dès 36 blocs : on avait parfois l'impression qu'il n'y avait pas d'alarme. Maintenant, la sirène traverse le bâtiment. Elle reste à plein volume jusqu'à 32 blocs, baisse doucement ensuite et vient toujours du bon côté. Après les 45 premières secondes, elle ne se tait plus pour de bon : tant que l'alerte dure, elle revient 15 secondes chaque minute."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Correctif : les PNJ ne gardent plus toutes les armures pour eux",
+   "text": "Mod fait maison. Un PNJ qui fouillait le corps d'un garde enfilait toutes les armures et gardait le reste dans son sac, et les autres gardes restaient sans rien. Maintenant, il porte tout ce qu'il trouve sur un corps jusqu'à un coffre de la base (l'armurerie, près d'un râtelier, s'il y en a une). Une armure ramassée ailleurs part aussi au coffre. Chaque PNJ vient ensuite y prendre la pièce qui l'équipe le mieux, une par emplacement. Il remet toujours ses propres pièces, celles qu'il a enlevées pour dormir ou parce qu'il avait trop chaud."
   },
   {
    "date": "27 novembre 2026",
@@ -451,9 +466,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/ced721680f29-aiguardian-1.0.0.jar",
-   "sha1": "ced721680f29ff986e2102c34d7ebf301183f1e5",
-   "size": 38469329
+   "url": "mods/d212e7c71af9-aiguardian-1.0.0.jar",
+   "sha1": "d212e7c71af9ddca4c1a7da2eb5bce4833208fad",
+   "size": 38488919
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
