@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 21:57",
+ "packVersion": "2026-11-27 22:00",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Corrections de l'IA de la base",
-   "text": "Mod fait maison. L'IA ne redemande plus toutes les quelques minutes une escouade avec un garde sans munitions : le refus dit maintenant pourquoi chaque garde est écarté. Un garde à qui elle ordonne de se replier sans dire où rejoint le noyau du Bridge le plus proche quand aucun point de soin n'est posé. Un joueur repéré ne déclenche plus un nouveau « ! » toutes les 30 secondes tant qu'il reste en vue. Fermer le monde ne laisse plus d'erreur dans le journal du jeu."
+   "title": "Défis et nouvelles de la colonie hors du chat",
+   "text": "Mod fait maison. Défis, paris, fêtes, primes, procès, missions réussies : plus rien de tout ça dans le chat. Les nouvelles de la colonie se lisent dans l'onglet « Défis » du poste de commandement (bouton sous le tableau d'affichage), les plus récentes en haut. Ce qui te concerne tout de suite (un défi qui commence ou finit, une fête, un recherché vu par une caméra, un chien qui grogne) s'affiche un instant au-dessus de la barre d'inventaire."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Corrections de l'IA de la base",
+   "text": "Mod fait maison. L'IA ne redemande plus toutes les quelques minutes une escouade avec un garde sans munitions : le refus dit maintenant pourquoi chaque garde est écarté. Un garde à qui elle ordonne de se replier sans dire où rejoint le noyau du Bridge le plus proche quand aucun point de soin n'est posé. Un joueur repéré ne déclenche plus un nouveau « ! » toutes les 30 secondes tant qu'il reste en vue. Fermer le monde ne laisse plus d'erreur dans le journal du jeu."
   },
   {
    "date": "27 novembre 2026",
@@ -531,9 +536,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/98285041df06-aiguardian-1.0.0.jar",
-   "sha1": "98285041df06b869e0b6581716d064fe0a52aad5",
-   "size": 38523077
+   "url": "mods/d7524465e21b-aiguardian-1.0.0.jar",
+   "sha1": "d7524465e21bdbf581e84c68cb2f8fb659812ee6",
+   "size": 38524921
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
