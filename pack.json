@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 21:48",
+ "packVersion": "2026-11-27 21:53",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -42,7 +42,7 @@
   {
    "date": "27 novembre 2026",
    "title": "Les PNJ prennent le temps de travailler",
-   "text": "Mod fait maison. Cuisiner, préparer des soins, soigner quelqu'un, fabriquer des munitions, réparer une caméra, une porte, un mur ou le générateur, nettoyer un panneau solaire : tout ça prend maintenant du temps. Le PNJ reste à son poste, fait le geste (il remue la marmite, pétrit, martèle, bande une plaie, frotte), et une fine barre au-dessus de sa tête montre où il en est et le temps restant (8 plats : environ 1 min 40 pour un débutant, moitié moins pour un expert). La barre se voit à 12 blocs et pas à travers les murs. Une alerte ou un ordre l'interrompt : le travail l'attend et reprend à son retour."
+   "text": "Mod fait maison. Cuisiner, préparer des soins, soigner quelqu'un, fabriquer des munitions, réparer une caméra, une porte, un mur ou le générateur, nettoyer un panneau solaire : tout ça prend maintenant du temps. Le PNJ reste à son poste, fait le geste (il remue la marmite, pétrit, martèle, bande une plaie, frotte), et une fine barre au-dessus de sa tête montre où il en est et le temps restant (8 plats : environ 1 min 40 pour un débutant, moitié moins pour un expert). La barre s'affiche quand on vise le PNJ (jusqu'à 16 blocs), jamais à travers un mur. Une alerte ou un ordre l'interrompt : le travail l'attend et reprend à son retour."
   },
   {
    "date": "27 novembre 2026",
@@ -526,9 +526,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/301cbe3d9da8-aiguardian-1.0.0.jar",
-   "sha1": "301cbe3d9da81366dfc660e37d3815b73c413f42",
-   "size": 38521601
+   "url": "mods/c6cf6e3a8410-aiguardian-1.0.0.jar",
+   "sha1": "c6cf6e3a84100ce5c75774392c4dbb3bfb2f120c",
+   "size": 38523049
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
