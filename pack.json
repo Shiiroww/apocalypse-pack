@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 19:10",
+ "packVersion": "2026-11-27 20:33",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Les gardes se battent à plusieurs",
-   "text": "Mod fait maison. Un garde seul ne vous suit plus par la porte : il garde son arme pointée sur l'endroit où vous avez disparu et attend un camarade. À deux, ils entrent ensemble, l'un par le côté. Quand l'un recharge, l'autre continue de tirer. Une porte attaquée est tenue à quelques blocs en retrait, plus dans l'ouverture."
+   "title": "Une IA qui monte en alerte et qui retient",
+   "text": "Mod fait maison. La base a maintenant un palier d'alerte : calme, vigilance, menace, combat, dernier carré. Il monte à chaque mort, chaque menace au talkie, chaque caméra cassée, et ne redescend qu'après plusieurs minutes de calme. Plus il est haut, moins l'IA donne : passé « menace », plus de porte ni de vivres sans une condition qu'elle vérifie à la caméra (arme posée, sortir). Dès qu'un étranger est dans les murs, un garde tient la salle du Bridge. Pendant une alerte personne ne dort, les civils sont regroupés dans une pièce, les gardes n'y vont plus jamais seuls contre une arme, et une tourelle chargée est servie même hors siège. La nuit, un tour de garde est fixé. Chaque matin la base se donne un plan du jour d'après ses réserves, et après une attaque elle en tire des leçons : un garde posté la nuit à la porte par où vous êtes entré, par exemple."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Les gardes se battent à plusieurs",
+   "text": "Mod fait maison. Un garde seul ne vous suit plus par la porte : il garde son arme pointée sur l'endroit où vous avez disparu et attend un camarade. À deux, ils entrent ensemble, l'un par le côté. Quand l'un recharge, l'autre continue de tirer. Une porte attaquée est tenue à quelques blocs en retrait, plus dans l'ouverture."
   },
   {
    "date": "27 novembre 2026",
