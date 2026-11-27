@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 23:23",
+ "packVersion": "2026-11-27 23:24",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Bandage fini avant le repli",
-   "text": "Mod fait maison. Un habitant qui se bande quand l'IA lui ordonne de se replier finit son bandage sur place, puis part. Avant, il lâchait le bandage en route. Le journal nomme aussi le zombie d'une personne morte « le zombie de … », au lieu de son seul prénom."
+   "title": "La base se nettoie pièce par pièce",
+   "text": "Mod fait maison. Quand des zombies ou un intrus entrent, l'IA fait l'appel à la radio (« Tout le monde au rapport »), regroupe les civils dans une pièce sûre et ferme les portes de la pièce où se trouve le monstre. Un binôme de gardes nettoie ensuite la base pièce par pièce, en partant de la salle du Bridge. Il ferme les portes derrière lui, relève un blessé en chemin et fait une pause pour recharger. Un troisième garde couvre leurs arrières quand il y en a assez. À la fin, l'IA annonce « Base nettoyée » et écrit un bilan. Un monstre que personne n'a vu ne bloque plus la base en confinement : avant, les civils restaient accroupis dans leur cachette pour de bon."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Bandage fini avant le repli",
+   "text": "Mod fait maison. Un habitant qui se bande quand l'IA lui ordonne de se replier finit son bandage sur place, puis part. Avant, il lâchait le bandage en route. Le journal nomme aussi le zombie d'une personne morte « le zombie de … », au lieu de son seul prénom."
   },
   {
    "date": "27 novembre 2026",
@@ -546,9 +551,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/dff02f987a5c-aiguardian-1.0.0.jar",
-   "sha1": "dff02f987a5c3aa9d64bb1dbfc7921bf7e218d8a",
-   "size": 38485906
+   "url": "mods/74735de38161-aiguardian-1.0.0.jar",
+   "sha1": "74735de381619c861153d10921a7a1e9a8331407",
+   "size": 38528927
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
