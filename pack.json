@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 16:56",
+ "packVersion": "2026-11-27 17:58",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "AI Guardian : le Bridge regarde avant de demander, et les habitants restent quand on leur parle",
-   "text": "Mod fait maison. Au talkie, le Bridge posait toujours les mêmes questions et ne savait ni ce que la base possédait ni où étaient les choses. Il consulte maintenant ses caméras, ses registres, ses stocks et le tableau des missions avant de répondre. « Vous me voyez ? » : il regarde vraiment, et dit non quand aucune caméra ne vous montre. Il se souvient de toute la conversation, d'un jour à l'autre, et de ce qu'il a promis. Un refus se dit une fois : si vous insistez, il propose autre chose, par exemple une rencontre devant le Bridge avec un garde. Quand il doit chercher, il le dit (« Attendez, je regarde les caméras. »). Plusieurs joueurs peuvent lui parler en même temps. Les habitants à qui vous parlez de vive voix s'arrêtent, se tournent vers vous et restent à côté jusqu'à la fin de la conversation ; ils ne partent que pour un vrai danger, et ils le disent avant. Un garde qui a sa radio peut demander au Bridge ce qu'il ne sait pas."
+   "title": "AI Guardian : le Bridge connaît ses murs, ouvre à qui a l'accès et se défend quand on veut l'éteindre",
+   "text": "Mod fait maison. Le Bridge, c'est maintenant toute la base : une zone réservée, avec un dehors, un dedans, des portes et des pièces. L'IA dit où vous êtes en lieux (« dehors, devant la porte sud », « dans le couloir ») au lieu de compter des blocs. Quand elle vous donne l'accès, elle ouvre elle-même les portes de votre chemin jusqu'à la salle du Bridge, sans attendre un garde, arme rangée ; si aucune caméra ne vous voit, demandez-lui la porte au talkie. Elle ne tourne plus une caméra vers un mur : elle prend celle qui voit l'endroit, ou dit qu'aucune ne le couvre. Elle relie votre voix à la personne qu'une caméra montre là où vous dites être, même visage caché. Elle tient à ses gens, à sa base et à rester allumée : si quelqu'un pose la main sur son poste pour l'éteindre, elle prend la parole la première et cherche à l'arrêter, par un marché, une menace ou du temps gagné."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "AI Guardian : le Bridge regarde avant de demander, et les habitants restent quand on leur parle",
+   "text": "Mod fait maison. Au talkie, le Bridge posait toujours les mêmes questions et ne savait ni ce que la base possédait ni où étaient les choses. Il consulte maintenant ses caméras, ses registres, ses stocks et le tableau des missions avant de répondre. « Vous me voyez ? » : il regarde vraiment, et dit non quand aucune caméra ne vous montre. Il se souvient de toute la conversation, d'un jour à l'autre, et de ce qu'il a promis. Un refus se dit une fois : si vous insistez, il propose autre chose, par exemple une rencontre devant le Bridge avec un garde. Quand il doit chercher, il le dit (« Attendez, je regarde les caméras. »). Plusieurs joueurs peuvent lui parler en même temps. Les habitants à qui vous parlez de vive voix s'arrêtent, se tournent vers vous et restent à côté jusqu'à la fin de la conversation ; ils ne partent que pour un vrai danger, et ils le disent avant. Un garde qui a sa radio peut demander au Bridge ce qu'il ne sait pas."
   },
   {
    "date": "26 novembre 2026",
@@ -431,9 +436,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/830acdf61115-aiguardian-1.0.0.jar",
-   "sha1": "830acdf61115e20586b77d95bbc0d212fb7ff0fc",
-   "size": 38446137
+   "url": "mods/fbb8a8dad08c-aiguardian-1.0.0.jar",
+   "sha1": "fbb8a8dad08c9afd655e5c1c35a4c92ce09253b6",
+   "size": 38467064
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
