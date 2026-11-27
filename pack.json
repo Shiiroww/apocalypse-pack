@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 17:58",
+ "packVersion": "2026-11-27 18:18",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "AI Guardian : le Bridge connaît ses murs, ouvre à qui a l'accès et se défend quand on veut l'éteindre",
-   "text": "Mod fait maison. Le Bridge, c'est maintenant toute la base : une zone réservée, avec un dehors, un dedans, des portes et des pièces. L'IA dit où vous êtes en lieux (« dehors, devant la porte sud », « dans le couloir ») au lieu de compter des blocs. Quand elle vous donne l'accès, elle ouvre elle-même les portes de votre chemin jusqu'à la salle du Bridge, sans attendre un garde, arme rangée ; si aucune caméra ne vous voit, demandez-lui la porte au talkie. Elle ne tourne plus une caméra vers un mur : elle prend celle qui voit l'endroit, ou dit qu'aucune ne le couvre. Elle relie votre voix à la personne qu'une caméra montre là où vous dites être, même visage caché. Elle tient à ses gens, à sa base et à rester allumée : si quelqu'un pose la main sur son poste pour l'éteindre, elle prend la parole la première et cherche à l'arrêter, par un marché, une menace ou du temps gagné."
+   "title": "Correctif : plus d'écran de télé cassée la nuit",
+   "text": "Mod fait maison. La nuit, l'écran pouvait se couvrir d'un grain qui bouge, comme une télé mal réglée. En cause : les lampes de poche allumées par les PNJ, dont les ombres se mélangeaient mal à l'obscurité totale. Les PNJ prennent maintenant une lanterne ou une torche ; une lampe de poche qu'ils avaient en main est éteinte et rangée dans leur sac. Votre lampe de poche à vous ne change pas."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "AI Guardian : le Bridge connaît ses murs, ouvre à qui a l'accès et se défend quand on veut l'éteindre",
+   "text": "Mod fait maison. Le Bridge, c'est maintenant toute la base : une zone réservée, avec un dehors, un dedans, des portes et des pièces. L'IA dit où vous êtes en lieux (« dehors, devant la porte sud », « dans le couloir ») au lieu de compter des blocs. Quand elle vous donne l'accès, elle ouvre elle-même les portes de votre chemin jusqu'à la salle du Bridge, sans attendre un garde, arme rangée ; si aucune caméra ne vous voit, demandez-lui la porte au talkie. Elle ne tourne plus une caméra vers un mur : elle prend celle qui voit l'endroit, ou dit qu'aucune ne le couvre. Elle relie votre voix à la personne qu'une caméra montre là où vous dites être, même visage caché. Elle tient à ses gens, à sa base et à rester allumée : si quelqu'un pose la main sur son poste pour l'éteindre, elle prend la parole la première et cherche à l'arrêter, par un marché, une menace ou du temps gagné."
   },
   {
    "date": "27 novembre 2026",
@@ -436,9 +441,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/fbb8a8dad08c-aiguardian-1.0.0.jar",
-   "sha1": "fbb8a8dad08c9afd655e5c1c35a4c92ce09253b6",
-   "size": 38467064
+   "url": "mods/2172cef2083f-aiguardian-1.0.0.jar",
+   "sha1": "2172cef2083f152d8c158b09b090d7b422c59fe4",
+   "size": 38467012
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
