@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 22:00",
+ "packVersion": "2026-11-27 22:03",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Défis et nouvelles de la colonie hors du chat",
-   "text": "Mod fait maison. Défis, paris, fêtes, primes, procès, missions réussies : plus rien de tout ça dans le chat. Les nouvelles de la colonie se lisent dans l'onglet « Défis » du poste de commandement (bouton sous le tableau d'affichage), les plus récentes en haut. Ce qui te concerne tout de suite (un défi qui commence ou finit, une fête, un recherché vu par une caméra, un chien qui grogne) s'affiche un instant au-dessus de la barre d'inventaire."
+   "title": "Un cerveau plus fort pendant les combats",
+   "text": "Mod fait maison. Quand la base passe en alerte « combat » ou « dernier carré », l'IA prend ses grandes décisions avec un modèle plus puissant (Claude Sonnet), puis revient à son modèle habituel une fois la crise passée. Les réflexes rapides gardent le modèle habituel pour rester vifs. Le journal de l'IA indique chaque changement."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Défis et nouvelles de la colonie hors du chat",
+   "text": "Mod fait maison. Défis, paris, fêtes, primes, procès, missions réussies : plus rien de tout ça dans le chat. Les nouvelles de la colonie se lisent dans l'onglet « Défis » du poste de commandement (bouton sous le tableau d'affichage), les plus récentes en haut. Ce qui te concerne tout de suite (un défi qui commence ou finit, une fête, un recherché vu par une caméra, un chien qui grogne) s'affiche un instant au-dessus de la barre d'inventaire."
   },
   {
    "date": "27 novembre 2026",
