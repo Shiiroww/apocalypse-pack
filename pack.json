@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 21:33",
+ "packVersion": "2026-11-27 21:41",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Portes entrouvertes : on tire à travers",
-   "text": "Mod fait maison. Une porte qu'on force s'entrouvre cran par cran, et sa hitbox suit exactement le panneau : par l'entrebâillement, on voit les gens derrière et les balles, les flèches et les coups passent. Vaut pour toutes les portes du mod. Les grosses portes (portes principales et rideau de garage) tiennent bien plus : seules une hache ou une pioche les forcent vraiment, à main nue ou pour un zombie il faut environ 5 minutes, et une horde ne va guère plus vite que deux zombies."
+   "title": "Les PNJ prennent le temps de travailler",
+   "text": "Mod fait maison. Cuisiner, préparer des soins, soigner quelqu'un, fabriquer des munitions, réparer une caméra, une porte, un mur ou le générateur, nettoyer un panneau solaire : tout ça prend maintenant du temps. Le PNJ reste à son poste, fait le geste (il remue la marmite, pétrit, martèle, bande une plaie, frotte), et une fine barre au-dessus de sa tête montre où il en est et le temps restant (8 plats : environ 1 min 40 pour un débutant, moitié moins pour un expert). La barre se voit à 12 blocs et pas à travers les murs. Une alerte ou un ordre l'interrompt : le travail l'attend et reprend à son retour."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,26 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Entrer sans se faire voir",
+   "text": "Mod fait maison. Accroupi, un joueur n'est plus vu à plus de 10 blocs. Un PNJ concentré sur son travail (barre au-dessus de la tête) ne voit que devant lui, et de près : 9 blocs, 5 si on est accroupi. Les murs, le noir et les caméras comptent comme avant. Dès que la base est en alerte, ces avantages disparaissent."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Touche O de TACZ sur les blocs du mod",
+   "text": "Mod fait maison. Arme en main, la touche d'interaction de TACZ (O) ouvre maintenant les portes du mod, les pavés à code, les lecteurs de cartes, les boutons de sortie, les casiers et les rangements du décor. Plus besoin de ranger son arme pour ouvrir une porte."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Visiteur autorisé près du Bridge",
+   "text": "Mod fait maison. Un visiteur à qui l'IA a ouvert la salle du Bridge ne déclenche plus la sirène « danger imminent » en s'approchant du Bridge."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Portes entrouvertes : on tire à travers",
+   "text": "Mod fait maison. Une porte qu'on force s'entrouvre cran par cran, et sa hitbox suit exactement le panneau : par l'entrebâillement, on voit les gens derrière et les balles, les flèches et les coups passent. Vaut pour toutes les portes du mod. Les grosses portes (portes principales et rideau de garage) tiennent bien plus : seules une hache ou une pioche les forcent vraiment, à main nue ou pour un zombie il faut environ 5 minutes, et une horde ne va guère plus vite que deux zombies."
   },
   {
    "date": "27 novembre 2026",
@@ -501,9 +521,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/d0da9c1830a3-aiguardian-1.0.0.jar",
-   "sha1": "d0da9c1830a36a7c92578094b1b18c372fcd3b8b",
-   "size": 38495876
+   "url": "mods/39cd9125f1a8-aiguardian-1.0.0.jar",
+   "sha1": "39cd9125f1a846ec3d58b523b3ffa93d347a2c2a",
+   "size": 38509716
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
