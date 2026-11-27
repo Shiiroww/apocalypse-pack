@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-26 19:51",
+ "packVersion": "2026-11-27 02:05",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,13 @@
  "news": [
   {
    "date": "26 novembre 2026",
-   "title": "AI Guardian : l'IA arrête de radoter au talkie",
-   "text": "L'IA ressortait la même chose à chaque réponse : ce que vous aviez fait le matin, un mort de la base, votre prénom. Elle garde tout en mémoire, mais un fait se dit une fois. Ensuite elle n'y revient que si vous en reparlez. Une affaire jugée est close : après le procès et la prison, elle ne redemande plus votre version. Les gardes ne répètent plus le même ordre à chaque phrase, et un garde entouré de zombies ne crie plus « À moi ! Zombie ! » pour chacun : un cri toutes les vingt secondes au plus, les renforts viennent quand même."
+   "title": "AI Guardian : la radio, le relais et le rapport tiennent leurs promesses",
+   "text": "Mod fait maison. Seul un habitant qui porte un talkie, ou qui se tient près du Bridge, entend l'IA. Pour les autres, un garde qui l'entend va leur dire l'ordre de vive voix. Quatre défauts de cette chaîne sont corrigés. L'ordre ne partait jamais vers quelqu'un que l'IA n'avait encore jamais eu en contact. Après un ordre transmis, le suivant était refusé pendant une minute et demie. Un garde qui venait prévenir l'IA au Bridge y déplaçait son poste et ne retournait plus à sa place. Les sirènes sonnaient dès qu'un habitant sans talkie voyait un corps, avant qu'il ait prévenu qui que ce soit : elles attendent maintenant son rapport. Et l'IA n'appelle plus par réflexe un garde qui ne peut pas l'entendre."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Mise à jour des mods",
+   "text": "Mis à jour : AI Guardian (mod fait maison)."
   },
   {
    "date": "26 novembre 2026",
@@ -33,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "26 novembre 2026",
+   "title": "AI Guardian : l'IA arrête de radoter au talkie",
+   "text": "L'IA ressortait la même chose à chaque réponse : ce que vous aviez fait le matin, un mort de la base, votre prénom. Elle garde tout en mémoire, mais un fait se dit une fois. Ensuite elle n'y revient que si vous en reparlez. Une affaire jugée est close : après le procès et la prison, elle ne redemande plus votre version. Les gardes ne répètent plus le même ordre à chaque phrase, et un garde entouré de zombies ne crie plus « À moi ! Zombie ! » pour chacun : un cri toutes les vingt secondes au plus, les renforts viennent quand même."
   },
   {
    "date": "26 novembre 2026",
@@ -416,9 +426,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/b68150e6a704-aiguardian-1.0.0.jar",
-   "sha1": "b68150e6a704696ed8af07ea5b983565da4108bd",
-   "size": 38441304
+   "url": "mods/5621d416c890-aiguardian-1.0.0.jar",
+   "sha1": "5621d416c890f9c7c9eaf69d8346303ca99ecb6d",
+   "size": 38441303
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
