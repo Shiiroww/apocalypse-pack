@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 22:47",
+ "packVersion": "2026-11-27 23:23",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Un cerveau plus fort pendant les combats",
-   "text": "Mod fait maison. Quand la base passe en alerte « combat » ou « dernier carré », l'IA prend ses grandes décisions avec un modèle plus puissant (Claude Sonnet), puis revient à son modèle habituel une fois la crise passée. Les réflexes rapides gardent le modèle habituel pour rester vifs. Le journal de l'IA indique chaque changement."
+   "title": "Bandage fini avant le repli",
+   "text": "Mod fait maison. Un habitant qui se bande quand l'IA lui ordonne de se replier finit son bandage sur place, puis part. Avant, il lâchait le bandage en route. Le journal nomme aussi le zombie d'une personne morte « le zombie de … », au lieu de son seul prénom."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Un cerveau plus fort pendant les combats",
+   "text": "Mod fait maison. Quand la base passe en alerte « combat » ou « dernier carré », l'IA prend ses grandes décisions avec un modèle plus puissant (Claude Sonnet), puis revient à son modèle habituel une fois la crise passée. Les réflexes rapides gardent le modèle habituel pour rester vifs. Le journal de l'IA indique chaque changement."
   },
   {
    "date": "27 novembre 2026",
@@ -541,9 +546,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/f9358a3fe821-aiguardian-1.0.0.jar",
-   "sha1": "f9358a3fe8218bde161f9d0343a496a3b0d2aeb5",
-   "size": 38528104
+   "url": "mods/dff02f987a5c-aiguardian-1.0.0.jar",
+   "sha1": "dff02f987a5c3aa9d64bb1dbfc7921bf7e218d8a",
+   "size": 38485906
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
