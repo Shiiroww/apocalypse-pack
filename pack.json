@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 23:38",
+ "packVersion": "2026-11-28 00:12",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -18,6 +18,11 @@
    "date": "27 novembre 2026",
    "title": "La base se nettoie pièce par pièce",
    "text": "Mod fait maison. Quand des zombies ou un intrus entrent, l'IA fait l'appel à la radio (« Tout le monde au rapport »), regroupe les civils dans une pièce sûre et ferme les portes de la pièce où se trouve le monstre. Un garde courageux prend alors l'initiative de nettoyer la base pièce par pièce avec un collègue, en partant de la salle du Bridge. Si aucun garde n'ose, c'est l'IA qui décide d'envoyer une équipe ou de tenir. Il ferme les portes derrière lui, relève un blessé en chemin et fait une pause pour recharger. Un troisième garde couvre leurs arrières quand il y en a assez. À la fin, l'IA annonce « Base nettoyée » et écrit un bilan. Un monstre que personne n'a vu ne bloque plus la base en confinement : avant, les civils restaient accroupis dans leur cachette pour de bon."
+  },
+  {
+   "date": "28 novembre 2026",
+   "title": "Mise à jour des mods",
+   "text": "Mis à jour : AI Guardian (mod fait maison)."
   },
   {
    "date": "27 novembre 2026",
@@ -551,9 +556,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/74735de38161-aiguardian-1.0.0.jar",
-   "sha1": "74735de381619c861153d10921a7a1e9a8331407",
-   "size": 38528927
+   "url": "mods/c8d6229d59f9-aiguardian-1.0.0.jar",
+   "sha1": "c8d6229d59f97b61f0644210d2b1cbbc7ccdcc32",
+   "size": 38528934
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
