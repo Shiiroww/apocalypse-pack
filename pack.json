@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 21:06",
+ "packVersion": "2026-11-27 21:33",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Un recherché abattu n'est plus recherché",
-   "text": "Mod fait maison. Quand un garde tue quelqu'un que la base traque, l'affaire s'arrête là : plus d'avis de recherche à son nom, plus d'alarme relancée, et l'IA ne le cherche plus dans les pièces. La base repasse en vigilance si personne d'autre n'est dans les murs. Le personnage suivant du même joueur n'hérite plus de la traque. Un garde qui abat un camarade infecté n'est plus pris pour un tueur."
+   "title": "Portes entrouvertes : on tire à travers",
+   "text": "Mod fait maison. Une porte qu'on force s'entrouvre cran par cran, et sa hitbox suit exactement le panneau : par l'entrebâillement, on voit les gens derrière et les balles, les flèches et les coups passent. Vaut pour toutes les portes du mod. Les grosses portes (portes principales et rideau de garage) tiennent bien plus : seules une hache ou une pioche les forcent vraiment, à main nue ou pour un zombie il faut environ 5 minutes, et une horde ne va guère plus vite que deux zombies."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Un recherché abattu n'est plus recherché",
+   "text": "Mod fait maison. Quand un garde tue quelqu'un que la base traque, l'affaire s'arrête là : plus d'avis de recherche à son nom, plus d'alarme relancée, et l'IA ne le cherche plus dans les pièces. La base repasse en vigilance si personne d'autre n'est dans les murs. Le personnage suivant du même joueur n'hérite plus de la traque. Un garde qui abat un camarade infecté n'est plus pris pour un tueur."
   },
   {
    "date": "27 novembre 2026",
@@ -496,9 +501,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/a1744117b615-aiguardian-1.0.0.jar",
-   "sha1": "a1744117b6151a0b4a3fbd0a09620d3a47696380",
-   "size": 38490982
+   "url": "mods/d0da9c1830a3-aiguardian-1.0.0.jar",
+   "sha1": "d0da9c1830a36a7c92578094b1b18c372fcd3b8b",
+   "size": 38495876
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
