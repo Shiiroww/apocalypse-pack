@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 18:18",
+ "packVersion": "2026-11-27 18:20",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Correctif : plus d'écran de télé cassée la nuit",
-   "text": "Mod fait maison. La nuit, l'écran pouvait se couvrir d'un grain qui bouge, comme une télé mal réglée. En cause : les lampes de poche allumées par les PNJ, dont les ombres se mélangeaient mal à l'obscurité totale. Les PNJ prennent maintenant une lanterne ou une torche ; une lampe de poche qu'ils avaient en main est éteinte et rangée dans leur sac. Votre lampe de poche à vous ne change pas."
+   "title": "Correctif : les PNJ ne vous collent plus après une discussion",
+   "text": "Mod fait maison. Après avoir parlé à un PNJ, il pouvait vous suivre longtemps, même la discussion finie. Il vous accompagne maintenant quelques pas au plus. Éloignez-vous sans rien dire et il retourne à ce qu'il faisait. Dix secondes de silence suffisent aussi à clore la discussion."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Correctif : plus d'écran de télé cassée la nuit",
+   "text": "Mod fait maison. La nuit, l'écran pouvait se couvrir d'un grain qui bouge, comme une télé mal réglée. En cause : les lampes de poche allumées par les PNJ, dont les ombres se mélangeaient mal à l'obscurité totale. Les PNJ prennent maintenant une lanterne ou une torche ; une lampe de poche qu'ils avaient en main est éteinte et rangée dans leur sac. Votre lampe de poche à vous ne change pas."
   },
   {
    "date": "27 novembre 2026",
@@ -441,9 +446,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/2172cef2083f-aiguardian-1.0.0.jar",
-   "sha1": "2172cef2083f152d8c158b09b090d7b422c59fe4",
-   "size": 38467012
+   "url": "mods/f586a152bec7-aiguardian-1.0.0.jar",
+   "sha1": "f586a152bec7001a8e153a13f8fee4ab2ed259dc",
+   "size": 38467263
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
