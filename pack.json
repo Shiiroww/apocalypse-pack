@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 20:56",
+ "packVersion": "2026-11-27 21:00",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "L'intendant ne tourne plus en rond à la réserve",
-   "text": "Mod fait maison. Quand la réserve était un grand coffre, l'intendant prenait sa deuxième moitié pour un autre coffre : il y prenait 32 vivres et les remettait aussitôt dans la réserve, sans fin. Il range maintenant pour de vrai : il va chercher les vivres dans les autres coffres de la base, puis passe au rangement de l'armurerie et des matériaux."
+   "title": "Les gardes tiennent la porte, la réserve et vont chercher l'intrus",
+   "text": "Mod fait maison. Quand la base se replie dans une pièce, les gardes armés se mettent juste derrière la porte par où arrive l'intrus, et les autres au fond. Avant, c'était l'inverse. Dès qu'un étranger est dans les murs, un deuxième garde tient la réserve, du côté où il arrive. Et si les caméras le perdent de vue, deux gardes vont voir là où il a été vu en dernier, puis les pièces voisines, jamais un seul contre un homme armé."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "L'intendant ne tourne plus en rond à la réserve",
+   "text": "Mod fait maison. Quand la réserve était un grand coffre, l'intendant prenait sa deuxième moitié pour un autre coffre : il y prenait 32 vivres et les remettait aussitôt dans la réserve, sans fin. Il range maintenant pour de vrai : il va chercher les vivres dans les autres coffres de la base, puis passe au rangement de l'armurerie et des matériaux."
   },
   {
    "date": "27 novembre 2026",
