@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 18:20",
+ "packVersion": "2026-11-27 18:23",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Correctif : les PNJ ne vous collent plus après une discussion",
-   "text": "Mod fait maison. Après avoir parlé à un PNJ, il pouvait vous suivre longtemps, même la discussion finie. Il vous accompagne maintenant quelques pas au plus. Éloignez-vous sans rien dire et il retourne à ce qu'il faisait. Dix secondes de silence suffisent aussi à clore la discussion."
+   "title": "Correctif : les PNJ ne gardent plus toutes les armures pour eux",
+   "text": "Mod fait maison. Un PNJ qui fouillait le corps d'un garde enfilait toutes les armures et gardait le reste dans son sac, et les autres gardes restaient sans rien. Maintenant, il porte tout ce qu'il trouve sur un corps jusqu'à un coffre de la base (l'armurerie, près d'un râtelier, s'il y en a une). Une armure ramassée ailleurs part aussi au coffre. Chaque PNJ vient ensuite y prendre la pièce qui l'équipe le mieux, une par emplacement. Il remet toujours ses propres pièces, celles qu'il a enlevées pour dormir ou parce qu'il avait trop chaud."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Correctif : les PNJ ne vous collent plus après une discussion",
+   "text": "Mod fait maison. Après avoir parlé à un PNJ, il pouvait vous suivre longtemps, même la discussion finie. Il vous accompagne maintenant quelques pas au plus. Éloignez-vous sans rien dire et il retourne à ce qu'il faisait. Dix secondes de silence suffisent aussi à clore la discussion."
   },
   {
    "date": "27 novembre 2026",
@@ -446,9 +451,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/f586a152bec7-aiguardian-1.0.0.jar",
-   "sha1": "f586a152bec7001a8e153a13f8fee4ab2ed259dc",
-   "size": 38467263
+   "url": "mods/ced721680f29-aiguardian-1.0.0.jar",
+   "sha1": "ced721680f29ff986e2102c34d7ebf301183f1e5",
+   "size": 38469329
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
