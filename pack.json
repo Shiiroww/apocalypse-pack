@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 21:41",
+ "packVersion": "2026-11-27 21:48",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Les PNJ prennent le temps de travailler",
-   "text": "Mod fait maison. Cuisiner, préparer des soins, soigner quelqu'un, fabriquer des munitions, réparer une caméra, une porte, un mur ou le générateur, nettoyer un panneau solaire : tout ça prend maintenant du temps. Le PNJ reste à son poste, fait le geste (il remue la marmite, pétrit, martèle, bande une plaie, frotte), et une fine barre au-dessus de sa tête montre où il en est et le temps restant (8 plats : environ 1 min 40 pour un débutant, moitié moins pour un expert). La barre se voit à 12 blocs et pas à travers les murs. Une alerte ou un ordre l'interrompt : le travail l'attend et reprend à son retour."
+   "title": "Être repéré prend un moment",
+   "text": "Mod fait maison. Un PNJ qui t'aperçoit ne te reconnaît pas tout de suite : un « ? » et une petite barre apparaissent au-dessus de sa tête et se remplissent. De près et debout, ça va vite (un peu plus d'une seconde) ; de loin, accroupi, dans la pénombre ou face à quelqu'un occupé à son travail, beaucoup moins. Au tiers il lève la tête vers toi, à la moitié il demande « Il y a quelqu'un ? », pleine c'est un « ! » rouge : tu es repéré et la base réagit comme avant. Sors de sa vue et la jauge redescend. Une arme en main se voit trois fois plus vite, et un coup ou un vol commis sous ses yeux te trahit aussitôt. Les caméras, elles, voient tout de suite."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Les PNJ prennent le temps de travailler",
+   "text": "Mod fait maison. Cuisiner, préparer des soins, soigner quelqu'un, fabriquer des munitions, réparer une caméra, une porte, un mur ou le générateur, nettoyer un panneau solaire : tout ça prend maintenant du temps. Le PNJ reste à son poste, fait le geste (il remue la marmite, pétrit, martèle, bande une plaie, frotte), et une fine barre au-dessus de sa tête montre où il en est et le temps restant (8 plats : environ 1 min 40 pour un débutant, moitié moins pour un expert). La barre se voit à 12 blocs et pas à travers les murs. Une alerte ou un ordre l'interrompt : le travail l'attend et reprend à son retour."
   },
   {
    "date": "27 novembre 2026",
@@ -521,9 +526,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/39cd9125f1a8-aiguardian-1.0.0.jar",
-   "sha1": "39cd9125f1a846ec3d58b523b3ffa93d347a2c2a",
-   "size": 38509716
+   "url": "mods/301cbe3d9da8-aiguardian-1.0.0.jar",
+   "sha1": "301cbe3d9da81366dfc660e37d3815b73c413f42",
+   "size": 38521601
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
