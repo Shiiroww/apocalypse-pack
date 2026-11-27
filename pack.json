@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 21:02",
+ "packVersion": "2026-11-27 21:06",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Les gardes tiennent la porte, la réserve et vont chercher l'intrus",
-   "text": "Mod fait maison. Quand la base se replie dans une pièce, les gardes armés se mettent juste derrière la porte par où arrive l'intrus, et les autres au fond. Avant, c'était l'inverse. Dès qu'un étranger est dans les murs, un deuxième garde tient la réserve, du côté où il arrive. Et si les caméras le perdent de vue, deux gardes vont voir là où il a été vu en dernier, puis les pièces voisines, jamais un seul contre un homme armé."
+   "title": "Un recherché abattu n'est plus recherché",
+   "text": "Mod fait maison. Quand un garde tue quelqu'un que la base traque, l'affaire s'arrête là : plus d'avis de recherche à son nom, plus d'alarme relancée, et l'IA ne le cherche plus dans les pièces. La base repasse en vigilance si personne d'autre n'est dans les murs. Le personnage suivant du même joueur n'hérite plus de la traque. Un garde qui abat un camarade infecté n'est plus pris pour un tueur."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,16 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Les PNJ ne foncent plus sur les zombies",
+   "text": "Mod fait maison. Un garde qui perd un zombie de vue derrière une porte ne court plus droit sur lui : il vise le coin et le laisse venir. Un garde sans arme évite les zombies au lieu de les frapper à mains nues. Les civils sans arme à feu ne vont plus voir d'où vient un cri ou une alarme, ils laissent faire les gardes."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Les gardes tiennent la porte, la réserve et vont chercher l'intrus",
+   "text": "Mod fait maison. Quand la base se replie dans une pièce, les gardes armés se mettent juste derrière la porte par où arrive l'intrus, et les autres au fond. Avant, c'était l'inverse. Dès qu'un étranger est dans les murs, un deuxième garde tient la réserve, du côté où il arrive. Et si les caméras le perdent de vue, deux gardes vont voir là où il a été vu en dernier, puis les pièces voisines, jamais un seul contre un homme armé."
   },
   {
    "date": "27 novembre 2026",
@@ -486,9 +496,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/f0fd2b7fcc29-aiguardian-1.0.0.jar",
-   "sha1": "f0fd2b7fcc292c7f0ad29a2df6c7c63bf3df128f",
-   "size": 38489875
+   "url": "mods/a1744117b615-aiguardian-1.0.0.jar",
+   "sha1": "a1744117b6151a0b4a3fbd0a09620d3a47696380",
+   "size": 38490982
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
