@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-27 21:53",
+ "packVersion": "2026-11-27 21:57",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "27 novembre 2026",
-   "title": "Être repéré prend un moment",
-   "text": "Mod fait maison. Un PNJ qui t'aperçoit ne te reconnaît pas tout de suite : un « ? » et une petite barre apparaissent au-dessus de sa tête et se remplissent. De près et debout, ça va vite (un peu plus d'une seconde) ; de loin, accroupi, dans la pénombre ou face à quelqu'un occupé à son travail, beaucoup moins. Au tiers il lève la tête vers toi, à la moitié il demande « Il y a quelqu'un ? », pleine c'est un « ! » rouge : tu es repéré et la base réagit comme avant. Sors de sa vue et la jauge redescend. Une arme en main se voit trois fois plus vite, et un coup ou un vol commis sous ses yeux te trahit aussitôt. Les caméras, elles, voient tout de suite."
+   "title": "Corrections de l'IA de la base",
+   "text": "Mod fait maison. L'IA ne redemande plus toutes les quelques minutes une escouade avec un garde sans munitions : le refus dit maintenant pourquoi chaque garde est écarté. Un garde à qui elle ordonne de se replier sans dire où rejoint le noyau du Bridge le plus proche quand aucun point de soin n'est posé. Un joueur repéré ne déclenche plus un nouveau « ! » toutes les 30 secondes tant qu'il reste en vue. Fermer le monde ne laisse plus d'erreur dans le journal du jeu."
   },
   {
    "date": "27 novembre 2026",
@@ -38,6 +38,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "27 novembre 2026",
+   "title": "Être repéré prend un moment",
+   "text": "Mod fait maison. Un PNJ qui t'aperçoit ne te reconnaît pas tout de suite : un « ? » et une petite barre apparaissent au-dessus de sa tête et se remplissent. De près et debout, ça va vite (un peu plus d'une seconde) ; de loin, accroupi, dans la pénombre ou face à quelqu'un occupé à son travail, beaucoup moins. Au tiers il lève la tête vers toi, à la moitié il demande « Il y a quelqu'un ? », pleine c'est un « ! » rouge : tu es repéré et la base réagit comme avant. Sors de sa vue et la jauge redescend. Une arme en main se voit trois fois plus vite, et un coup ou un vol commis sous ses yeux te trahit aussitôt. Les caméras, elles, voient tout de suite."
   },
   {
    "date": "27 novembre 2026",
@@ -526,9 +531,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/c6cf6e3a8410-aiguardian-1.0.0.jar",
-   "sha1": "c6cf6e3a84100ce5c75774392c4dbb3bfb2f120c",
-   "size": 38523049
+   "url": "mods/98285041df06-aiguardian-1.0.0.jar",
+   "sha1": "98285041df06b869e0b6581716d064fe0a52aad5",
+   "size": 38523077
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
