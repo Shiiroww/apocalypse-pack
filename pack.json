@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-28 04:29",
+ "packVersion": "2026-11-28 09:18",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "29 novembre 2026",
-   "title": "L'écran de l'IA refait",
-   "text": "Mod fait maison. L'écran de l'IA a un nouveau visage, dans le même style que le Poste de commandement. Quatre pages, qu'on fait défiler d'un clic droit main vide : les caméras en direct (accroupi + clic droit sur une vue pour la voir en grand), les gens de la colonie et ce qu'ils font, le radar refait, et la vie de la colonie (ce que pense l'IA, son plan, les nouvelles). Un siège, un verrouillage ou une alarme s'affichent en grand en haut de toutes les pages. Plus de bandeau talkie ni de question d'exploration sur l'écran. Le téléphone d'alerte ne montre plus que les alertes."
+   "title": "Les lettres des autres colonies",
+   "text": "Mod fait maison. Quand un messager d'une autre colonie arrive (trêve, alliance, rançon), c'est l'IA qui lit la lettre et répond, selon le caractère de sa colonie. Un habitant ne répond plus à sa place. Seule une colonie dont un joueur a pris l'IA attend la réponse de son chef. Au talkie, face à quelqu'un qui menace la base, l'IA ne propose plus de discuter : elle pose ses conditions, sèchement."
   },
   {
    "date": "28 novembre 2026",
@@ -43,6 +43,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "29 novembre 2026",
+   "title": "L'écran de l'IA refait",
+   "text": "Mod fait maison. L'écran de l'IA a un nouveau visage, dans le même style que le Poste de commandement. Quatre pages, qu'on fait défiler d'un clic droit main vide : les caméras en direct (accroupi + clic droit sur une vue pour la voir en grand), les gens de la colonie et ce qu'ils font, le radar refait, et la vie de la colonie (ce que pense l'IA, son plan, les nouvelles). Un siège, un verrouillage ou une alarme s'affichent en grand en haut de toutes les pages. Plus de bandeau talkie ni de question d'exploration sur l'écran. Le téléphone d'alerte ne montre plus que les alertes."
   },
   {
    "date": "29 novembre 2026",
@@ -621,9 +626,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/0224c06896a7-aiguardian-1.0.0.jar",
-   "sha1": "0224c06896a7110ed4f5496a4e9095e103e4864d",
-   "size": 38641954
+   "url": "mods/015118336a08-aiguardian-1.0.0.jar",
+   "sha1": "015118336a088bf512e3ea156aef7f4b9d159f8b",
+   "size": 38642330
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
