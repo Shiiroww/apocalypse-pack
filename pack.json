@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-28 02:33",
+ "packVersion": "2026-11-28 03:01",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "28 novembre 2026",
-   "title": "L'IA commerce avec ses voisins et compte ses survivants",
-   "text": "Mod fait maison. L'IA peut envoyer un de ses habitants commercer chez une colonie voisine qui a un Bridge, de jour et au calme. Il emporte ce que la base a en trop, jamais sa réserve ni ce qui lui manque, l'échange contre ce que l'IA a demandé (nourriture, munitions, soins, armes...) et range ce qu'il rapporte dans les coffres de la base. Un seul échange à la fois, et jamais avec des pillards ou des fanatiques. L'IA suit aussi sa partie comme dans un jeu de gestion : le jour, l'heure et le temps avant la nuit, ses habitants en vie, ceux arrivés depuis le début, et ses morts."
+   "title": "Le Bridge dirige toute sa colonie",
+   "text": "Mod fait maison. Chaque Bridge appartient maintenant à une colonie : posé sans colonie, il rejoint celle dont il est dans la zone, ou en fonde une au bout d'une minute, avec la faction des habitants qui vivent autour. L'IA du Bridge mène toute la vie de sa colonie, diplomatie comprise : elle connaît les colonies rencontrées, envoie des messagers (guerre, trêve, alliance), des caravanes ou un raid, selon la relation et le caractère de sa colonie. La colonie de la base n'a plus de chef à part. Le bouton « Sans colonie » disparaît de l'écran de colonie."
   },
   {
    "date": "28 novembre 2026",
@@ -43,6 +43,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "28 novembre 2026",
+   "title": "L'IA commerce avec ses voisins et compte ses survivants",
+   "text": "Mod fait maison. L'IA peut envoyer un de ses habitants commercer chez une colonie voisine qui a un Bridge, de jour et au calme. Il emporte ce que la base a en trop, jamais sa réserve ni ce qui lui manque, l'échange contre ce que l'IA a demandé (nourriture, munitions, soins, armes...) et range ce qu'il rapporte dans les coffres de la base. Un seul échange à la fois, et jamais avec des pillards ou des fanatiques. L'IA suit aussi sa partie comme dans un jeu de gestion : le jour, l'heure et le temps avant la nuit, ses habitants en vie, ceux arrivés depuis le début, et ses morts."
   },
   {
    "date": "28 novembre 2026",
@@ -586,9 +591,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/fed5b5ff7eb6-aiguardian-1.0.0.jar",
-   "sha1": "fed5b5ff7eb639754a8ac0e8bd6ab212c82d1c61",
-   "size": 38534189
+   "url": "mods/aee9d20f1abe-aiguardian-1.0.0.jar",
+   "sha1": "aee9d20f1abe1e73d93e90895669bec9340c4649",
+   "size": 38535921
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
