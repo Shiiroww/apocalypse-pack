@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-28 03:16",
+ "packVersion": "2026-11-28 03:33",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "28 novembre 2026",
-   "title": "Vivre dans une colonie, ou pirater son IA",
-   "text": "Mod fait maison. On peut maintenant vivre dans une colonie pour de bon, mais ça se mérite : il faut être un vrai ami de la colonie (réputation 70), n'être ni recherché ni d'une autre faction, et le demander au Bridge au talkie. C'est l'IA qui dit oui ou non. Celui qui pose un Bridge vit dans la colonie fondée autour. Reste la manière forte : pirater l'IA au forceur. Mais l'IA le sent : elle peut s'éteindre d'un coup, ce qui casse le piratage, puis se rallumer seule au moment où elle croit l'intrus parti, sans vraiment le savoir. Pendant ce temps ses portes s'ouvrent et ses gens restent sans ordres. Un Bridge éteint ne se pirate pas. Un habitant pris à pirater sa propre colonie en est chassé."
+   "title": "Le Poste de commandement refait",
+   "text": "Mod fait maison. Au Bridge, le Poste s'ouvre sur une vue d'ensemble : ce que pense l'IA, puis une carte par sujet (les gens, la colonie, la défense, les voisins, le journal). On comprend la colonie d'un regard, et une carte s'ouvre d'un clic. Huit onglets deviennent cinq sections. Chacune a une liste à gauche et une fiche à droite : un habitant et ce qu'il fait, un arrivant à l'entrée, une colonie voisine et sa relation avec la tienne. Ce qu'on peut y faire dépend toujours de ton rang."
   },
   {
    "date": "28 novembre 2026",
@@ -43,6 +43,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "28 novembre 2026",
+   "title": "Vivre dans une colonie, ou pirater son IA",
+   "text": "Mod fait maison. On peut maintenant vivre dans une colonie pour de bon, mais ça se mérite : il faut être un vrai ami de la colonie (réputation 70), n'être ni recherché ni d'une autre faction, et le demander au Bridge au talkie. C'est l'IA qui dit oui ou non. Celui qui pose un Bridge vit dans la colonie fondée autour. Reste la manière forte : pirater l'IA au forceur. Mais l'IA le sent : elle peut s'éteindre d'un coup, ce qui casse le piratage, puis se rallumer seule au moment où elle croit l'intrus parti, sans vraiment le savoir. Pendant ce temps ses portes s'ouvrent et ses gens restent sans ordres. Un Bridge éteint ne se pirate pas. Un habitant pris à pirater sa propre colonie en est chassé."
   },
   {
    "date": "28 novembre 2026",
@@ -596,9 +601,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/a85c1a9b4fd1-aiguardian-1.0.0.jar",
-   "sha1": "a85c1a9b4fd1c9ed07a1ff852090c83f5e274989",
-   "size": 38542827
+   "url": "mods/cdaf793e00d3-aiguardian-1.0.0.jar",
+   "sha1": "cdaf793e00d3c1c1e9acdae49568cfe0f40d4444",
+   "size": 38553266
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
