@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-28 03:33",
+ "packVersion": "2026-11-28 04:29",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -15,9 +15,9 @@
  },
  "news": [
   {
-   "date": "28 novembre 2026",
-   "title": "Le Poste de commandement refait",
-   "text": "Mod fait maison. Au Bridge, le Poste s'ouvre sur une vue d'ensemble : ce que pense l'IA, puis une carte par sujet (les gens, la colonie, la défense, les voisins, le journal). On comprend la colonie d'un regard, et une carte s'ouvre d'un clic. Huit onglets deviennent cinq sections. Chacune a une liste à gauche et une fiche à droite : un habitant et ce qu'il fait, un arrivant à l'entrée, une colonie voisine et sa relation avec la tienne. Ce qu'on peut y faire dépend toujours de ton rang."
+   "date": "29 novembre 2026",
+   "title": "L'écran de l'IA refait",
+   "text": "Mod fait maison. L'écran de l'IA a un nouveau visage, dans le même style que le Poste de commandement. Quatre pages, qu'on fait défiler d'un clic droit main vide : les caméras en direct (accroupi + clic droit sur une vue pour la voir en grand), les gens de la colonie et ce qu'ils font, le radar refait, et la vie de la colonie (ce que pense l'IA, son plan, les nouvelles). Un siège, un verrouillage ou une alarme s'affichent en grand en haut de toutes les pages. Plus de bandeau talkie ni de question d'exploration sur l'écran. Le téléphone d'alerte ne montre plus que les alertes."
   },
   {
    "date": "28 novembre 2026",
@@ -43,6 +43,26 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "29 novembre 2026",
+   "title": "Portes : zombies, blindage et doubles portes",
+   "text": "Mod fait maison. Les zombies attaquent maintenant les portes du mod et les forcent peu à peu, au lieu de rester collés au mur. Les grosses portes (porte principale, rideau de garage) sont blindées : une heure pour un zombie seul, trente minutes au mieux quelle que soit la horde, une dizaine de minutes à la hache, plusieurs minutes au forceur, avec de grandes chances d'être repéré. Deux portes d'atelier, d'usine ou de cellule posées côte à côte n'ont plus de montant au milieu : les battants se touchent."
+  },
+  {
+   "date": "29 novembre 2026",
+   "title": "Une IA plus juste",
+   "text": "Mod fait maison. L'alarme ne se relance plus toutes les dix secondes : une alarme par incident, et jamais pour des zombies dehors autour du Bridge. L'IA part seule en expédition quand c'est sûr (de jour, au calme, assez de batterie et de gardes), et décide elle-même des sorties de ses éclaireurs. Elle suit ses voisins en guerre ou alliés, et ne s'alarme plus du siège d'une autre colonie. Un garde ne saute plus plusieurs niveaux d'un coup."
+  },
+  {
+   "date": "29 novembre 2026",
+   "title": "Un monde qui se raconte",
+   "text": "Mod fait maison. Plus de chiffres de points ou de réputation sous les yeux : la colonie dit si tu es inconnu, de confiance ou ami. Les textes du jeu ont été relus pour parler la même langue partout. Le journal de la colonie raconte les grands moments : un corps retrouvé, un arrivant accueilli, un siège qui commence et finit, un messager à la porte. Le guide s'ouvre sur une page nouvelle, « Ta place » : y vivre, aller d'une colonie à l'autre, ou te servir."
+  },
+  {
+   "date": "28 novembre 2026",
+   "title": "Le Poste de commandement refait",
+   "text": "Mod fait maison. Au Bridge, le Poste s'ouvre sur une vue d'ensemble : ce que pense l'IA, puis une carte par sujet (les gens, la colonie, la défense, les voisins, le journal). On comprend la colonie d'un regard, et une carte s'ouvre d'un clic. Huit onglets deviennent cinq sections. Chacune a une liste à gauche et une fiche à droite : un habitant et ce qu'il fait, un arrivant à l'entrée, une colonie voisine et sa relation avec la tienne. Ce qu'on peut y faire dépend toujours de ton rang."
   },
   {
    "date": "28 novembre 2026",
@@ -601,9 +621,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/cdaf793e00d3-aiguardian-1.0.0.jar",
-   "sha1": "cdaf793e00d3c1c1e9acdae49568cfe0f40d4444",
-   "size": 38553266
+   "url": "mods/0224c06896a7-aiguardian-1.0.0.jar",
+   "sha1": "0224c06896a7110ed4f5496a4e9095e103e4864d",
+   "size": 38641954
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
