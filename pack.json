@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-28 02:03",
+ "packVersion": "2026-11-28 02:33",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "28 novembre 2026",
-   "title": "L'IA se sert de toute sa base",
-   "text": "Mod fait maison. L'IA a maintenant la main sur tout ce que sa base possède. Elle choisit le métier de chaque habitant, décide qui entre quand un nouveau venu attend à l'entrée, s'occupe des prisonniers et des traîtres, publie des missions pour les joueurs, choisit les politiques, la recherche et les priorités de travail, et peut mettre ses gens dans un véhicule. Elle peut aussi déclencher ou couper les sirènes, mais seulement pour ce qu'elle voit dans les murs, jamais pour des monstres dehors. Ses expéditions ne se limitent plus aux pénuries : elle peut aussi partir repérer les environs ou chercher du carburant, des munitions ou des survivants, de jour, au calme, en gardant deux gardes à la base, pendant 20 minutes au plus."
+   "title": "L'IA commerce avec ses voisins et compte ses survivants",
+   "text": "Mod fait maison. L'IA peut envoyer un de ses habitants commercer chez une colonie voisine qui a un Bridge, de jour et au calme. Il emporte ce que la base a en trop, jamais sa réserve ni ce qui lui manque, l'échange contre ce que l'IA a demandé (nourriture, munitions, soins, armes...) et range ce qu'il rapporte dans les coffres de la base. Un seul échange à la fois, et jamais avec des pillards ou des fanatiques. L'IA suit aussi sa partie comme dans un jeu de gestion : le jour, l'heure et le temps avant la nuit, ses habitants en vie, ceux arrivés depuis le début, et ses morts."
   },
   {
    "date": "28 novembre 2026",
@@ -43,6 +43,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "28 novembre 2026",
+   "title": "L'IA se sert de toute sa base",
+   "text": "Mod fait maison. L'IA a maintenant la main sur tout ce que sa base possède. Elle choisit le métier de chaque habitant, décide qui entre quand un nouveau venu attend à l'entrée, s'occupe des prisonniers et des traîtres, publie des missions pour les joueurs, choisit les politiques, la recherche et les priorités de travail, et peut mettre ses gens dans un véhicule. Elle peut aussi déclencher ou couper les sirènes, mais seulement pour ce qu'elle voit dans les murs, jamais pour des monstres dehors. Ses expéditions ne se limitent plus aux pénuries : elle peut aussi partir repérer les environs ou chercher du carburant, des munitions ou des survivants, de jour, au calme, en gardant deux gardes à la base, pendant 20 minutes au plus."
   },
   {
    "date": "28 novembre 2026",
@@ -581,9 +586,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/be09c4fde68f-aiguardian-1.0.0.jar",
-   "sha1": "be09c4fde68ffebf76d14c60659610cdf66f5c55",
-   "size": 38530008
+   "url": "mods/fed5b5ff7eb6-aiguardian-1.0.0.jar",
+   "sha1": "fed5b5ff7eb639754a8ac0e8bd6ab212c82d1c61",
+   "size": 38534189
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
