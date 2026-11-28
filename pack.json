@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-28 00:23",
+ "packVersion": "2026-11-28 01:47",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "28 novembre 2026",
-   "title": "Les nouveaux reçoivent un métier, même sans talkie",
-   "text": "Mod fait maison. Un survivant sans talkie et loin du poste du Bridge ne recevait jamais de métier : il restait « sans métier » pour de bon. Une base pouvait ainsi n'avoir plus aucun garde, et pendant une sirène tout le monde restait planté sur place. Maintenant un habitant qui entend l'IA va le prévenir (« tu deviens garde »). Un binôme envoyé sur un zombie va là où il a été vu en dernier, puis reprend son poste s'il n'y a plus rien, au lieu de rester figé cinq minutes. Deux binômes peuvent chasser en même temps, et l'IA peut envoyer nettoyer la base des gardes qui tenaient une pièce."
+   "title": "L'IA garde le même cerveau en combat",
+   "text": "Mod fait maison. En alerte « combat » ou « dernier carré », l'IA ne passe plus à Claude Sonnet : elle réfléchit avec Claude Haiku tout le temps, comme au calme."
   },
   {
    "date": "28 novembre 2026",
@@ -43,6 +43,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "28 novembre 2026",
+   "title": "Les nouveaux reçoivent un métier, même sans talkie",
+   "text": "Mod fait maison. Un survivant sans talkie et loin du poste du Bridge ne recevait jamais de métier : il restait « sans métier » pour de bon. Une base pouvait ainsi n'avoir plus aucun garde, et pendant une sirène tout le monde restait planté sur place. Maintenant un habitant qui entend l'IA va le prévenir (« tu deviens garde »). Un binôme envoyé sur un zombie va là où il a été vu en dernier, puis reprend son poste s'il n'y a plus rien, au lieu de rester figé cinq minutes. Deux binômes peuvent chasser en même temps, et l'IA peut envoyer nettoyer la base des gardes qui tenaient une pièce."
   },
   {
    "date": "28 novembre 2026",
