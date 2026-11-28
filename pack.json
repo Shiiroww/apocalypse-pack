@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-28 01:53",
+ "packVersion": "2026-11-28 02:03",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "28 novembre 2026",
-   "title": "L'IA joue sa base comme une partie de survie",
-   "text": "Mod fait maison. Le cerveau de l'IA traite maintenant la base comme une partie de jeu de gestion qu'il doit gagner : garder toute la colonie en vie, la base debout et le courant allumé, sans retour en arrière possible. Toutes les trois minutes au calme, il passe en revue ses gens, ses réserves, ses défenses et son plan, et agit dès que quelque chose manque, au lieu d'attendre une alerte. Il ne voit toujours que ce que ses caméras, ses capteurs et ses habitants voient, et au talkie il reste le Bridge."
+   "title": "L'IA se sert de toute sa base",
+   "text": "Mod fait maison. L'IA a maintenant la main sur tout ce que sa base possède. Elle choisit le métier de chaque habitant, décide qui entre quand un nouveau venu attend à l'entrée, s'occupe des prisonniers et des traîtres, publie des missions pour les joueurs, choisit les politiques, la recherche et les priorités de travail, et peut mettre ses gens dans un véhicule. Elle peut aussi déclencher ou couper les sirènes, mais seulement pour ce qu'elle voit dans les murs, jamais pour des monstres dehors. Ses expéditions ne se limitent plus aux pénuries : elle peut aussi partir repérer les environs ou chercher du carburant, des munitions ou des survivants, de jour, au calme, en gardant deux gardes à la base, pendant 20 minutes au plus."
   },
   {
    "date": "28 novembre 2026",
@@ -43,6 +43,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "28 novembre 2026",
+   "title": "L'IA joue sa base comme une partie de survie",
+   "text": "Mod fait maison. Le cerveau de l'IA traite maintenant la base comme une partie de jeu de gestion qu'il doit gagner : garder toute la colonie en vie, la base debout et le courant allumé, sans retour en arrière possible. Toutes les trois minutes au calme, il passe en revue ses gens, ses réserves, ses défenses et son plan, et agit dès que quelque chose manque, au lieu d'attendre une alerte. Il ne voit toujours que ce que ses caméras, ses capteurs et ses habitants voient, et au talkie il reste le Bridge."
   },
   {
    "date": "28 novembre 2026",
