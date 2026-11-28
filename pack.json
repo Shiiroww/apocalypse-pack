@@ -1,7 +1,7 @@
 {
  "format": 1,
  "name": "Apocalypse",
- "packVersion": "2026-11-28 03:04",
+ "packVersion": "2026-11-28 03:16",
  "launcherVersion": 12,
  "launcherUrl": "Apocalypse.exe",
  "minecraft": "1.20.1",
@@ -16,8 +16,8 @@
  "news": [
   {
    "date": "28 novembre 2026",
-   "title": "Le Bridge dirige toute sa colonie",
-   "text": "Mod fait maison. Chaque Bridge appartient maintenant à une colonie : posé sans colonie, il rejoint celle dont il est dans la zone, ou en fonde une au bout d'une minute, avec la faction des habitants qui vivent autour. L'IA du Bridge mène toute la vie de sa colonie, diplomatie comprise : elle connaît les colonies rencontrées, envoie des messagers (guerre, trêve, alliance), des caravanes ou un raid, selon la relation et le caractère de sa colonie. La colonie de la base n'a plus de chef à part. Le bouton « Sans colonie » disparaît de l'écran de colonie."
+   "title": "Vivre dans une colonie, ou pirater son IA",
+   "text": "Mod fait maison. On peut maintenant vivre dans une colonie pour de bon, mais ça se mérite : il faut être un vrai ami de la colonie (réputation 70), n'être ni recherché ni d'une autre faction, et le demander au Bridge au talkie. C'est l'IA qui dit oui ou non. Celui qui pose un Bridge vit dans la colonie fondée autour. Reste la manière forte : pirater l'IA au forceur. Mais l'IA le sent : elle peut s'éteindre d'un coup, ce qui casse le piratage, puis se rallumer seule au moment où elle croit l'intrus parti, sans vraiment le savoir. Pendant ce temps ses portes s'ouvrent et ses gens restent sans ordres. Un Bridge éteint ne se pirate pas. Un habitant pris à pirater sa propre colonie en est chassé."
   },
   {
    "date": "28 novembre 2026",
@@ -43,6 +43,11 @@
    "date": "24 novembre 2026",
    "title": "Mise à jour des mods",
    "text": "Ajoutés : Skinlayers3d. Retirés : Forgematica, Immersive weathering, Jei. Mis à jour : AI Guardian (mod fait maison)."
+  },
+  {
+   "date": "28 novembre 2026",
+   "title": "Le Bridge dirige toute sa colonie",
+   "text": "Mod fait maison. Chaque Bridge appartient maintenant à une colonie : posé sans colonie, il rejoint celle dont il est dans la zone, ou en fonde une au bout d'une minute, avec la faction des habitants qui vivent autour. L'IA du Bridge mène toute la vie de sa colonie, diplomatie comprise : elle connaît les colonies rencontrées, envoie des messagers (guerre, trêve, alliance), des caravanes ou un raid, selon la relation et le caractère de sa colonie. La colonie de la base n'a plus de chef à part. Le bouton « Sans colonie » disparaît de l'écran de colonie."
   },
   {
    "date": "28 novembre 2026",
@@ -591,9 +596,9 @@
   },
   {
    "path": "mods/aiguardian-1.0.0.jar",
-   "url": "mods/97908a80d3e9-aiguardian-1.0.0.jar",
-   "sha1": "97908a80d3e9fbb0a9328e044e2c08624c45e79d",
-   "size": 38536215
+   "url": "mods/a85c1a9b4fd1-aiguardian-1.0.0.jar",
+   "sha1": "a85c1a9b4fd1c9ed07a1ff852090c83f5e274989",
+   "size": 38542827
   },
   {
    "path": "mods/alexsdelight-1.5.jar",
